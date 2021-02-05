@@ -1,6 +1,7 @@
 #ide dirs
 .vscode
 .idea
+.package-lock.json
 
 # dependencies
 /node_modules
