@@ -1,38 +1,45 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import ContactSection from '../Components/HomeSections/ContectSection'
+import ExperienceSection from '../Components/HomeSections/ExperienceSection'
+import FrontSection from '../Components/HomeSections/FrontSection'
+import IntroSection from '../Components/HomeSections/IntroSection'
+import PortfolioSection from '../Components/HomeSections/PortfolioSection'
+import SkillSection from '../Components/HomeSections/SkillSection'
 
-export default function Home() {
+function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Index Page</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <>
+      <div>
+        <div id="content" className="site-content">
+          <div className="content-holder center-relative content-1300 post-9 page type-page status-publish hentry">
+            <div data-elementor-type="wp-page" data-elementor-id="9" className="elementor elementor-9"
+              data-elementor-settings="[]">
+              <div className="elementor-inner">
+                <div className="elementor-section-wrap">
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+                  <FrontSection />
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+                  <IntroSection />
 
-        <Link href='/use' as={process.env.LINK + 'use'}><a href=''>Use it</a></Link>
-      </main>
+                  <PortfolioSection />
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div >
+                  <ExperienceSection />
+
+                  <SkillSection />
+
+                  <ContactSection />
+                </div>
+              </div>
+            </div>
+            <div className="clear"> </div>
+            <div id="comments" className="comments-holder">
+              <div className="clear"> </div>
+            </div>
+            <div className="clear"> </div>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
+
+export default Home 

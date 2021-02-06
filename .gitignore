@@ -2,6 +2,7 @@
 .vscode
 .idea
 .package-lock.json
+/public
 
 # dependencies
 /node_modules

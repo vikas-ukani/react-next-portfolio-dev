@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export -o out",
-    "deploy": "next build && next export && git add -f out/ && git commit -m \"Deploy to page\" && git subtree push --prefix out origin page"
+    "deploy": "next build && next export && touch out/.nojekyll && git add -f out/ && git commit -m \"Deploy to page\" && git subtree push --prefix out origin page"
   },
   "dependencies": {
     "next": "10.0.6",
