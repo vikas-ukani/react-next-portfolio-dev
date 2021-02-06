@@ -1,0 +1,109 @@
+.doc-loader {
+    background-color: #232329 !important;
+}
+
+body.ccb-css {
+    background-color: #2e2e38;
+}
+
+body.ccb-css,
+.ccb-css .widget a,
+.ccb-css .search-field {
+    color: #ffffff;
+}
+
+.ccb-css .search-field::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.ccb-css .search-field:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.ccb-css .search-field::placeholder {
+    color: #ffffff;
+}
+
+.ccb-css.single .nav-links:before {
+    background-color: #ffffff;
+}
+
+body.ccb-css a,
+.ccb-css .global-color,
+.ccb-css .timeline-event-date,
+.ccb-css .category-filter-list .button.is-checked,
+.ccb-css blockquote.wp-block-quote,
+.ccb-css h1,
+.ccb-css h2,
+.ccb-css h3,
+.ccb-css h4,
+.ccb-css h5,
+.ccb-css h6,
+.ccb-css .comments-holder .comment-author-date-replay-holder,
+.ccb-css .more-posts,
+.ccb-css .no-more-posts,
+.ccb-css .more-posts-loading,
+.ccb-css .is-style-outline .wp-block-button__link {
+    color: #6db363;
+}
+
+.ccb-css .global-background-color,
+.ccb-css .menu-holder,
+.ccb-css .img-caption,
+.ccb-css li.timeline-event:before,
+.ccb-css li.timeline-event span.timeline-circle:after,
+.ccb-css .skill-fill,
+.ccb-css .category-filter-icon,
+.ccb-css .category-filter-icon:after,
+.ccb-css .category-filter-icon:before,
+.ccb-css .portfolio-text-holder,
+.ccb-css .owl-theme .owl-dots .owl-dot.active span,
+.ccb-css .close-icon,
+.ccb-css .comments-holder ul.children:before,
+.ccb-css .wp-block-button__link {
+    background-color: #6db363;
+}
+
+.ccb-css span.timeline-circle:before {
+    border-color: #6db363;
+}
+
+.ccb-css .current-num,
+.ccb-css .icon-scroll,
+.ccb-css .sm-clean a span.sub-arrow {
+    color: #60a058;
+}
+
+.ccb-css .icon-scroll:before,
+.ccb-css .sm-clean a:after {
+    background-color: #60a058;
+}
+
+.ccb-css .current-big-num {
+    -webkit-text-stroke-color: #60a058;
+}
+
+.ccb-css .total-pages-num,
+.ccb-css .comment-date,
+.ccb-css .archive-title h1,
+.ccb-css li.timeline-event:hover,
+.ccb-css .category-filter-list,
+.ccb-css .portfolio-text,
+.ccb-css .portfolio-cat {
+    color: #ffffff;
+}
+
+.ccb-css #toggle:before,
+.ccb-css #toggle:after,
+.ccb-css #toggle .menu-line,
+.ccb-css .pagination-div:after,
+.ccb-css .portfolio-cat:before,
+.ccb-css .owl-theme .owl-dots .owl-dot span,
+.ccb-css .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #ffffff;
+}
+
+.ccb-css .header-holder,
+.ccb-css .icon-scroll:after {
+    background-color: #232329;
+}
