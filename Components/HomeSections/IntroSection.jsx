@@ -16,29 +16,42 @@ export default function IntroSection() {
                                         data-widget_type="heading.default">
                                         <div className="elementor-widget-container">
                                             <h2 className="elementor-heading-title elementor-size-default">
-                                                Introduce</h2>
+                                                Introduction</h2>
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-0c2719b global-color elementor-widget elementor-widget-text-editor"
                                         data-id="0c2719b" data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div className="elementor-widget-container">
-                                            <div className="elementor-text-editor elementor-clearfix">Lorem
-                                            ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Viverra tristique placerat in massa consectetur quisque
-                                                                nunc fames.</div>
+                                            <div className="elementor-text-editor elementor-clearfix">
+                                                I'm a <span className="text-white">Software Engineer (Full-Stack Web App Developer)</span>.
+                                                I have more than 3.5 Year of experience in IT field.
+                                                </div>
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-f3c56d3 elementor-widget elementor-widget-text-editor"
                                         data-id="f3c56d3" data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div className="elementor-widget-container">
-                                            <div className="elementor-text-editor elementor-clearfix">Lorem
-                                            ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Viverra tristique placerat in massa consectetur quisque.
-                                            Nunc ac fames lectus in libero aliquet tellus pharetra
-                                            erat tristique erat donec dignissim etiam sed malesik
-                                                                enim sodales lorem ipsum donac.</div>
+                                            <div className="elementor-text-editor elementor-clearfix">
+                                                <ul>
+                                                    <li>
+                                                        I also have sound knowledge of Laravel, JavaScript, NodeJS, and Python Programming language.
+                                                    </li>
+                                                    <li>
+                                                        I like to work with big ideas and agile project areas to enhance my work ability.
+                                                    </li>
+                                                    <li>
+                                                        I also enjoying problem-solving technics and creating helpful feature on my projects, and developing reliable and user experiences websites to enhance my Client's Business.
+                                                     </li>
+                                                    <li>
+                                                        I'm also excited to work with Python Language and quite interested to improve my skills in Data Analyst and Machine Learning in the field of Data Science.
+                                                    </li>
+                                                    <li>
+                                                        I'm having quite a learning skills to explore new technologies and solving real-life problems.
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-e292c23 elementor-widget elementor-widget-text-editor"
@@ -46,27 +59,25 @@ export default function IntroSection() {
                                         data-widget_type="text-editor.default">
                                         <div className="elementor-widget-container">
                                             <div className="elementor-text-editor elementor-clearfix">
-                                                <p>
-                                                    <strong className="global-color">NAME:</strong> Jacob
-                                                                    Hawkins<br />
-                                                    <strong
-                                                        className="global-color">CITY:</strong> New
-                                                                    York<br />
-                                                    <strong
-                                                        className="global-color">BIRTHDAY:</strong> 25. 03.
-                                                                    1987<br />
-                                                    <strong
-                                                        className="global-color">INTEREST:</strong>
-                                                                    Basketball, Formula 1<br />
-                                                    <strong
-                                                        className="global-color">EMAIL:</strong> <a
-                                                            href="https://demo.cocobasic.com/cdn-cgi/l/email-protection"
-                                                            className="__cf_email__"
-                                                            data-cfemail="086b6765786966714871677d7a6d65696164266b6765">[email&#160;protected]</a>
-                                                    <br />
-                                                    <strong
-                                                        className="global-color">WEBSITE:</strong>
-                                                                    www.yourwebsite.com</p>
+                                                <div >
+                                                    <b className="global-color uppercase">Name:</b> <span className="text-white">Vikas Ukani</span>
+                                                </div>
+                                                <div >
+                                                    <b className="global-color uppercase">Location:</b> <span className="text-white">Surat, Gujarat, India</span>
+                                                </div>
+                                                <div >
+                                                    <b className="global-color uppercase">BIRTHDAY:</b> <span className="text-white">02-01-1996</span>
+                                                </div>
+                                                <div >
+                                                    <b className="global-color uppercase">INTEREST:</b> <span className="text-white">Music, Traveling, Reading.</span>
+                                                </div>
+                                                <div >
+                                                    <b className="global-color uppercase">Mail me At:</b> <span className="text-white"><a target="_blank" href="mailto:vikasukani5@gmail.com">[ vikasukani5@gmail.com ]</a></span>
+                                                </div>
+                                                <div >
+                                                    <b className="global-color uppercase">linkedIn:</b> <a className="text-white" target="_blank" href="https://www.linkedin.com/in/vikas-ukani-a02499167/">Visit my linkedIn Page</a>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -74,14 +85,18 @@ export default function IntroSection() {
                                         data-id="4b0da0b" data-element_type="widget"
                                         data-widget_type="button.default">
                                         <div className="elementor-widget-container">
-                                            <div className="elementor-button-wrapper"> <a
-                                                href="https://demo.cocobasic.com/documentation/MANUAL-VolosWP.pdf"
-                                                target="_blank" rel="nofollow"
-                                                className="elementor-button-link elementor-button elementor-size-sm"
-                                                role="button"> <span
-                                                    className="elementor-button-content-wrapper"> <span
-                                                        className="elementor-button-text">Download
-                                                                            CV</span> </span> </a>
+                                            <div className="elementor-button-wrapper">
+                                                <a
+                                                    href="https://demo.cocobasic.com/documentation/MANUAL-VolosWP.pdf"
+                                                    target="_blank" rel="nofollow"
+                                                    className="elementor-button-link elementor-button elementor-size-sm"
+                                                    role="button">
+                                                    <span className="elementor-button-content-wrapper">
+                                                        <span className="elementor-button-text">
+                                                            Download CV
+                                                        </span>
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -89,12 +104,16 @@ export default function IntroSection() {
                                         data-id="a7c0fb2" data-element_type="widget"
                                         data-widget_type="button.default">
                                         <div className="elementor-widget-container">
-                                            <div className="elementor-button-wrapper"> <a href="#portfolio"
-                                                className="elementor-button-link elementor-button elementor-size-sm"
-                                                role="button"> <span
-                                                    className="elementor-button-content-wrapper"> <span
-                                                        className="elementor-button-text">Check my
-                                                                            Portfolio</span> </span> </a>
+                                            <div className="elementor-button-wrapper">
+                                                <a href="#portfolio"
+                                                    className="elementor-button-link elementor-button elementor-size-sm"
+                                                    role="button">
+                                                    <span className="elementor-button-content-wrapper">
+                                                        <span className="elementor-button-text">
+                                                            Check my Portfolio
+                                                        </span>
+                                                    </span>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -120,13 +139,14 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-image"> <img
-                                                                        width="400" height="400"
-                                                                        src="wp-content/uploads/2019/12/icon_design_x2_green-1.png"
-                                                                        className="attachment-full size-full"
-                                                                        alt="" loading="lazy"
-                                                                        srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_design_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_design_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_design_x2_green-1-150x150.png 150w"
-                                                                        sizes="(max-width: 400px) 100vw, 400px" />
+                                                                    <div className="elementor-image">
+                                                                        <img
+                                                                            width="400" height="400"
+                                                                            src={process.env.LINK + "images/icon_design_x2_green-1.png"}
+                                                                            className="attachment-full size-full"
+                                                                            alt="" loading="lazy"
+                                                                            srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_design_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_design_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_design_x2_green-1-150x150.png 150w"
+                                                                            sizes="(max-width: 400px) 100vw, 400px" />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -135,22 +155,15 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4
-                                                                        className="elementor-heading-title elementor-size-default">
-                                                                        Design</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default"> Design</h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-b363470 elementor-widget elementor-widget-text-editor"
-                                                                data-id="b363470"
-                                                                data-element_type="widget"
-                                                                data-widget_type="text-editor.default">
+                                                                data-id="b363470" data-element_type="widget" data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        A full stack allaround designer
-                                                                        that may or may not include a
-                                                                        guide for specific creative
-                                                                                        people</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix">
+                                                                        As a full-stack developer, I like to use Bootstrap Framework to make a clean, beautiful and animated page.
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -166,13 +179,14 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-image"> <img
-                                                                        width="400" height="400"
-                                                                        src="wp-content/uploads/2019/12/icon_develop_x2_green-1.png"
-                                                                        className="attachment-full size-full"
-                                                                        alt="" loading="lazy"
-                                                                        srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_develop_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_develop_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_develop_x2_green-1-150x150.png 150w"
-                                                                        sizes="(max-width: 400px) 100vw, 400px" />
+                                                                    <div className="elementor-image">
+                                                                        <img
+                                                                            width="400" height="400"
+                                                                            src={process.env.LINK + "images/icon_develop_x2_green-1.png"}
+                                                                            className="attachment-full size-full"
+                                                                            alt="" loading="lazy"
+                                                                            srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_develop_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_develop_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_develop_x2_green-1-150x150.png 150w"
+                                                                            sizes="(max-width: 400px) 100vw, 400px" />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -181,9 +195,7 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4
-                                                                        className="elementor-heading-title elementor-size-default">
-                                                                        Develop</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default">FrontEnd Development</h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-2713e64 elementor-widget elementor-widget-text-editor"
@@ -191,12 +203,9 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        Tellus pharetra erat tristique
-                                                                        erat donec dignissim etiam sed
-                                                                        malesik enim sodales lorem ipsu
-                                                                                    </div>
+                                                                    <div className="elementor-text-editor elementor-clearfix">
+                                                                        I use AngularJS, VueJS and ReactJS as a FrontEnd Development to develop creative, powerful and fast animated websites.
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -220,13 +229,14 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-image"> <img
-                                                                        width="400" height="400"
-                                                                        src="wp-content/uploads/2019/12/icon_write_x2_green-1.png"
-                                                                        className="attachment-full size-full"
-                                                                        alt="" loading="lazy"
-                                                                        srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_write_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_write_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_write_x2_green-1-150x150.png 150w"
-                                                                        sizes="(max-width: 400px) 100vw, 400px" />
+                                                                    <div className="elementor-image">
+                                                                        <img
+                                                                            width="400" height="400"
+                                                                            src={process.env.LINK + "images/icon_write_x2_green-1.png"}
+                                                                            className="attachment-full size-full"
+                                                                            alt="" loading="lazy"
+                                                                            srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_write_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_write_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_write_x2_green-1-150x150.png 150w"
+                                                                            sizes="(max-width: 400px) 100vw, 400px" />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -235,9 +245,7 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4
-                                                                        className="elementor-heading-title elementor-size-default">
-                                                                        Write</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default"> BackEnd Development</h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-f1a9684 elementor-widget elementor-widget-text-editor"
@@ -245,12 +253,9 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        Vestibulum consequat, dignissim
-                                                                        tellus sollicitudin vulputate
-                                                                        elit aliquet ullamcorper feugiat
-                                                                                        nisi</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix">
+                                                                        Usually, I use Laravel, NodeJS and Django Frameworks to build RESTFUL APIs and integrated with FrontEnd tools like, VueJS,AngularJS and ReactJS.
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -266,13 +271,14 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-image"> <img
-                                                                        width="400" height="400"
-                                                                        src="wp-content/uploads/2019/12/icon_promote_x2_green-1.png"
-                                                                        className="attachment-full size-full"
-                                                                        alt="" loading="lazy"
-                                                                        srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_promote_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_promote_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_promote_x2_green-1-150x150.png 150w"
-                                                                        sizes="(max-width: 400px) 100vw, 400px" />
+                                                                    <div className="elementor-image">
+                                                                        <img
+                                                                            width="400" height="400"
+                                                                            src={process.env.LINK + "images/icon_promote_x2_green-1.png"}
+                                                                            className="attachment-full size-full"
+                                                                            alt="" loading="lazy"
+                                                                            srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_promote_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_promote_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_promote_x2_green-1-150x150.png 150w"
+                                                                            sizes="(max-width: 400px) 100vw, 400px" />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -283,7 +289,7 @@ export default function IntroSection() {
                                                                 <div className="elementor-widget-container">
                                                                     <h4
                                                                         className="elementor-heading-title elementor-size-default">
-                                                                        Promote</h4>
+                                                                        Database</h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-2b5d363 elementor-widget elementor-widget-text-editor"
@@ -291,12 +297,9 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        Quam facilisi nunc faucibus at
-                                                                        porttitor vestibulum consequat
-                                                                        dignissim tellus sollicitudin
-                                                                                    </div>
+                                                                    <div className="elementor-text-editor elementor-clearfix">
+                                                                        There are lots of Databases available to store user's information. But, I often use most popular databases which are, MySQL, MongoDB, sqlite, PostgreSQL
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -311,7 +314,7 @@ export default function IntroSection() {
                     </div>
                 </div>
             </section>
-        </div>
+        </div >
 
     )
 }

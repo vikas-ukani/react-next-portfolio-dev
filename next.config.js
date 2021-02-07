@@ -1,9 +1,8 @@
 const webpack = require('webpack')
 
 const prod = (process.env.NODE_ENV || 'production') === "production";
-
-const link = prod ? '/react-next-portfolio-dev/' : ''
-const assetPrefix = prod ? "https://vikas-ukani.github.io/react-next-portfolio-dev/" : ''
+const link = prod ? '/react-next-portfolio-dev/' : '';
+const assetPrefix = prod ? "https://vikas-ukani.github.io/react-next-portfolio-dev/" : '/'
 
 module.exports = {
     exportPathMap: function () {

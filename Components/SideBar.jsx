@@ -1,4 +1,17 @@
+import Link from "next/link";
+
 export default function SideBar() {
+
+
+    const audioToggle = () => {
+        var audio = document.getElementById('musicWaves');
+        audio.pause()
+        audio.play()
+        // var music1 = new Audio(process.env.LINK + '/images/audio.mp3');
+        // // music.pause();
+        // music1.play();
+    }
+
     return (
         <div className="header-holder">
             <div className="header-wrapper">
@@ -31,56 +44,45 @@ export default function SideBar() {
                                                                 data-id="646ac3f7" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        NAME</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix"> NAME</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-5ed3a12e elementor-widget elementor-widget-text-editor"
                                                                 data-id="5ed3a12e" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        Jacob Hawkins</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix">Vikas Ukani</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-a4240e5 global-color elementor-widget elementor-widget-text-editor"
                                                                 data-id="a4240e5" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        ROLE</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix"> ROLE</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-6c435a6 elementor-widget elementor-widget-text-editor"
                                                                 data-id="6c435a6" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        Designer</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix"> Software Engineer</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-36538e7f global-color elementor-widget elementor-widget-text-editor"
                                                                 data-id="36538e7f" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        EMAIL</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix"> EMAIL</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-7c10dbf4 elementor-widget elementor-widget-text-editor"
                                                                 data-id="7c10dbf4" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-text-editor elementor-clearfix">
-                                                                        <a href="https://demo.cocobasic.com/cdn-cgi/l/email-protection"
-                                                                            className="__cf_email__"
-                                                                            data-cfemail="7f0c0b10111a3f1a071e120f131a511c1012">[email&#160;protected]</a>
+                                                                    <div className="elementor-text-editor elementor-clearfix wp-block-latest-posts__post-date">
+                                                                        {/* <Link href="mailto:vikasukani5@gmail.com"> */}
+                                                                        <a href="mailto:vikasukani5@gmail.com" className="__cf_email__" data-cfemail="7f0c0b10111a3f1a071e120f131a511c1012">vikasukani5@gmail.com</a>
+                                                                        {/* </Link> */}
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -99,20 +101,21 @@ export default function SideBar() {
                                                                 <div className="elementor-widget-container">
                                                                     <div
                                                                         className="elementor-text-editor elementor-clearfix">
-                                                                        (+987) 987 654 321</div>
+                                                                        (+91) 99096 59030</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-6961185 elementor-widget elementor-widget-coco-music-waves"
                                                                 data-id="6961185" data-element_type="widget"
                                                                 data-widget_type="coco-music-waves.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="music-waves">
+                                                                    <div className="music-waves" onClick={() => audioToggle}>
                                                                         <div className="relative">
-                                                                            {/* Audio Control */}
-                                                                            {/* <audio id="musicWaves"
-                                                                                loop autoPlay>
-                                                                                <source src="/images/audio.mp3" />
-                                                                            </audio> */}
+                                                                            <audio id="musicWaves"
+                                                                                src={process.env.LINK + "/images/audio.mp3"}
+                                                                                loop >
+                                                                                {/* autoPlay */}
+                                                                                {/* <source src="/images/audio.mp3" /> */}
+                                                                            </audio>
                                                                             <span
                                                                                 className="global-background-color"></span>
                                                                             <span
@@ -124,7 +127,7 @@ export default function SideBar() {
                                                                             <span
                                                                                 className="global-background-color"></span>
                                                                         </div>
-                                                                        <p className="music-waves-text">SOUND</p>
+                                                                        <p className="music-waves-text">SOUND ON</p>
                                                                     </div>
                                                                 </div>
                                                             </div>

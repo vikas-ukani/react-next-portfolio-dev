@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-white {
+  color: white;
+}
