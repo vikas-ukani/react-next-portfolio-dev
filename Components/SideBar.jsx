@@ -1,15 +1,22 @@
 import Link from "next/link";
 
 export default function SideBar() {
+    let soundToggle = false
 
+    const audioToggle = (file) => {
+        // var audio = document.getElementById('musicWaves');
+        // var audio = Audio(this.props.url)
 
-    const audioToggle = () => {
-        var audio = document.getElementById('musicWaves');
-        audio.pause()
-        audio.play()
-        // var music1 = new Audio(process.env.LINK + '/images/audio.mp3');
-        // // music.pause();
-        // music1.play();
+        console.log('clicked');
+        if (soundToggle == true) {
+            // audio.pause()
+            soundToggle = false
+            console.log('Play');
+        } else {
+            soundToggle = true
+            // audio.play()
+            console.log('stop');
+        }
     }
 
     return (
@@ -108,8 +115,8 @@ export default function SideBar() {
                                                                 data-id="6961185" data-element_type="widget"
                                                                 data-widget_type="coco-music-waves.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="music-waves" onClick={() => audioToggle}>
-                                                                        <div className="relative">
+                                                                    <div className="music-waves">
+                                                                        <div className="relative" onClick={audioToggle(process.env.LINK + "/images/audio.mp3")}>
                                                                             <audio id="musicWaves"
                                                                                 src={process.env.LINK + "/images/audio.mp3"}
                                                                                 loop >
@@ -127,7 +134,9 @@ export default function SideBar() {
                                                                             <span
                                                                                 className="global-background-color"></span>
                                                                         </div>
-                                                                        <p className="music-waves-text">SOUND ON</p>
+                                                                        <p className="music-waves-text">SOUND
+                                                                        {soundToggle == true ? ' ON' : ' OFF'}
+                                                                        </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
