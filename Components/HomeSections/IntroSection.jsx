@@ -140,7 +140,7 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-image">
+                                                                    <div className="elementor-image text-center">
                                                                         <img
                                                                             width="400" height="400"
                                                                             src={process.env.LINK + "images/icon_design_x2_green-1.png"}
@@ -180,7 +180,7 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-image">
+                                                                    <div className="elementor-image text-center">
                                                                         <img
                                                                             width="400" height="400"
                                                                             src={process.env.LINK + "images/icon_develop_x2_green-1.png"}
@@ -230,7 +230,7 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-image">
+                                                                    <div className="elementor-image text-center">
                                                                         <img
                                                                             width="400" height="400"
                                                                             src={process.env.LINK + "images/icon_write_x2_green-1.png"}
@@ -272,7 +272,7 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-image">
+                                                                    <div className="elementor-image text-center">
                                                                         <img
                                                                             width="400" height="400"
                                                                             src={process.env.LINK + "images/icon_promote_x2_green-1.png"}
