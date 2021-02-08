@@ -22,3 +22,27 @@ a {
 .text-white {
   color: white;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.text-light-green {
+  color: #59bf4a;
+}
+
+.text-light-orange {
+  color: #f37b83;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.cursor-none {
+  cursor: none;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}

@@ -10,6 +10,10 @@ export default function FrontSection() {
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat'
     }
+
+    const firstName = 'Vikas'.split('')
+    const lastName = 'Ukani'.split('')
+    // console.log('nameList', nameList);
     return (
         <div>
             <Head>
@@ -18,39 +22,53 @@ export default function FrontSection() {
             <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-4da9be6a elementor-section-full_width op-section elementor-section-height-default elementor-section-height-default"
                 style={imageURLStyle}
-                data-id="4da9be6a" data-element_type="section" id="home"
+                data-element_type="section" id="home"
                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div className="elementor-background-overlay"> </div>
                 <div className="elementor-container elementor-column-gap-default">
                     <div className="elementor-row">
                         <div className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-69ec8709"
-                            data-id="69ec8709" data-element_type="column">
+                            data-element_type="column">
                             <div className="elementor-column-wrap elementor-element-populated">
                                 <div className="elementor-widget-wrap">
                                     <section
                                         className="elementor-section elementor-inner-section elementor-element elementor-element-d5c7df1 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="d5c7df1" data-element_type="section">
+                                        data-element_type="section">
                                         <div className="elementor-container elementor-column-gap-default">
                                             <div className="elementor-row">
                                                 <div className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7bc9328"
-                                                    data-id="7bc9328" data-element_type="column">
+                                                    data-element_type="column">
                                                     <div
                                                         className="elementor-column-wrap elementor-element-populated">
                                                         <div className="elementor-widget-wrap">
                                                             <div className="elementor-element elementor-element-21f3bf1 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-heading"
-                                                                data-id="21f3bf1"
+
                                                                 data-element_type="widget"
                                                                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h1
-                                                                        className="elementor-heading-title elementor-size-default">
-                                                                        {/* Hey,<br />  */}I’m Vikas<br /> Ukani
-                                            </h1>
+
+                                                                    {/* onMouseLeave={(e) => e.target.className = ''} */}
+
+                                                                    <h1 className={"elementor-heading-title elementor-size-default"} >
+
+                                                                        Hey, I’m
+                                                                        <br />
+
+                                                                        <div className={'d-flex text-light-green cursor-none'}>
+                                                                            {firstName.map((name, idx) => (
+                                                                                <div key={idx} onMouseLeave={(e) => e.target.className = ''} onMouseEnter={(e) => e.target.className = 'animated rubberBand text-light-orange'}> {name} </div>
+                                                                            ))}
+                                                                        &nbsp;
+                                                                         {lastName.map((name, idx) => (
+                                                                                <div key={idx} onMouseLeave={(e) => e.target.className = ''} onMouseEnter={(e) => e.target.className = 'animated rubberBand text-light-orange'}> {name} </div>
+                                                                            ))}
+                                                                        </div>
+                                                                    </h1>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-8cd91c8 elementor-widget__width-auto elementor-absolute elementor-hidden-phone elementor-widget elementor-widget-button"
-                                                                data-id="8cd91c8"
+
                                                                 data-element_type="widget"
                                                                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
                                                                 data-widget_type="button.default">
@@ -70,7 +88,7 @@ export default function FrontSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-6e43dc7 elementor-widget__width-auto elementor-absolute elementor-hidden-phone elementor-widget elementor-widget-button"
-                                                                data-id="6e43dc7"
+
                                                                 data-element_type="widget"
                                                                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
                                                                 data-widget_type="button.default">
@@ -98,7 +116,6 @@ export default function FrontSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-d1c470a elementor-widget__width-auto elementor-absolute elementor-hidden-phone elementor-widget elementor-widget-button"
-                                                                data-id="d1c470a"
                                                                 data-element_type="widget"
                                                                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
                                                                 data-widget_type="button.default">
@@ -116,7 +133,6 @@ export default function FrontSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-85d47ce elementor-widget__width-auto elementor-absolute elementor-hidden-phone elementor-widget elementor-widget-button"
-                                                                data-id="85d47ce"
                                                                 data-element_type="widget"
                                                                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
                                                                 data-widget_type="button.default">
@@ -134,7 +150,7 @@ export default function FrontSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-62c46cf elementor-widget elementor-widget-image"
-                                                                data-id="62c46cf"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">

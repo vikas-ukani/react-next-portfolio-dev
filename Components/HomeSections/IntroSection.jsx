@@ -4,23 +4,24 @@ export default function IntroSection() {
         <div>
             <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-10b2843 op-section elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                data-id="10b2843" data-element_type="section" id="introduce">
+                data-element_type="section" id="introduce">
                 <div className="elementor-container elementor-column-gap-default">
                     <div className="elementor-row">
                         <div className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b7cd057"
-                            data-id="b7cd057" data-element_type="column">
+                            data-element_type="column">
                             <div className="elementor-column-wrap elementor-element-populated">
                                 <div className="elementor-widget-wrap">
                                     <div className="elementor-element elementor-element-6787711 elementor-widget elementor-widget-heading"
-                                        data-id="6787711" data-element_type="widget"
+                                        data-element_type="widget"
                                         data-widget_type="heading.default">
                                         <div className="elementor-widget-container">
+
                                             <h2 className="elementor-heading-title elementor-size-default">
                                                 Introduction</h2>
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-0c2719b global-color elementor-widget elementor-widget-text-editor"
-                                        data-id="0c2719b" data-element_type="widget"
+                                        data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div className="elementor-widget-container">
                                             <div className="elementor-text-editor elementor-clearfix">
@@ -30,32 +31,32 @@ export default function IntroSection() {
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-f3c56d3 elementor-widget elementor-widget-text-editor"
-                                        data-id="f3c56d3" data-element_type="widget"
+                                        data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div className="elementor-widget-container">
                                             <div className="elementor-text-editor elementor-clearfix">
-                                                <ul>
-                                                    <li>
-                                                        I also have sound knowledge of Laravel, JavaScript, NodeJS, and Python Programming language.
+                                                <ul className='text-justify'>
+                                                    <li className='mt-15'>
+                                                        I also have <span className="text-white">good knowledge</span> of <span className="text-white">Laravel, JavaScript, NodeJS, and Python Programming language</span>.
                                                     </li>
-                                                    <li>
-                                                        I like to work with big ideas and agile project areas to enhance my work ability.
+                                                    <li className='mt-15'>
+                                                        I like to work with <span className="text-white">big ideas</span> and <span className="text-white">agile project areas</span> to <span className="text-white">enhance my work ability</span>.
                                                     </li>
-                                                    <li>
-                                                        I also enjoying problem-solving technics and creating helpful feature on my projects, and developing reliable and user experiences websites to enhance my Client's Business.
+                                                    <li className='mt-15'>
+                                                        I also <span className="text-white">enjoying problem-solving technics</span> and <span className="text-white">creating helpful feature on my projects</span>, and developing reliable and <span className="text-white">user experiences websites</span> to <span className="text-white">enhance my Client's Business</span>.
                                                      </li>
-                                                    <li>
-                                                        I'm also excited to work with Python Language and quite interested to improve my skills in Data Analyst and Machine Learning in the field of Data Science.
+                                                    <li className='mt-15'>
+                                                        I'm also excited to work with <span className="text-">Python Language</span> and <span className="text-white">quite interested to improve my skills in Data Analyst</span> and <span className="text-white">Machine Learning skills</span> in the <span className="text-light-orange">field of Data Science</span>.
                                                     </li>
-                                                    <li>
-                                                        I'm having quite a learning skills to explore new technologies and solving real-life problems.
+                                                    <li className='mt-15'>
+                                                        I'm having quite a <span className="text-light-green">learning skills</span> to <span className="text-light-green">explore new technologies</span> and <span className="text-light-orange">solving real-life problems</span>.
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-e292c23 elementor-widget elementor-widget-text-editor"
-                                        data-id="e292c23" data-element_type="widget"
+                                        data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div className="elementor-widget-container">
                                             <div className="elementor-text-editor elementor-clearfix">
@@ -63,7 +64,7 @@ export default function IntroSection() {
                                                     <b className="global-color uppercase">Name:</b> <span className="text-white">Vikas Ukani</span>
                                                 </div>
                                                 <div >
-                                                    <b className="global-color uppercase">Location:</b> <span className="text-white">Surat, Gujarat, India</span>
+                                                    <b className="global-color uppercase">Location:</b> <span className="text-white">Surat, Gujarat, <span className="text-light-green">India</span></span>
                                                 </div>
                                                 <div >
                                                     <b className="global-color uppercase">BIRTHDAY:</b> <span className="text-white">02-01-1996</span>
@@ -72,7 +73,7 @@ export default function IntroSection() {
                                                     <b className="global-color uppercase">INTEREST:</b> <span className="text-white">Music, Traveling, Reading.</span>
                                                 </div>
                                                 <div >
-                                                    <b className="global-color uppercase">Mail me At:</b> <span className="text-white"><a target="_blank" href="mailto:vikasukani5@gmail.com">[ vikasukani5@gmail.com ]</a></span>
+                                                    <b className="global-color uppercase">Mail me At:</b> <span className="text-white"><a target="_blank" href="mailto:vikasukani5@gmail.com" className="text-light-green">[ vikasukani5@gmail.com ]</a></span>
                                                 </div>
                                                 <div >
                                                     <b className="global-color uppercase">linkedIn:</b> <a className="text-white" target="_blank" href="https://www.linkedin.com/in/vikas-ukani-a02499167/">Visit my linkedIn Page</a>
@@ -82,7 +83,7 @@ export default function IntroSection() {
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-4b0da0b elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                        data-id="4b0da0b" data-element_type="widget"
+                                        data-element_type="widget"
                                         data-widget_type="button.default">
                                         <div className="elementor-widget-container">
                                             <div className="elementor-button-wrapper">
@@ -101,7 +102,7 @@ export default function IntroSection() {
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-a7c0fb2 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                                        data-id="a7c0fb2" data-element_type="widget"
+                                        data-element_type="widget"
                                         data-widget_type="button.default">
                                         <div className="elementor-widget-container">
                                             <div className="elementor-button-wrapper">
@@ -121,21 +122,21 @@ export default function IntroSection() {
                             </div>
                         </div>
                         <div className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b300838"
-                            data-id="b300838" data-element_type="column">
+                            data-element_type="column">
                             <div className="elementor-column-wrap elementor-element-populated">
                                 <div className="elementor-widget-wrap">
                                     <section
                                         className="elementor-section elementor-inner-section elementor-element elementor-element-bf2f528 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="bf2f528" data-element_type="section">
+                                        data-element_type="section">
                                         <div className="elementor-container elementor-column-gap-default">
                                             <div className="elementor-row">
                                                 <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-25c735a"
-                                                    data-id="25c735a" data-element_type="column">
+                                                    data-element_type="column">
                                                     <div
                                                         className="elementor-column-wrap elementor-element-populated">
                                                         <div className="elementor-widget-wrap">
                                                             <div className="elementor-element elementor-element-f31468d elementor-widget elementor-widget-image"
-                                                                data-id="f31468d"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
@@ -151,18 +152,18 @@ export default function IntroSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-c452ce2 elementor-widget elementor-widget-heading"
-                                                                data-id="c452ce2"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4 className="elementor-heading-title elementor-size-default"> Design</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text"> Design</h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-b363470 elementor-widget elementor-widget-text-editor"
-                                                                data-id="b363470" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                data-element_type="widget" data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-text-editor elementor-clearfix">
-                                                                        As a full-stack developer, I like to use Bootstrap Framework to make a clean, beautiful and animated page.
+                                                                    <div className="elementor-text-editor elementor-clearfix center-text text-light-orange text-justify">
+                                                                        As a full-stack developer, I like to use <span className="text-white">Bootstrap Framework</span> to make a <span className="text-white">clean, beautiful and animated page</span>.
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -170,12 +171,12 @@ export default function IntroSection() {
                                                     </div>
                                                 </div>
                                                 <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-57d5fe4"
-                                                    data-id="57d5fe4" data-element_type="column">
+                                                    data-element_type="column">
                                                     <div
                                                         className="elementor-column-wrap elementor-element-populated">
                                                         <div className="elementor-widget-wrap">
                                                             <div className="elementor-element elementor-element-5edfc74 elementor-widget elementor-widget-image"
-                                                                data-id="5edfc74"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
@@ -191,20 +192,20 @@ export default function IntroSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-3d096ca elementor-widget elementor-widget-heading"
-                                                                data-id="3d096ca"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4 className="elementor-heading-title elementor-size-default">FrontEnd Development</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text">FrontEnd Development</h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-2713e64 elementor-widget elementor-widget-text-editor"
-                                                                data-id="2713e64"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-text-editor elementor-clearfix">
-                                                                        I use AngularJS, VueJS and ReactJS as a FrontEnd Development to develop creative, powerful and fast animated websites.
+                                                                    <div className="elementor-text-editor elementor-clearfix center-text text-justify">
+                                                                        I use <span className="text-white">AngularJS, VueJS and ReactJS</span> as a <span className="text-light-orange">FrontEnd Development</span> to develop <span className="text-light-green">creative, powerful and fast animated websites</span>.
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -216,16 +217,16 @@ export default function IntroSection() {
                                     </section>
                                     <section
                                         className="elementor-section elementor-inner-section elementor-element elementor-element-9bac2f0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                        data-id="9bac2f0" data-element_type="section">
+                                        data-element_type="section">
                                         <div className="elementor-container elementor-column-gap-default">
                                             <div className="elementor-row">
                                                 <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8616be7"
-                                                    data-id="8616be7" data-element_type="column">
+                                                    data-element_type="column">
                                                     <div
                                                         className="elementor-column-wrap elementor-element-populated">
                                                         <div className="elementor-widget-wrap">
                                                             <div className="elementor-element elementor-element-b4f22b5 elementor-widget elementor-widget-image"
-                                                                data-id="b4f22b5"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
@@ -241,20 +242,20 @@ export default function IntroSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-666bcaa elementor-widget elementor-widget-heading"
-                                                                data-id="666bcaa"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4 className="elementor-heading-title elementor-size-default"> BackEnd Development</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text"> BackEnd Development</h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-f1a9684 elementor-widget elementor-widget-text-editor"
-                                                                data-id="f1a9684"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-text-editor elementor-clearfix">
-                                                                        Usually, I use Laravel, NodeJS and Django Frameworks to build RESTFUL APIs and integrated with FrontEnd tools like, VueJS,AngularJS and ReactJS.
+                                                                    <div className="elementor-text-editor elementor-clearfix center-text text-justify">
+                                                                        Usually, I use <span className="text-white"> Laravel, NodeJS and Django Frameworks</span> to <span className="text-white">build RESTFUL APIs</span> and integrated with <span className="text-light-green"> FrontEnd tools like, VueJS,AngularJS and ReactJS</span>.
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -262,12 +263,12 @@ export default function IntroSection() {
                                                     </div>
                                                 </div>
                                                 <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-da2e2e9"
-                                                    data-id="da2e2e9" data-element_type="column">
+                                                    data-element_type="column">
                                                     <div
                                                         className="elementor-column-wrap elementor-element-populated">
                                                         <div className="elementor-widget-wrap">
                                                             <div className="elementor-element elementor-element-e5b9bb9 elementor-widget elementor-widget-image"
-                                                                data-id="e5b9bb9"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
@@ -283,22 +284,19 @@ export default function IntroSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-d3916fd elementor-widget elementor-widget-heading"
-                                                                data-id="d3916fd"
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4
-                                                                        className="elementor-heading-title elementor-size-default">
-                                                                        Database</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text">Database</h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-2b5d363 elementor-widget elementor-widget-text-editor"
-                                                                data-id="2b5d363"
+
                                                                 data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-text-editor elementor-clearfix">
-                                                                        There are lots of Databases available to store user's information. But, I often use most popular databases which are, MySQL, MongoDB, sqlite, PostgreSQL
+                                                                    <div className="elementor-text-editor elementor-clearfix center-text text-justify">
+                                                                        There are lots of Databases available to store user's information. But, I often use most popular databases which are: <span className="text-white">MySQL, MongoDB, sqlite, PostgreSQL</span>.
                                                                     </div>
                                                                 </div>
                                                             </div>

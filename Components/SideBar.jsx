@@ -3,6 +3,14 @@ import Link from "next/link";
 export default function SideBar() {
     let soundToggle = false
 
+
+
+    const showingCurrentTime = () => {
+        let today = new Date();
+        return ' ' + today.getHours() + ' : ' + today.getMinutes() + ' : ' + today.getSeconds()
+    };
+
+
     const audioToggle = (file) => {
         // var audio = document.getElementById('musicWaves');
         // var audio = Audio(this.props.url)
@@ -138,9 +146,13 @@ export default function SideBar() {
                                                                         {soundToggle == true ? ' ON' : ' OFF'}
                                                                         </p>
                                                                     </div>
+
                                                                 </div>
                                                             </div>
+                                                            Time:
+                                                            {showingCurrentTime()}
                                                         </div>
+
                                                     </div>
                                                 </div>
                                             </div>
