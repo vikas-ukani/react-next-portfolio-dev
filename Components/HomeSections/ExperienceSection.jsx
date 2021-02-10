@@ -25,22 +25,17 @@ export default function ExperienceSection() {
                                         data-widget_type="coco-timeline.default">
                                         <div className="elementor-widget-container">
                                             <ul className="timeline-holder">
-                                                <li className="timeline-event"> <span
-                                                    className="timeline-circle">
-                                                </span>
+                                                <li className="timeline-event"> 
+
+                                                <span className="timeline-circle"> </span>
                                                     <div className="timeline-event-content">
-                                                        <b>2015 -
-                                                                            2017</b> Turpis metus sit diam purus leo in
-                                                                        varius ac quam. Nunc amet tristique volutpat
-                                                                        adipiscing vulputate phasellus. Eget enim
-                                                                        aliquam euismod mauris in vitae viverra blandit
-                                                                        lectus diam feugiat. Nunc amet tristique
-                                                                        volutpat adipiscing vulputate phasellus. Eget
-                                                                        enim aliquam.</div>
+                                                        After my graduation completed.
+                                                        I Started my journey as Program Analyst at Coruscate Solutions Pvt Ptd, Where I learn first JAVASCRIPT framework which is <span className="text-white"></span> to make a dynamic and user interactive websites. 
+                                                        Moreover, I learn Laravel backend framework to handle backend logic of website. </div>
                                                     <div className="timeline-event-date">2015</div>
                                                 </li>
-                                                <li className="timeline-event"> <span
-                                                    className="timeline-circle">
+                                                <li className="timeline-event"> 
+                                                <span className="timeline-circle">
                                                 </span>
                                                     <div className="timeline-event-content">
                                                         <b>2017 -
@@ -80,8 +75,9 @@ export default function ExperienceSection() {
                                                                         blandit lectus diam feugiat.</div>
                                                     <div className="timeline-event-date">2020</div>
                                                 </li>
-                                                <li className="timeline-event"> <span
-                                                    className="timeline-circle">
+                                                <li className="timeline-event"> 
+
+                                                <span className="timeline-circle">
                                                 </span>
                                                     <div className="timeline-event-content">
                                                         <b>2022 -
