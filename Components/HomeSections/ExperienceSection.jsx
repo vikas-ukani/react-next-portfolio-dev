@@ -1,6 +1,8 @@
+import ExperienceCoverLetterSection from "./ExperienceCoverLetterSection";
 
 
 export default function ExperienceSection() {
+
     return (
         <div>
             <section
@@ -25,157 +27,78 @@ export default function ExperienceSection() {
                                         data-widget_type="coco-timeline.default">
                                         <div className="elementor-widget-container">
                                             <ul className="timeline-holder">
-                                                <li className="timeline-event"> 
+                                                <li className="timeline-event">
 
-                                                <span className="timeline-circle"> </span>
-                                                    <div className="timeline-event-content">
+                                                    <span className="timeline-circle"> </span>
+                                                    <div className="timeline-event-content" onMouseEnter={(e) => {
+                                                        e.target.children.jobTitle.className = 'text-light-green';
+                                                        e.target.children.companyClass.className = 'text-light-green';
+                                                        e.target.children.programAnalyst.className = 'text-light-orange';
+                                                        e.target.children.AngularJS.className = 'text-light-orange';
+                                                    }}
+                                                        onMouseLeave={(e) => {
+                                                            e.target.children.jobTitle.className = 'text-white';
+                                                            e.target.children.companyClass.className = 'text-light-orange';
+                                                            e.target.children.programAnalyst.className = 'text-white';
+                                                            e.target.children.AngularJS.className = 'text-white';
+                                                        }}
+                                                    >
+                                                        <b className='text-light-orange'>2017 - 2019 </b> <i id='jobTitle' className='text-white'><b>Program Analyst</b></i> <br />
                                                         After my graduation completed.
-                                                        I Started my journey as Program Analyst at Coruscate Solutions Pvt Ptd, Where I learn first JAVASCRIPT framework which is <span className="text-white"></span> to make a dynamic and user interactive websites. 
+                                                        I Started my journey as <span className="text-white" id='programAnalyst'>Program Analyst</span> at <span id='companyClass' className='text-light-orange' >Coruscate Solutions Pvt Ptd</span>, Where I learn first JAVASCRIPT framework which is <span id='AngularJS' className="text-white">AngularJS</span> to make a dynamic content and user interactive websites.
                                                         Moreover, I learn Laravel backend framework to handle backend logic of website. </div>
-                                                    <div className="timeline-event-date">2015</div>
+                                                    <div className="timeline-event-date">17-19</div>
                                                 </li>
-                                                <li className="timeline-event"> 
-                                                <span className="timeline-circle">
-                                                </span>
-                                                    <div className="timeline-event-content">
-                                                        <b>2017 -
-                                                                            2018</b> Rings of Uranus the only home we’ve
-                                                                        ever known. Permanence of the stars Tunguska
-                                                                        event drake equation encyclopaedia galactica
-                                                                        great turbulent quisque risus arcu, ullamcorper
-                                                                        id nunc quis, euismod.</div>
-                                                    <div className="timeline-event-date">2017</div>
-                                                </li>
-                                                <li className="timeline-event"> <span
-                                                    className="timeline-circle">
-                                                </span>
-                                                    <div className="timeline-event-content">
-                                                        <b>2018 -
-                                                                            2020</b> Eget enim aliquam euismod mauris in
-                                                                        vitae viverra blandit lectus faucibus diam
-                                                                        consequat maecenas turpis metus sit diam purus
-                                                                        leo in varius. Nunc amet tristique volutpat
-                                                                        adipiscing vulputate phasellus eget enim. Morbi
-                                                                        porttitor purus et justo malesuada gravida
-                                                                        proin.</div>
-                                                    <div className="timeline-event-date">2018</div>
+                                                <li className="timeline-event">
+                                                    <span className="timeline-circle">
+                                                    </span>
+                                                    <div className="timeline-event-content"
+                                                        onMouseEnter={(e) => {
+                                                            e.target.children.jobTitle.className = 'text-light-green';
+                                                            e.target.children.companyClass.className = 'text-light-green';
+                                                            e.target.children.vueJS.className = 'text-white';
+                                                        }}
+                                                        onMouseLeave={(e) => {
+                                                            e.target.children.jobTitle.className = 'text-white';
+                                                            e.target.children.companyClass.className = 'text-light-orange';
+                                                            e.target.children.vueJS.className = 'text-light-orange';
+                                                        }}
+                                                    >
+                                                        <b className='text-light-orange'>2019 - 2020</b> - <i id='jobTitle'><b>Junior Web Developer</b></i> <br />
+                                                        Working as FrontEnd and Backend Development at <span id='companyClass' className='text-light-orange' >Dignizant Technology</span>.
+                                                        Exploring skills in <span id='vueJS' className='text-light-orange'>VueJS Framework</span> to build powerful and animated UI&UX.
+                                                    </div>
+                                                    <div className="timeline-event-date">19-20</div>
                                                 </li>
                                                 <li className="timeline-event"> <span
                                                     className="timeline-circle">
                                                 </span>
-                                                    <div className="timeline-event-content">
-                                                        <b>2020 -
-                                                                            2022</b> Tendrils of gossamer clouds, the
-                                                                        ash of stellar alchemy tendrils of true gossamer
-                                                                        clouds vangelis the sky calls to us rich in
-                                                                        heavy atoms something. Turpis metus sit diam
-                                                                        purus leo in varius ac quam. Nunc amet tristique
-                                                                        volutpat adipiscing vulputate phasellus. Eget
-                                                                        enim aliquam euismod mauris in vitae viverra
-                                                                        blandit lectus diam feugiat.</div>
-                                                    <div className="timeline-event-date">2020</div>
+                                                    <div className="timeline-event-content" onMouseEnter={(e) => {
+                                                        e.target.children.jobTitle.className = 'text-light-green';
+                                                        e.target.children.companyClass.className = 'text-light-green';
+                                                        e.target.children.reactJS.className = 'text-light-orange';
+                                                    }}
+                                                        onMouseLeave={(e) => {
+                                                            e.target.children.jobTitle.className = 'text-white';
+                                                            e.target.children.companyClass.className = 'text-light-orange';
+                                                            e.target.children.reactJS.className = 'text-light-green';
+                                                        }}
+                                                    >
+                                                        <b className='text-light-orange'>2020-2021</b> - <i id='jobTitle'><b>Software Engineer</b></i> <br />
+                                                        Currently, I'm working as full-stack developer at <span id='companyClass' className='text-light-orange' >Maven Agency</span>
+                                                        Creating frontend and backend platform to develop and maintain a website that can help to enhance my client's business.
+                                                        Exploring technical skills in <span id='reactJS' className="text-light-green">ReactJS and NextJS</span> frontend frameworks.
+                                                    </div>
+                                                    <div className="timeline-event-date">20-21</div>
                                                 </li>
-                                                <li className="timeline-event"> 
 
-                                                <span className="timeline-circle">
-                                                </span>
-                                                    <div className="timeline-event-content">
-                                                        <b>2022 -
-                                                                            2025</b> Vestibulum ante ipsum primis in
-                                                                        faucibus orci luctus et ultrices posuere cubilia
-                                                                        Curae; In nec ipsum risus. Nulla vulputate
-                                                                        pulvinar consectetur. Praesent semper sem eget
-                                                                        nisl viverra, vitae vulputate metus placerat.
-                                                                        Maecenas pharetra suscipit nulla, a fringilla
-                                                                        nisi porta non. Vestibulum laoreet rutrum massa,
-                                                                        vel feugiat erat laoreet et.</div>
-                                                    <div className="timeline-event-date">2025</div>
-                                                </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3bd09292"
-                            data-id="3bd09292" data-element_type="column">
-                            <div className="elementor-column-wrap elementor-element-populated">
-                                <div className="elementor-widget-wrap">
-                                    <div className="elementor-element elementor-element-7ecab251 elementor-widget elementor-widget-heading"
-                                        data-id="7ecab251" data-element_type="widget"
-                                        data-widget_type="heading.default">
-                                        <div className="elementor-widget-container">
-                                            <h2 className="elementor-heading-title elementor-size-default">
-                                                Cover letter</h2>
-                                        </div>
-                                    </div>
-                                    <div className="elementor-element elementor-element-78c7f924 global-color elementor-widget elementor-widget-text-editor"
-                                        data-id="78c7f924" data-element_type="widget"
-                                        data-widget_type="text-editor.default">
-                                        <div className="elementor-widget-container">
-                                            <div className="elementor-text-editor elementor-clearfix">Lorem
-                                            ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Viverra tristique placerat in massa consectetur quisque
-                                                                nunc fames.</div>
-                                        </div>
-                                    </div>
-                                    <div className="elementor-element elementor-element-2be89b60 elementor-widget elementor-widget-text-editor"
-                                        data-id="2be89b60" data-element_type="widget"
-                                        data-widget_type="text-editor.default">
-                                        <div className="elementor-widget-container">
-                                            <div className="elementor-text-editor elementor-clearfix">Lorem
-                                            ipsum dolor sit amet, consectetur adipiscing elit.
-                                            Viverra tristique placerat in massa consectetur quisque.
-                                            Nunc ac fames lectus in libero aliquet. Mauris egestas
-                                            nulla arcu, ut vestibulum diam vulputate non. Ut massa
-                                            mauris, condimentum ut tincidunt eu, mattis euismod
-                                                                dolor.</div>
-                                        </div>
-                                    </div>
-                                    <div className="elementor-element elementor-element-7912f2f5 elementor-widget elementor-widget-text-editor"
-                                        data-id="7912f2f5" data-element_type="widget"
-                                        data-widget_type="text-editor.default">
-                                        <div className="elementor-widget-container">
-                                            <div className="elementor-text-editor elementor-clearfix">
-                                                <p>Faucibus sed tristique fames sed aliquet ultricies
-                                                eget viverra arcu. Vitae faucibus diam consequat
-                                                maecenas. Turpis metus sit diam purus leo in varius
-                                                ac quam. Nunc amet tristique volutpat adipiscing
-                                                vulputate phasellus. Volutpat faucibus sed
-                                                condimentum aliquet mi, nec lobortis neque gravida
-                                                                    tempor.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="elementor-element elementor-element-1673b11a elementor-widget elementor-widget-text-editor"
-                                        data-id="1673b11a" data-element_type="widget"
-                                        data-widget_type="text-editor.default">
-                                        <div className="elementor-widget-container">
-                                            <div className="elementor-text-editor elementor-clearfix">
-                                                <p>Phasellus non dui sed eros scelerisque gravida eu
-                                                lobortis magna. Sed vulputate, lacus blandit posuere
-                                                aliquet, enim purus dignissim nunc, at efficitur
-                                                                    nulla lacus id quam. Morbi feugiat neque a quam.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="elementor-element elementor-element-18739933 elementor-widget elementor-widget-image"
-                                        data-id="18739933" data-element_type="widget"
-                                        data-widget_type="image.default">
-                                        <div className="elementor-widget-container">
-                                            <div className="elementor-image">
-                                                <img width="339" height="84"
-                                                    src={process.env.LINK + "images/signature.png"}
-                                                    className="attachment-full size-full" alt=""
-                                                    loading="lazy" alt='sign'
-                                                    srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/signature.png 339w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/signature-300x74.png 300w"
-                                                    sizes="(max-width: 339px) 100vw, 339px" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        {/* <ExperienceCoverLetterSection /> */}
                     </div>
                 </div>
             </section>

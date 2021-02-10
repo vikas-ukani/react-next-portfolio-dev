@@ -25,7 +25,7 @@ export default function IntroSection() {
                                         data-widget_type="text-editor.default">
                                         <div className="elementor-widget-container">
                                             <div className="elementor-text-editor elementor-clearfix">
-                                                I'm a <span className="text-white">Software Engineer (Full-Stack Web App Developer)</span>.
+                                                I'm a <span onMouseEnter={(e) => e.target.className = 'text-light-green'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white">Software Engineer (Full-Stack Web App Developer)</span>.
                                                 I have more than 3.5 Year of experience in IT field.
                                                 </div>
                                         </div>
@@ -37,19 +37,34 @@ export default function IntroSection() {
                                             <div className="elementor-text-editor elementor-clearfix">
                                                 <ul className='text-justify'>
                                                     <li className='mt-15'>
-                                                        I also have <span className="text-white">good knowledge</span> of <span className="text-white">Laravel, JavaScript, NodeJS, and Python Programming language</span>.
+                                                        I also have <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> good knowledge</span> of
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> Laravel, JavaScript, NodeJS, and Python Programming language</span>.
                                                     </li>
                                                     <li className='mt-15'>
-                                                        I like to work with <span className="text-white">big ideas</span> and <span className="text-white">agile project areas</span> to <span className="text-white">enhance my work ability</span>.
+                                                        I like to work with
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> big ideas</span> and
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> agile project areas</span> to
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> enhance my work ability</span>.
                                                     </li>
                                                     <li className='mt-15'>
-                                                        I also <span className="text-white">enjoying problem-solving technics</span> and <span className="text-white">creating helpful feature on my projects</span>, and developing reliable and <span className="text-white">user experiences websites</span> to <span className="text-white">enhance my Client's Business</span>.
+                                                        I also
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> enjoying problem-solving technics</span> and
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> creating helpful feature on my projects</span>, and developing reliable and
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> user experiences websites</span> to
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> enhance my Client's Business</span>.
                                                      </li>
                                                     <li className='mt-15'>
-                                                        I'm also excited to work with <span className="text-">Python Language</span> and <span className="text-white">quite interested to improve my skills in Data Analyst</span> and <span className="text-white">Machine Learning skills</span> in the <span className="text-light-orange">field of Data Science</span>.
+                                                        I'm also excited to work with
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-"> Python Language</span> and
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> quite interested to improve my skills in Data Analyst</span> and
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> Machine Learning skills</span> in the
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-light-orange"> field of Data Science</span>.
                                                     </li>
                                                     <li className='mt-15'>
-                                                        I'm having quite a <span className="text-light-green">learning skills</span> to <span className="text-light-green">explore new technologies</span> and <span className="text-light-orange">solving real-life problems</span>.
+                                                        I'm having quite a
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-light-green"> learning skills</span> to
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-light-green"> explore new technologies</span> and
+                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-light-orange"> solving real-life problems</span>.
                                                     </li>
                                                 </ul>
                                             </div>
@@ -156,7 +171,11 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text"> Design</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text">
+                                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-light-green'}>
+                                                                            Design
+                                                                        </span>
+                                                                    </h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-b363470 elementor-widget elementor-widget-text-editor"
@@ -196,7 +215,11 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text">FrontEnd Development</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text">
+                                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-light-green'}>
+                                                                            FrontEnd Development
+                                                                        </span>
+                                                                    </h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-2713e64 elementor-widget elementor-widget-text-editor"
@@ -246,7 +269,11 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text"> BackEnd Development</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text">
+                                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-light-green'}>
+                                                                            BackEnd Development
+                                                                        </span>
+                                                                    </h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-f1a9684 elementor-widget elementor-widget-text-editor"
@@ -287,7 +314,11 @@ export default function IntroSection() {
                                                                 data-element_type="widget"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text">Database</h4>
+                                                                    <h4 className="elementor-heading-title elementor-size-default text-light-green center-text">
+                                                                        <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-light-green'}>
+                                                                            Database
+                                                                        </span>
+                                                                    </h4>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-2b5d363 elementor-widget elementor-widget-text-editor"

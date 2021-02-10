@@ -31,6 +31,10 @@ a {
   color: #59bf4a;
 }
 
+.text-b {
+  color: royalblue;
+}
+
 .text-light-orange {
   color: #f37b83;
 }
@@ -39,8 +43,8 @@ a {
   text-align: justify !important;
 }
 
-.text-center{
-  text-align: center !important;         
+.text-center {
+  text-align: center !important;
 }
 
 .cursor-none {

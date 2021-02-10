@@ -57,11 +57,15 @@ export default function FrontSection() {
 
                                                                         <div className={'d-flex text-light-green cursor-none'}>
                                                                             {firstName.map((name, idx) => (
-                                                                                <div key={idx} onMouseLeave={(e) => e.target.className = ''} onMouseEnter={(e) => e.target.className = 'animated rubberBand text-light-orange'}> {name} </div>
+                                                                                <div key={idx}
+                                                                                    onMouseLeave={(e) => e.target.className = ''}
+                                                                                    onMouseEnter={(e) => e.target.className = 'animated rubberBand text-white'}> {name} </div>
                                                                             ))}
                                                                         &nbsp;
                                                                          {lastName.map((name, idx) => (
-                                                                                <div key={idx} onMouseLeave={(e) => e.target.className = ''} onMouseEnter={(e) => e.target.className = 'animated rubberBand text-light-orange'}> {name} </div>
+                                                                                <div key={idx}
+                                                                                    onMouseLeave={(e) => e.target.className = ''}
+                                                                                 onMouseEnter={(e) => e.target.className = 'animated elementor-animation-buzz text-b'}> {name} </div>
                                                                             ))}
                                                                         </div>
                                                                     </h1>
