@@ -1,0 +1,21 @@
+{
+  "name": "create-portfolio-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export -o out",
+    "deploy": "next build && next export && git add -f out/ && git commit -m \"Deploy to page\" && git subtree push --prefix out origin page"
+  },
+  "dependencies": {
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-define": "^2.0.0",
+    "webpack": "^5.21.1"
+  }
+}
