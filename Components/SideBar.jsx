@@ -1,6 +1,23 @@
-    
+import Link from "next/link";
+
 export default function SideBar() {
     let soundToggle = false
+
+
+
+    const audioToggle = (file) => {
+        console.log('clicked');
+        if (soundToggle == true) {
+            // audio.pause()
+            soundToggle = false
+            // console.log('Play');
+        } else {
+            soundToggle = true
+            // audio.play()
+            // console.log('stop');
+        }
+    }
+
     return (
         <div className="header-holder">
             <div className="header-wrapper">
@@ -70,7 +87,7 @@ export default function SideBar() {
                                                                 <div className="elementor-widget-container">
                                                                     <div className="elementor-text-editor elementor-clearfix wp-block-latest-posts__post-date">
                                                                         {/* <Link href="mailto:vikasukani5@gmail.com"> */}
-                                                                        <a href="mailto:vikasukani5@gmail.com" className="__cf_email__" >[ secured email ]</a>
+                                                                        <a href="mailto:vikasukani5@gmail.com" className="__cf_email__" data-cfemail="7f0c0b10111a3f1a071e120f131a511c1012">vikasukani5@gmail.com</a>
                                                                         {/* </Link> */}
                                                                     </div>
                                                                 </div>

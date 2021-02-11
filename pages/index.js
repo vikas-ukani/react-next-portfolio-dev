@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import ContactSection from '../Components/HomeSections/ContectSection'
 import ExperienceSection from '../Components/HomeSections/ExperienceSection'
 import FrontSection from '../Components/HomeSections/FrontSection'
@@ -9,11 +8,6 @@ import SkillSection from '../Components/HomeSections/SkillSection'
 function Home() {
   return (
     <>
-      <Head>
-        <title>Vikas Ukani Portfolio</title>
-        <meta name="description" content="vikas ukani portfolio website, software engineer, fullsstack developer, backend developer" />
-        <meta name="keywords" content="vikas-ukani, web developer, fullstack developer, software engineer, laravel developer, backend developer" />
-      </Head>
       <div>
         <div id="content" className="site-content">
           <div className="content-holder center-relative content-1300 post-9 page type-page status-publish hentry">
@@ -48,4 +42,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home 

@@ -16,6 +16,9 @@ export default function FrontSection() {
     // console.log('nameList', nameList);
     return (
         <div>
+            <Head>
+                <title>Vikas Ukani Portfolio Site</title>
+            </Head>
             <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-4da9be6a elementor-section-full_width op-section elementor-section-height-default elementor-section-height-default"
                 style={imageURLStyle}
@@ -55,14 +58,14 @@ export default function FrontSection() {
                                                                         <div className={'d-flex text-light-green cursor-none'}>
                                                                             {firstName.map((name, idx) => (
                                                                                 <div key={idx}
-                                                                                    onMouseLeave={(e) => e.target.className = 'animated rubberBand'}
-                                                                                    onMouseEnter={(e) => e.target.className = 'animated text-white'}> {name} </div>
+                                                                                    onMouseLeave={(e) => e.target.className = ''}
+                                                                                    onMouseEnter={(e) => e.target.className = 'animated rubberBand text-white'}> {name} </div>
                                                                             ))}
                                                                         &nbsp;
                                                                          {lastName.map((name, idx) => (
                                                                                 <div key={idx}
-                                                                                    onMouseLeave={(e) => e.target.className = 'animated rubberBand'}
-                                                                                    onMouseEnter={(e) => e.target.className = 'animated elementor-animation-buzz text-b'}> {name} </div>
+                                                                                    onMouseLeave={(e) => e.target.className = ''}
+                                                                                 onMouseEnter={(e) => e.target.className = 'animated elementor-animation-buzz text-b'}> {name} </div>
                                                                             ))}
                                                                         </div>
                                                                     </h1>
