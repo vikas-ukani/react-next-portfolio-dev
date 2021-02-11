@@ -5,25 +5,16 @@ export default function SideBar() {
 
 
 
-    const showingCurrentTime = () => {
-        let today = new Date();
-        return ' ' + today.getHours() + ' : ' + today.getMinutes() + ' : ' + today.getSeconds()
-    };
-
-
     const audioToggle = (file) => {
-        // var audio = document.getElementById('musicWaves');
-        // var audio = Audio(this.props.url)
-
         console.log('clicked');
         if (soundToggle == true) {
             // audio.pause()
             soundToggle = false
-            console.log('Play');
+            // console.log('Play');
         } else {
             soundToggle = true
             // audio.play()
-            console.log('stop');
+            // console.log('stop');
         }
     }
 
@@ -124,10 +115,9 @@ export default function SideBar() {
                                                                 data-widget_type="coco-music-waves.default">
                                                                 <div className="elementor-widget-container">
                                                                     <div className="music-waves">
-                                                                        <div className="relative" onClick={audioToggle(process.env.LINK + "/images/audio.mp3")}>
-                                                                            <audio id="musicWaves"
-                                                                                src={process.env.LINK + "/images/audio.mp3"}
-                                                                                loop >
+                                                                        {/* onClick={audioToggle(process.env.LINK + "/images/audio.mp3")} */}
+                                                                        <div className="relative" >
+                                                                            <audio id="musicWaves" src={process.env.LINK + "/images/audio.mp3"} loop >
                                                                                 {/* autoPlay */}
                                                                                 {/* <source src="/images/audio.mp3" /> */}
                                                                             </audio>
@@ -150,7 +140,7 @@ export default function SideBar() {
                                                                 </div>
                                                             </div>
                                                             Time:
-                                                            {showingCurrentTime()}
+                                                            {/* {showingCurrentTime()} */}
                                                         </div>
 
                                                     </div>
