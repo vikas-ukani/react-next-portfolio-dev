@@ -56,7 +56,7 @@ export default function ExperienceSection() {
                                                         onMouseEnter={(e) => {
                                                             e.target.children.jobTitle.className = 'text-light-green';
                                                             e.target.children.companyClass.className = 'text-light-green';
-                                                            e.target.children.vueJS.className = 'text-white';
+                                                            e.target.children.vueJS.className = 'text-light-green';
                                                         }}
                                                         onMouseLeave={(e) => {
                                                             e.target.children.jobTitle.className = 'text-white';
