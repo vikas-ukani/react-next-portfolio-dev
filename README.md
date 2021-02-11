@@ -49,5 +49,8 @@ Using this to deploy code.
     "deploy": "next build && next export && touch out/.nojekyll && git add -f out/ && git commit -m \"Deploy to page\" && git push origin \"git subtree split --prefix out page\":page --force"
 
 
+    "deploy": "next build && next export && git add -f out/ && git commit -m \"Deploy to page\" && git subtree push --prefix out origin page"
+
+
 git push origin `git subtree split --prefix out main`:page --force
 ```
