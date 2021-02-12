@@ -55,17 +55,17 @@ export default function FrontSection() {
                                                                         Hey, I’m
                                                                         <br />
 
-                                                                        <div className={'d-flex text-light-green cursor-none'}>
+                                                                        <div className={'d-flex text-light-green cursor-none animated'}>
                                                                             {firstName.map((name, idx) => (
                                                                                 <div key={idx}
-                                                                                    onMouseLeave={(e) => e.target.className = ''}
-                                                                                    onMouseEnter={(e) => e.target.className = 'animated rubberBand text-white'}> {name} </div>
+                                                                                    onMouseLeave={(e) => e.target.className = 'animated rubberBand'}
+                                                                                    onMouseEnter={(e) => e.target.className = 'animated  text-white'}> {name} </div>
                                                                             ))}
                                                                         &nbsp;
                                                                          {lastName.map((name, idx) => (
                                                                                 <div key={idx}
-                                                                                    onMouseLeave={(e) => e.target.className = ''}
-                                                                                 onMouseEnter={(e) => e.target.className = 'animated elementor-animation-buzz text-b'}> {name} </div>
+                                                                                    onMouseLeave={(e) => e.target.className = 'animated rubberBand'}
+                                                                                    onMouseEnter={(e) => e.target.className = ' text-b'}> {name} </div>
                                                                             ))}
                                                                         </div>
                                                                     </h1>

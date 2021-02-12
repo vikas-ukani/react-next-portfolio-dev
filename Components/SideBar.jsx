@@ -1,5 +1,4 @@
-import Link from "next/link";
-
+import Clock from 'react-digital-clock'
 export default function SideBar() {
     let soundToggle = false
 
@@ -139,10 +138,9 @@ export default function SideBar() {
 
                                                                 </div>
                                                             </div>
-                                                            Time:
+                                                            Time: <Clock format='hh-mm-ss' />
                                                             {/* {showingCurrentTime()} */}
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </div>
