@@ -1,21 +1,21 @@
-import Clock from 'react-digital-clock'
+// import Clock from 'react-digital-clock'
 export default function SideBar() {
-    let soundToggle = false
+    // let soundToggle = false
 
 
 
-    const audioToggle = (file) => {
-        console.log('clicked');
-        if (soundToggle == true) {
-            // audio.pause()
-            soundToggle = false
-            // console.log('Play');
-        } else {
-            soundToggle = true
-            // audio.play()
-            // console.log('stop');
-        }
-    }
+    // const audioToggle = (file) => {
+    //     console.log('clicked');
+    //     if (soundToggle == true) {
+    //         // audio.pause()
+    //         soundToggle = false
+    //         // console.log('Play');
+    //     } else {
+    //         soundToggle = true
+    //         // audio.play()
+    //         // console.log('stop');
+    //     }
+    // }
 
     return (
         <div className="header-holder">
@@ -131,14 +131,14 @@ export default function SideBar() {
                                                                             <span
                                                                                 className="global-background-color"></span>
                                                                         </div>
-                                                                        <p className="music-waves-text">SOUND
-                                                                        {soundToggle == true ? ' ON' : ' OFF'}
+                                                                        <p className="music-waves-text">SOUND ON
+                                                                        {/* {(soundToggle && soundToggle == true) ? ' ON' : ' OFF'} */}
                                                                         </p>
                                                                     </div>
 
                                                                 </div>
                                                             </div>
-                                                            Time: <Clock format='hh-mm-ss' />
+                                                            {/* Time: <Clock format='hh-mm-ss' /> */}
                                                             {/* {showingCurrentTime()} */}
                                                         </div>
                                                     </div>

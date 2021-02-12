@@ -1,4 +1,4 @@
-
+import CircularProgress from "../Extra/CircularProgress";
 
 export default function SkillSection() {
     return (
@@ -22,7 +22,49 @@ export default function SkillSection() {
                                         data-widget_type="coco-skills-circle.default">
                                         <div className="elementor-widget-container">
                                             <div className="skill-circle-holder">
-                                                <div className="skill-circle">
+
+                                                <div className="custom-skill-circle">
+                                                    <CircularProgress fillColor="#6db363" outColor="#232329" textColor="#f37b83" percentage={80} title="Laravel" />
+                                                    <p className="skill-circle-text">
+                                                        <b className="text-light-orange"
+                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
+                                                            onMouseLeave={(e) => { e.target.className = 'text-light-orange'; }} >
+                                                            Laravel
+                                                        </b>
+                                                    </p>
+                                                </div>
+                                                <div className="custom-skill-circle">
+                                                    <CircularProgress fillColor="#6db363" outColor="#232329" textColor="#f37b83" percentage={65} title="NodeJS" />
+                                                    <p className="skill-circle-text">
+                                                        <b className="text-light-orange"
+                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
+                                                            onMouseLeave={(e) => { e.target.className = 'text-light-orange'; }}>
+                                                            NodeJS
+                                                        </b>
+                                                    </p>
+                                                </div>
+                                                <div className="custom-skill-circle">
+                                                    <CircularProgress fillColor="#6db363" outColor="#232329" textColor="#f37b83" percentage={60} title="DJango" />
+                                                    <p className="skill-circle-text">
+                                                        <b className="text-light-orange"
+                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
+                                                            onMouseLeave={(e) => { e.target.className = 'text-light-orange'; }}>
+                                                            DJango
+                                                            </b>
+                                                    </p>
+                                                </div>
+                                                <div className="custom-skill-circle">
+                                                    <CircularProgress fillColor="#6db363" outColor="#232329" textColor="#f37b83" percentage={70} title="VueJS" />
+                                                    <p className="skill-circle-text">
+                                                        <b className="text-light-orange"
+                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
+                                                            onMouseLeave={(e) => {
+                                                                e.target.className = 'text-light-orange';
+                                                            }}>
+                                                            VueJS</b>
+                                                    </p>
+                                                </div>
+                                                {/* <div className="skill-circle">
                                                     <div className="skill-circle-wrapper relative"
                                                         data-value="0.80" data-color="#6db363"
                                                         data-empty-color="#232329">
@@ -85,6 +127,7 @@ export default function SkillSection() {
                                                             VueJS</b>
                                                     </p>
                                                 </div>
+                                                */}
                                             </div>
                                         </div>
                                     </div>

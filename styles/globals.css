@@ -51,6 +51,18 @@ a {
   cursor: none;
 }
 
+.w20 {
+  width: 20;
+  display: inline;
+}
+
+.custom-skill-circle {
+  display: inline-block;
+  margin-right: 6%;
+  width: 20%;
+  max-width: 254px;
+}
+
 .mt-15 {
   margin-top: 15px;
 }
