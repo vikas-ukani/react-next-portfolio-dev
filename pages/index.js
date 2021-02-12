@@ -8,6 +8,9 @@ import SkillSection from '../Components/HomeSections/SkillSection'
 function Home() {
   return (
     <>
+      {/* <Head>
+        <title>Vikas Ukani Portfolio Site</title>
+      </Head> */}
       <div>
         <div id="content" className="site-content">
           <div className="content-holder center-relative content-1300 post-9 page type-page status-publish hentry">
@@ -42,4 +45,4 @@ function Home() {
   )
 }
 
-export default Home 
+export default Home

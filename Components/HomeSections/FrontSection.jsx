@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Head from "next/head";
 
 
 export default function FrontSection() {
@@ -16,9 +15,6 @@ export default function FrontSection() {
     // console.log('nameList', nameList);
     return (
         <div>
-            <Head>
-                <title>Vikas Ukani Portfolio Site</title>
-            </Head>
             <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-4da9be6a elementor-section-full_width op-section elementor-section-height-default elementor-section-height-default"
                 style={imageURLStyle}
