@@ -66,3 +66,8 @@ a {
 .mt-15 {
   margin-top: 15px;
 }
+
+.doc-loader img {
+  height: 150px;
+  width: 150px;
+}

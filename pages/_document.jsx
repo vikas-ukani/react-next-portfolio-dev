@@ -14,7 +14,10 @@ export default class MyDocument extends Document {
 
 
                 <body className="blog safari osx elementor-default elementor-kit-355 home page-template-default page page-id-9 unknown elementor-default elementor-kit-355 elementor-page elementor-page-9">
-                    <div className="doc-loader"> <img src={process.env.LINK + "/images/preloader.gif"} alt="Loading..." /></div>
+                    <div className="doc-loader" >
+                        <img src={process.env.LINK + "/images/balls-loader.gif"} alt="Loading..." />
+                    </div>
+                    {/* <div className="doc-loader"> <img src={process.env.LINK + "/images/preloader.gif"} alt="Loading..." /></div> */}
 
                     <AppLayout >
                         <Main />
