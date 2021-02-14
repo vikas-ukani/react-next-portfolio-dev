@@ -149,8 +149,39 @@
         "num_pages_index": "1",
         "webUrl": "https:\/\/demo.cocobasic.com\/volos-wp\/demo-3"
     };
-    var count = 1; var position = $(window).scrollTop(); animateElement(); stopAnimateOnScroll(); placeholderToggle(); setSlowScroll(); setMenu(); setActiveMenuItem(); setCustomizerClass(); setDataNumberForSections(); setTotalPageNumber(); $(".site-content").fitVids(); loadMoreArticleIndex(); $(window).on('load', function () { $('#toggle').on("click", multiClickFunctionStop); setHash(); $('.doc-loader').fadeOut(); }); $(window).on('resize', function () { setActiveMenuItem(); }); $(window).on('scroll', function () { animateElement(); setActiveMenuItem(); }); function stopAnimateOnScroll() { $("html, body").on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function () { $("html, body").stop(); }); }
-    function placeholderToggle() { $('input, textarea').on('focus', function () { $(this).data('placeholder', $(this).attr('placeholder')); $(this).attr('placeholder', ''); }); $('input, textarea').on('blur', function () { $(this).attr('placeholder', $(this).data('placeholder')); }); }
+    var count = 1; 
+    var position = $(window).scrollTop();
+     animateElement(); 
+     stopAnimateOnScroll();
+      placeholderToggle();
+      setSlowScroll();
+      setMenu();
+      setActiveMenuItem();
+      setCustomizerClass();
+      setDataNumberForSections();
+      setTotalPageNumber();
+      $(".site-content").fitVids();
+      loadMoreArticleIndex();
+      $(window).on('load', function () { $('#toggle').on("click", multiClickFunctionStop);
+      setHash();
+      setTimeout(function(){
+          $('.doc-loader').fadeOut();
+      }, 150)
+     });
+      $(window).on('resize', function () { setActiveMenuItem();
+     });
+      $(window).on('scroll', function () { animateElement();
+         setActiveMenuItem();
+     });
+      function stopAnimateOnScroll() { $("html, body").on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function () { $("html, body").stop();
+     });
+     }
+    function placeholderToggle() { $('input, textarea').on('focus', function () { $(this).data('placeholder', $(this).attr('placeholder'));
+     $(this).attr('placeholder', '');
+ });
+     $('input, textarea').on('blur', function () { $(this).attr('placeholder', $(this).data('placeholder'));
+ });
+ }
     function setSlowScroll() {
         $('#header-main-menu ul li a[href^="#"], a.button, .slow-scroll, .num-comments a, .elementor-button').on("click", function (e) {
             if ($(this).attr('href') === '#') { e.preventDefault(); } else {
