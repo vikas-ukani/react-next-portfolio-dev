@@ -128,13 +128,16 @@ export default function ExperienceSection() {
                                                         }
                                                         }
                                                     >
-                                                        <b className='text-light-orange'>2020-2021</b> - <i id='jobTitle'><b>Software Engineer</b></i> <br />
+                                                        <b className='text-light-orange'>2020-2021</b> - <i id='jobTitle'><b>Software Engineer</b> ( Present ) </i> <br />
                                                         Currently, I'm working as full-stack developer at <span id='companyClass' className='text-light-orange' >Maven Agency</span>
                                                         Creating frontend and backend platform to develop and maintain a website that can help to enhance my client's business.
                                                         Exploring technical skills in <span id='reactJS' className="text-light-green">ReactJS and NextJS</span> frontend frameworks.
                                                     </div>
                                                     <div className="timeline-event-date">20-21</div>
                                                 </li>
+
+
+
                                             </ul>
                                         </div>
                                     </div>
