@@ -143,7 +143,7 @@ export default function FrontSection() {
                                                                             className="elementor-button-link elementor-button elementor-size-sm"
                                                                             role="button"> <span
                                                                                 className="elementor-button-content-wrapper">
-                                                                                <span className="elementor-button-text">Check My Portfolio</span>
+                                                                                <span className="elementor-button-text">Check My Projects</span>
                                                                             </span>
                                                                         </a>
                                                                     </div>
