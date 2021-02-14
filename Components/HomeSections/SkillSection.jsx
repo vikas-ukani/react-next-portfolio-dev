@@ -22,7 +22,6 @@ export default function SkillSection() {
                                         data-widget_type="coco-skills-circle.default">
                                         <div className="elementor-widget-container">
                                             <div className="skill-circle-holder">
-
                                                 <div className="custom-skill-circle">
                                                     <CircularProgress fillColor="#6db363" outColor="#232329" textColor="#f37b83" percentage={80} title="Laravel" />
                                                     <p className="skill-circle-text">
@@ -33,26 +32,17 @@ export default function SkillSection() {
                                                         </b>
                                                     </p>
                                                 </div>
-                                                <div className="custom-skill-circle">
-                                                    <CircularProgress fillColor="#6db363" outColor="#232329" textColor="#f37b83" percentage={65} title="NodeJS" />
+                                                <div className="custom-skill-circle" style={{ marginRight: '6% !important' }}>
+                                                    <CircularProgress fillColor="#f37b83" outColor="#232329" textColor="#6db363" percentage={65} title="NodeJS" />
                                                     <p className="skill-circle-text">
                                                         <b className="text-light-orange"
-                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
-                                                            onMouseLeave={(e) => { e.target.className = 'text-light-orange'; }}>
+                                                            onMouseEnter={(e) => { e.target.className = 'text-light-orange'; }}
+                                                            onMouseLeave={(e) => { e.target.className = 'text-light-green'; }}>
                                                             NodeJS
                                                         </b>
                                                     </p>
                                                 </div>
-                                                <div className="custom-skill-circle">
-                                                    <CircularProgress fillColor="#6db363" outColor="#232329" textColor="#f37b83" percentage={60} title="DJango" />
-                                                    <p className="skill-circle-text">
-                                                        <b className="text-light-orange"
-                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
-                                                            onMouseLeave={(e) => { e.target.className = 'text-light-orange'; }}>
-                                                            DJango
-                                                            </b>
-                                                    </p>
-                                                </div>
+
                                                 <div className="custom-skill-circle">
                                                     <CircularProgress fillColor="#6db363" outColor="#232329" textColor="#f37b83" percentage={70} title="VueJS" />
                                                     <p className="skill-circle-text">
@@ -62,6 +52,16 @@ export default function SkillSection() {
                                                                 e.target.className = 'text-light-orange';
                                                             }}>
                                                             VueJS</b>
+                                                    </p>
+                                                </div>
+                                                <div className="custom-skill-circle">
+                                                    <CircularProgress fillColor="#f37b83" outColor="#232329" textColor="#6db363" percentage={60} title="DJango" />
+                                                    <p className="skill-circle-text">
+                                                        <b className="text-light-orange"
+                                                            onMouseEnter={(e) => { e.target.className = 'text-light-orange'; }}
+                                                            onMouseLeave={(e) => { e.target.className = 'text-light-green'; }}>
+                                                            DJango
+                                                            </b>
                                                     </p>
                                                 </div>
                                                 {/* <div className="skill-circle">
@@ -162,14 +162,12 @@ export default function SkillSection() {
                                                                         <div className="skill-holder">
                                                                             <div className="skill-text">
                                                                                 <div className="skill">
-                                                                                    <div className="skill-fill"
-                                                                                        data-fill="48%">
+                                                                                    <div className="skill-fill" data-fill="48%">
                                                                                     </div>
                                                                                 </div>
                                                                                 <span>Cooking</span>
                                                                             </div>
-                                                                            <div className="skill-percent">
-                                                                                48%</div>
+                                                                            <div className="skill-percent"> 48%</div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -196,8 +194,7 @@ export default function SkillSection() {
                                                                                     </div>
                                                                                 </div> <span>PhP</span>
                                                                             </div>
-                                                                            <div className="skill-percent">
-                                                                                90%</div>
+                                                                            <div className="skill-percent"> 90%</div>
                                                                         </div>
                                                                         <div className="skill-holder">
                                                                             <div className="skill-text">
