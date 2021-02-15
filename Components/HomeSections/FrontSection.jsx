@@ -159,7 +159,7 @@ export default function FrontSection() {
                                                                             width="536" height="830"
                                                                             src={process.env.LINK + "/images/vikas-ukani-vertical-image.jpg"}
                                                                             className="attachment-full size-full"
-                                                                            alt="eimge" loading="lazy"
+                                                                            alt="vikas-ukani" loading="lazy"
                                                                             sizes="(max-width: 536px) 100vw, 536px" />
                                                                     </div>
                                                                 </div>

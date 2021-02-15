@@ -30,10 +30,9 @@ export default function SkillSection() {
                                             <div className="elementor-row">
                                                 <LeftSkillHolder />
                                                 <RightSkillHolder />
-
                                             </div>
                                         </div>
-                                    </section>
+                                    </section>                                  
                                 </div>
                             </div>
                         </div>
