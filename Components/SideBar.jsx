@@ -1,21 +1,5 @@
 // import Clock from 'react-digital-clock'
 export default function SideBar() {
-    // let soundToggle = false
-
-
-
-    // const audioToggle = (file) => {
-    //     console.log('clicked');
-    //     if (soundToggle == true) {
-    //         // audio.pause()
-    //         soundToggle = false
-    //         // console.log('Play');
-    //     } else {
-    //         soundToggle = true
-    //         // audio.play()
-    //         // console.log('stop');
-    //     }
-    // }
 
     return (
         <div className="header-holder">

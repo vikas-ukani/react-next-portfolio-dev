@@ -1,6 +1,8 @@
 export default function HeadScripts() {
     return (
         <div>
+            <title>Vikas Ukani | Portfolio</title>
+
             <meta name="description" content="Vikas Ukani | Portfolio. This portfolio website completely build with Next.JS, ReactJS, AnimationJS, CircularUI, Custom CSS" />
             <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
             <link rel='stylesheet' id='prettyPhoto-css' href={process.env.LINK + '/css/prettyPhoto.css'} type='text/css' media='all' />
