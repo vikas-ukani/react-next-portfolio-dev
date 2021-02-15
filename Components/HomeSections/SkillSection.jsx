@@ -1,4 +1,5 @@
 import CircularProgress from "../Extra/CircularProgress";
+import SkillBar from "./SkillsContainers/SkillBar";
 
 export default function SkillSection() {
     return (
@@ -64,70 +65,6 @@ export default function SkillSection() {
                                                             </b>
                                                     </p>
                                                 </div>
-                                                {/* <div className="skill-circle">
-                                                    <div className="skill-circle-wrapper relative"
-                                                        data-value="0.80" data-color="#6db363"
-                                                        data-empty-color="#232329">
-                                                        <span className="skill-circle-num"> </span>
-                                                    </div>
-
-                                                    <p className="skill-circle-text">
-                                                        <b className="text-light-orange"
-                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
-                                                            onMouseLeave={(e) => { e.target.className = 'text-light-orange'; }} >
-                                                            Laravel
-                                                        </b>
-                                                    </p>
-                                                </div>
-                                                <div className="skill-circle">
-                                                    <div className="skill-circle-wrapper relative"
-                                                        data-value="0.7" data-color="#6db363"
-                                                        data-empty-color="#232329">
-                                                        <span className="skill-circle-num"> </span>
-                                                    </div>
-
-                                                    <p className="skill-circle-text">
-                                                        <b className="text-light-orange"
-                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
-                                                            onMouseLeave={(e) => { e.target.className = 'text-light-orange'; }}>
-                                                            NodeJS
-                                                        </b>
-                                                    </p>
-                                                </div>
-                                                <div className="skill-circle">
-                                                    <div className="skill-circle-wrapper relative"
-                                                        data-value="0.65" data-color="#6db363"
-                                                        data-empty-color="#232329">
-                                                        <span className="skill-circle-num"> </span>
-                                                    </div>
-
-                                                    <p className="skill-circle-text">
-                                                        <b className="text-light-orange"
-                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
-                                                            onMouseLeave={(e) => { e.target.className = 'text-light-orange'; }}>
-                                                            DJango
-                                                            </b>
-                                                    </p>
-
-                                                </div>
-                                                <div className="skill-circle">
-                                                    <div className="skill-circle-wrapper relative"
-                                                        data-value="0.70" data-color="#6db363"
-                                                        data-empty-color="#232329"> <span
-                                                            className="skill-circle-num">
-                                                        </span>
-                                                    </div>
-
-                                                    <p className="skill-circle-text">
-                                                        <b className="text-light-orange"
-                                                            onMouseEnter={(e) => { e.target.className = 'text-light-green'; }}
-                                                            onMouseLeave={(e) => {
-                                                                e.target.className = 'text-light-orange';
-                                                            }}>
-                                                            VueJS</b>
-                                                    </p>
-                                                </div>
-                                                */}
                                             </div>
                                         </div>
                                     </div>
@@ -142,33 +79,14 @@ export default function SkillSection() {
                                                         className="elementor-column-wrap elementor-element-populated">
                                                         <div className="elementor-widget-wrap">
                                                             <div className="elementor-element elementor-element-473d749 elementor-widget elementor-widget-coco-skills-lines"
-
                                                                 data-element_type="widget"
                                                                 data-widget_type="coco-skills-lines.default">
                                                                 <div className="elementor-widget-container">
                                                                     <div className="skills-holder">
-                                                                        <div className="skill-holder">
-                                                                            <div className="skill-text">
-                                                                                <div className="skill">
-                                                                                    <div className="skill-fill"
-                                                                                        data-fill="75%">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <span>Creativity</span>
-                                                                            </div>
-                                                                            <div className="skill-percent">
-                                                                                75%</div>
-                                                                        </div>
-                                                                        <div className="skill-holder">
-                                                                            <div className="skill-text">
-                                                                                <div className="skill">
-                                                                                    <div className="skill-fill" data-fill="48%">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <span>Cooking</span>
-                                                                            </div>
-                                                                            <div className="skill-percent"> 48%</div>
-                                                                        </div>
+                                                                        <SkillBar title="HTML / CSS" percentage={80} />
+                                                                        <SkillBar title="PHP" percentage={90} />
+                                                                        <SkillBar title="PHP" percentage={90} />
+                                                                        <SkillBar title="ReactJS" percentage={65} />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -177,36 +95,17 @@ export default function SkillSection() {
                                                 </div>
                                                 <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-238c58ec"
                                                     data-element_type="column">
-                                                    <div
-                                                        className="elementor-column-wrap elementor-element-populated">
+                                                    <div className="elementor-column-wrap elementor-element-populated">
                                                         <div className="elementor-widget-wrap">
                                                             <div className="elementor-element elementor-element-218ea304 elementor-widget elementor-widget-coco-skills-lines"
-
-                                                                data-element_type="widget"
-                                                                data-widget_type="coco-skills-lines.default">
+                                                                data-element_type="widget" data-widget_type="coco-skills-lines.default">
                                                                 <div className="elementor-widget-container">
                                                                     <div className="skills-holder">
-                                                                        <div className="skill-holder">
-                                                                            <div className="skill-text">
-                                                                                <div className="skill">
-                                                                                    <div className="skill-fill"
-                                                                                        data-fill="90%">
-                                                                                    </div>
-                                                                                </div> <span>PhP</span>
-                                                                            </div>
-                                                                            <div className="skill-percent"> 90%</div>
-                                                                        </div>
-                                                                        <div className="skill-holder">
-                                                                            <div className="skill-text">
-                                                                                <div className="skill">
-                                                                                    <div className="skill-fill"
-                                                                                        data-fill="62%">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <span>Marketing</span>
-                                                                            </div>
-                                                                            <div className="skill-percent">
-                                                                                62%</div>
+                                                                        <div className="skills-holder">
+                                                                            <SkillBar title="JavaScript" percentage={85} />
+                                                                            <SkillBar title="Python" percentage={80} />
+                                                                            <SkillBar title="Database Management" percentage={80} />
+                                                                            <SkillBar title="Machine Learning" percentage={65} />
                                                                         </div>
                                                                     </div>
                                                                 </div>
