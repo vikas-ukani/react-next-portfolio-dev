@@ -25,6 +25,10 @@ export default function PortfolioSection() {
                                                     <div className="button" data-filter=".image">Image</div>
                                                     <div className="button" data-filter=".text">Text</div>
                                                     <div className="button" data-filter=".video">Video</div>
+                                                    {/* <div className="button is-checked" data-filter="*"> All</div>
+                                                    <div className="button" data-filter=".image">Image</div>
+                                                    <div className="button" data-filter=".text">Text</div>
+                                                    <div className="button" data-filter=".video">Video</div> */}
                                                 </div>
                                                 <div className="portfolio-load-content-holder"> </div>
                                                 <div className="grid" id="portfolio-grid">
