@@ -52,8 +52,7 @@ export default function PortfolioSection() {
                                                             </div>
                                                         </a>
                                                     </div>
-                                                    <div
-                                                        className="grid-item element-item p_one_third image">
+                                                    <div className="grid-item element-item p_one_third image">
                                                         <a className="item-link"
                                                             href="wp-content/uploads/2019/11/img_blog_01.jpg"
                                                         >
