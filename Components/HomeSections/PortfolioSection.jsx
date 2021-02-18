@@ -5,14 +5,13 @@ import { useState } from "react";
 
 export default function PortfolioSection() {
     const projects = data.projects;
+    /** State for current active status wise projects listing. */
     const [selectedCategory, setSelectedCategory] = useState('all')
-    // let selectedCategory = 'php'
+    /** creating list of filters for all projects */
     const categories = ['all', 'php', 'javascript', 'machine', 'python']
-    // console.log('projects', categories);
-    // const category = projects.
 
+    /** creating filter for category wise projects listing... */
     const filteredProjects = () => {
-
         var filteredData = projects;
         if (selectedCategory !== categories[0]) {
             filteredData = filteredData.filter(pro => selectedCategory == pro.category)
