@@ -1,6 +1,48 @@
-
+import ProjectsHolder from "./ProjectsContainer/ProjectsHolder";
+import FlipMove from 'react-flip-move'
+import data from '../../data.json'
+import { useState } from "react";
 
 export default function PortfolioSection() {
+    const projects = data.projects;
+    const [selectedCategory, setSelectedCategory] = useState('all')
+    // let selectedCategory = 'php'
+    const categories = ['all', 'php', 'javascript', 'machine', 'python']
+    // console.log('projects', categories);
+    // const category = projects.
+
+    const filteredProjects = () => {
+
+        var filteredData = projects;
+        if (selectedCategory !== categories[0]) {
+            filteredData = filteredData.filter(pro => selectedCategory == pro.category)
+        }
+        filteredData = filteredData.slice(0, 6)
+        return (
+            filteredData
+                .map((project, key) => (
+
+                    <div key={key} id={key}
+                        className="grid-item element-item p_one_third text">
+                        <a className="item-link " href="" data-id={key} >
+                            {/* https://picsum.photos/200/300 */}
+                            {/* src={process.env.LINK + "images/portfolio_item_06.jpg"} */}
+                            <img width="600" height="600" src='https://picsum.photos/600/600'
+                                className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                alt={project.name}
+                                sizes="(max-width: 600px) 100vw, 600px" />
+                            <div className="portfolio-text-holder">
+                                <div className="portfolio-text-wrapper">
+                                    <p className="portfolio-text">{project.name}</p>
+                                    <p className="portfolio-cat">{project.id}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                ))
+        )
+    }
+
     return (
         <div>
             <section id="portfolio" data-id="62519493" data-element_type="section"
@@ -20,6 +62,15 @@ export default function PortfolioSection() {
                                                 <div className="category-filter">
                                                     <div className="category-filter-icon"> </div>
                                                 </div>
+
+                                                {categories
+                                                    .map((category, key) => (
+                                                        <button onClick={() => {
+                                                            setSelectedCategory(category)
+                                                            // console.log("click", selectedCategory, category)
+                                                        }} key={category}>{category.toUpperCase()}</button>
+                                                    ))}
+
                                                 <div className="category-filter-list button-group filters-button-group">
                                                     <div className="button is-checked" data-filter="*"> All</div>
                                                     <div className="button" data-filter=".image">Image</div>
@@ -30,132 +81,16 @@ export default function PortfolioSection() {
                                                     <div className="button" data-filter=".text">Text</div>
                                                     <div className="button" data-filter=".video">Video</div> */}
                                                 </div>
+
                                                 <div className="portfolio-load-content-holder"> </div>
-                                                <div className="grid" id="portfolio-grid">
-                                                    <div className="grid-sizer"> </div>
-                                                    <div id="p-item-65"
-                                                        className="grid-item element-item p_one_third text">
-                                                        <a className="item-link ajax-portfolio"
-                                                            href="portfolio/item-1/index.html"
-                                                            data-id="65">
-                                                            <img width="600" height="600"
-                                                                src={process.env.LINK + "images/portfolio_item_01.jpg"}
-                                                                className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                alt="portfolio" loading="lazy"
-                                                                srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_01.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_01-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_01-150x150.jpg 150w"
-                                                                sizes="(max-width: 600px) 100vw, 600px" />
-                                                            <div className="portfolio-text-holder">
-                                                                <div className="portfolio-text-wrapper">
-                                                                    <p className="portfolio-text">Work</p>
-                                                                    <p className="portfolio-cat">Text</p>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div className="grid-item element-item p_one_third image">
-                                                        <a className="item-link"
-                                                            href="wp-content/uploads/2019/11/img_blog_01.jpg"
-                                                        >
-                                                            {/* data-rel="prettyPhoto[portfolio1]" */}
-                                                            <img
-                                                                width="600" height="600"
-                                                                src={process.env.LINK + "images/portfolio_item_02.jpg"}
-                                                                className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                alt="portfolio-design" loading="lazy"
-                                                                srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_02.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_02-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_02-150x150.jpg 150w"
-                                                                sizes="(max-width: 600px) 100vw, 600px" />
-                                                            <div className="portfolio-text-holder">
-                                                                <div className="portfolio-text-wrapper">
-                                                                    <p className="portfolio-text">Plants</p>
-                                                                    <p className="portfolio-cat">Image</p>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        className="grid-item element-item p_one_third video">
-                                                        <a className="item-link"
-                                                            href="https://vimeo.com/199192931"
-                                                        >
-                                                            {/* data-rel="prettyPhoto[portfolio1]" */}
-                                                            <img
-                                                                width="600" height="600"
-                                                                src={process.env.LINK + "images/portfolio_item_03.jpg"}
-                                                                className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                alt="portfolio-item" loading="lazy"
-                                                                srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_03.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_03-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_03-150x150.jpg 150w"
-                                                                sizes="(max-width: 600px) 100vw, 600px" />
-                                                            <div className="portfolio-text-holder">
-                                                                <div className="portfolio-text-wrapper">
-                                                                    <p className="portfolio-text">Handmade
-                                                                                    </p>
-                                                                    <p className="portfolio-cat">Video</p>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div id="p-item-94"
-                                                        className="grid-item element-item p_one_third text">
-                                                        <a className="item-link ajax-portfolio"
-                                                            href="portfolio/item-4/index.html"
-                                                            data-id="94">
-                                                            <img width="600" height="600"
-                                                                src={process.env.LINK + "images/portfolio_item_04.jpg"}
-                                                                className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                alt="portfolio-content" loading="lazy"
-                                                                srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_04.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_04-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_04-150x150.jpg 150w"
-                                                                sizes="(max-width: 600px) 100vw, 600px" />
-                                                            <div className="portfolio-text-holder">
-                                                                <div className="portfolio-text-wrapper">
-                                                                    <p className="portfolio-text">
-                                                                        Architecture</p>
-                                                                    <p className="portfolio-cat">Text</p>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div
-                                                        className="grid-item element-item p_one_third image">
-                                                        <a className="item-link"
-                                                            href="wp-content/uploads/2019/11/img_blog_03.jpg"
-                                                        >
-                                                            {/* data-rel="prettyPhoto[portfolio1]" */}
-                                                            <img
-                                                                width="600" height="600"
-                                                                src={process.env.LINK + "images/portfolio_item_05.jpg"}
-                                                                className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                alt="portfolio-items" loading="lazy"
-                                                                srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_05.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_05-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_05-150x150.jpg 150w"
-                                                                sizes="(max-width: 600px) 100vw, 600px" />
-                                                            <div className="portfolio-text-holder">
-                                                                <div className="portfolio-text-wrapper">
-                                                                    <p className="portfolio-text">
-                                                                        Photography</p>
-                                                                    <p className="portfolio-cat">Image</p>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div id="p-item-92"
-                                                        className="grid-item element-item p_one_third text">
-                                                        <a className="item-link ajax-portfolio"
-                                                            href="portfolio/item-6/index.html"
-                                                            data-id="92">
-                                                            <img width="600" height="600"
-                                                                src={process.env.LINK + "images/portfolio_item_06.jpg"}
-                                                                className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                                                alt="portfolio-data" loading="lazy"
-                                                                srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_06.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_06-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_06-150x150.jpg 150w"
-                                                                sizes="(max-width: 600px) 100vw, 600px" />
-                                                            <div className="portfolio-text-holder">
-                                                                <div className="portfolio-text-wrapper">
-                                                                    <p className="portfolio-text">Art</p>
-                                                                    <p className="portfolio-cat">Text</p>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
+
+                                                <FlipMove staggerDurationBy="30"
+                                                    duration={500}>
+                                                    {filteredProjects()}
+
+                                                </FlipMove>
+
+                                                {/* <ProjectsHolder /> */}
                                                 <div className="clear">
                                                 </div>
                                             </div>
@@ -167,6 +102,6 @@ export default function PortfolioSection() {
                     </div>
                 </div>
             </section>
-        </div>
+        </div >
     )
 }
