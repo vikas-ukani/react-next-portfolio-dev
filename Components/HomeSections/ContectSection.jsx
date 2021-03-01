@@ -101,22 +101,17 @@ export default function ContactSection() {
                                                                 name="_wpcf7_version" defaultValue="5.3.2" />
                                                             <input type="hidden" name="_wpcf7_locale"
                                                                 defaultValue="en_US" />
-                                                            <input type="hidden"
-                                                                name="_wpcf7_unit_tag"
-                                                                defaultValue="wpcf7-f207-p9-o1" />
+                                                            <input type="hidden" name="_wpcf7_unit_tag" defaultValue="wpcf7-f207-p9-o1" />
                                                             <input
                                                                 type="hidden"
                                                                 name="_wpcf7_container_post"
                                                                 defaultValue="9" />
-                                                            <input type="hidden"
-                                                                name="_wpcf7_posted_data_hash"
-                                                                defaultValue="" />
+                                                            <input type="hidden" name="_wpcf7_posted_data_hash" defaultValue="" />
                                                         </div>
                                                         <p>
                                                             <span
                                                                 className="wpcf7-form-control-wrap your-name">
-                                                                <input
-                                                                    type="text" name="your-name"
+                                                                <input type="text" name="your-name"
                                                                     size="40"
                                                                     className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                     aria-required="true"
