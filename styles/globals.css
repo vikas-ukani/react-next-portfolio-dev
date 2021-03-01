@@ -75,3 +75,50 @@ a {
 /* .custom-skill-circle {
   margin-right: 6% !important;
 } */
+
+/* Gray Scale */
+.p_one_third a img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.p_one_third a span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+
+.p_one_third span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}
+.p_one_third a:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+/* .p_one_third a span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+} */
+
+.p_one_third a:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
