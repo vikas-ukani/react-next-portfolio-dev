@@ -85,7 +85,7 @@ a {
 }
 
 
-.p_one_third a span {
+/* .p_one_third a span {
 	position: absolute;
 	bottom: -20px;
 	left: 0;
@@ -101,9 +101,9 @@ a {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	opacity: 0;
-}
+} */
 
-.p_one_third span {
+/* .p_one_third span {
 	margin-left: 1em;
 	color: #aaa;
 	font-size: 85%;
@@ -111,7 +111,8 @@ a {
 .p_one_third a:hover+span {
 	bottom: -36px;
 	opacity: 1;
-}
+} */
+
 /* .p_one_third a span {
 	margin-left: 1em;
 	color: #aaa;

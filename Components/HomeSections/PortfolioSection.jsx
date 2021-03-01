@@ -20,24 +20,26 @@ export default function PortfolioSection() {
         return (
             filteredData
                 .map((project, key) => (
-
+                    //  id="p-item-65"
                     <div key={key} id={key}
-                        className="grid-item element-item p_one_third text">
-                        <a className="item-link " href="" data-id={key} >
-                            {/* https://picsum.photos/200/300 */}
-                            {/* src={process.env.LINK + "images/portfolio_item_06.jpg"} */}
+                        className="grid-item element-item p_one_third">
+                        <a className="item-link ajax-portfolio"
+                            href="portfolio/item-1/index.html"
+                            data-id={key}>
                             <img width="600" height="600" src='https://picsum.photos/600/600'
                                 className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                 alt={project.name}
                                 sizes="(max-width: 600px) 100vw, 600px" />
-                            <div className="portfolio-text-holder">
-                                <div className="portfolio-text-wrapper">
-                                    <p className="portfolio-text">{project.name}</p>
-                                    <p className="portfolio-cat">{project.id}</p>
-                                </div>
-                            </div>
+                            {/* portfolio-text text-center */}
+
+                            <p className="portfolio-text text-center ">
+                                <small onMouseEnter={e => e.target.className = 'text-light-green'}
+                                    onMouseLeave={e => e.target.className = 'text-light-orange'}>{project.name}</small>
+                            </p>
+
                         </a>
                     </div>
+
                 ))
         )
     }
@@ -62,36 +64,46 @@ export default function PortfolioSection() {
                                                     <div className="category-filter-icon"> </div>
                                                 </div>
 
-                                                {categories
-                                                    .map((category, key) => (
-                                                        <button onClick={() => {
-                                                            setSelectedCategory(category)
-                                                            // console.log("click", selectedCategory, category)
-                                                        }} key={category}>{category.toUpperCase()}</button>
-                                                    ))}
+                                                {/* {categories.map((category, key) => (
+                                                    <button onClick={() => setSelectedCategory(category)} key={category}>
+                                                        {category.toUpperCase()}
+                                                    </button>
+                                                ))} */}
 
                                                 <div className="category-filter-list button-group filters-button-group">
-                                                    <div className="button is-checked" data-filter="*"> All</div>
+                                                    {categories.map((category, key) => (
+                                                        <div onClick={() => setSelectedCategory(category)} key={category}
+                                                            className="button" data-filter="*">
+                                                            {category.toUpperCase()}
+                                                        </div>
+                                                        // <button onClick={() => setSelectedCategory(category)} key={category}>
+                                                        //     {category.toUpperCase()}
+                                                        // </button>
+                                                    ))}
+                                                    {/* <div className="button is-checked" data-filter="*"> All</div>
                                                     <div className="button" data-filter=".image">Image</div>
                                                     <div className="button" data-filter=".text">Text</div>
-                                                    <div className="button" data-filter=".video">Video</div>
+                                                    <div className="button" data-filter=".video">Video</div> */}
                                                     {/* <div className="button is-checked" data-filter="*"> All</div>
                                                     <div className="button" data-filter=".image">Image</div>
                                                     <div className="button" data-filter=".text">Text</div>
                                                     <div className="button" data-filter=".video">Video</div> */}
                                                 </div>
 
-                                                <div className="portfolio-load-content-holder"> </div>
+                                                {/*  */}
+                                                <div className="grid" id="portfolio-grid">
+                                                    <div className="grid-sizer"> </div>
+                                                    <FlipMove staggerDurationBy="30"
+                                                        duration={500}>
+                                                        {filteredProjects()}
+                                                    </FlipMove>
+                                                </div>
+                                                {/*  */}
 
-                                                <FlipMove staggerDurationBy="30"
-                                                    duration={500}>
-                                                    {filteredProjects()}
 
-                                                </FlipMove>
 
                                                 {/* <ProjectsHolder /> */}
-                                                <div className="clear">
-                                                </div>
+                                                {/* <div className="clear"> </div> */}
                                             </div>
                                         </div>
                                     </div>
