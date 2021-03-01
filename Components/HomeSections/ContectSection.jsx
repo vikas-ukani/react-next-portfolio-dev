@@ -55,15 +55,14 @@ export default function ContactSection() {
                                         <div className="elementor-widget-container">
                                             <div className="elementor-text-editor elementor-clearfix">
                                                 <p>
-                                                    <strong>ADDRESS:</strong> Some Street 987,
-                                                                    USA<br />
-                                                    <strong>EMAIL:</strong> <a
-                                                        href="https://demo.cocobasic.com/cdn-cgi/l/email-protection"
-                                                        className="__cf_email__"
-                                                        data-cfemail="4625292b3627283f063f293334232b272f2a6825292b">[email&#160;protected]</a>
+                                                    <strong>ADDRESS: </strong>
+                                                    <span className="text-light-green"> Surat, Gujarat, India</span>
                                                     <br />
-                                                    <strong>WEBSITE:</strong>
-                                                                    www.yourwebsite.com</p>
+                                                    <strong>EMAIL:</strong>
+                                                    <a href="" className="__cf_email__ text-light-green" > [ email&#160;protected ] </a>
+                                                    <br />
+                                                    <strong>WEBSITE:</strong> www.yourwebsite.com
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -89,8 +88,7 @@ export default function ContactSection() {
                                                         <ul>
                                                         </ul>
                                                     </div>
-                                                    <form
-                                                        action="https://demo.cocobasic.com/volos-wp/demo-3/#wpcf7-f207-p9-o1"
+                                                    <form action="https://demo.cocobasic.com/volos-wp/demo-3/#wpcf7-f207-p9-o1"
                                                         method="post" className="wpcf7-form init demo"
                                                         noValidate="novalidate" data-status="init">
                                                         <div style={{ display: 'none' }}>
