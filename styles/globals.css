@@ -56,6 +56,12 @@ a {
   display: inline;
 }
 
+
+.w-100 {
+	width: 100% !important;
+}
+
+
 .custom-skill-circle {
   display: inline-block;
   margin-right: 6%;
