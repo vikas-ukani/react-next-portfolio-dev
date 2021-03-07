@@ -30,7 +30,6 @@ export default function PortfolioSection() {
                                 className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                                 alt={project.name}
                                 sizes="(max-width: 600px) 100vw, 600px" />
-                            {/* portfolio-text text-center */}
 
                             <p className="portfolio-text text-center ">
                                 <small onMouseEnter={e => e.target.className = 'text-light-green'}
@@ -64,33 +63,15 @@ export default function PortfolioSection() {
                                                     <div className="category-filter-icon"> </div>
                                                 </div>
 
-                                                {/* {categories.map((category, key) => (
-                                                    <button onClick={() => setSelectedCategory(category)} key={category}>
-                                                        {category.toUpperCase()}
-                                                    </button>
-                                                ))} */}
-
                                                 <div className="category-filter-list button-group filters-button-group">
                                                     {categories.map((category, key) => (
                                                         <div onClick={() => setSelectedCategory(category)} key={category}
                                                             className="button" data-filter="*">
                                                             {category.toUpperCase()}
                                                         </div>
-                                                        // <button onClick={() => setSelectedCategory(category)} key={category}>
-                                                        //     {category.toUpperCase()}
-                                                        // </button>
                                                     ))}
-                                                    {/* <div className="button is-checked" data-filter="*"> All</div>
-                                                    <div className="button" data-filter=".image">Image</div>
-                                                    <div className="button" data-filter=".text">Text</div>
-                                                    <div className="button" data-filter=".video">Video</div> */}
-                                                    {/* <div className="button is-checked" data-filter="*"> All</div>
-                                                    <div className="button" data-filter=".image">Image</div>
-                                                    <div className="button" data-filter=".text">Text</div>
-                                                    <div className="button" data-filter=".video">Video</div> */}
                                                 </div>
 
-                                                {/*  */}
                                                 <div className="grid" id="portfolio-grid">
                                                     <div className="grid-sizer"> </div>
                                                     <FlipMove staggerDurationBy="30"
@@ -98,10 +79,6 @@ export default function PortfolioSection() {
                                                         {filteredProjects()}
                                                     </FlipMove>
                                                 </div>
-                                                {/*  */}
-
-
-
                                                 {/* <ProjectsHolder /> */}
                                                 {/* <div className="clear"> </div> */}
                                             </div>
