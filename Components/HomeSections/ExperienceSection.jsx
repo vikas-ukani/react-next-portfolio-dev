@@ -1,4 +1,5 @@
 import { EducationSection } from "./EducationSection";
+import ExperienceContainers from "./ExperienceContainers";
 
 
 export default function ExperienceSection() {
@@ -10,8 +11,7 @@ export default function ExperienceSection() {
                 data-id="3c638419" data-element_type="section" id="experience">
                 <div className="elementor-container elementor-column-gap-default">
                     <div className="elementor-row">
-                        <div className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-45f4744f"
-                            data-id="45f4744f" data-element_type="column">
+                        <div className="elementor-column elementor-col-100 elementor-top-column elementor-element " data-element_type="column">
                             <div className="elementor-column-wrap elementor-element-populated">
                                 <div className="elementor-widget-wrap">
                                     <div className="elementor-element elementor-element-8225bc2 elementor-widget elementor-widget-heading"
@@ -23,119 +23,11 @@ export default function ExperienceSection() {
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-670172ec elementor-widget elementor-widget-coco-timeline"
-                                        data-id="670172ec" data-element_type="widget"
+                                        data-element_type="widget"
                                         data-widget_type="coco-timeline.default">
                                         <div className="elementor-widget-container">
                                             <ul className="timeline-holder">
-                                                <li className="timeline-event ">
-                                                    <span className="timeline-circle"> </span>
-                                                    <div className="timeline-event-content text-justify" onMouseEnter={(e) => {
-                                                        if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
-                                                            e.target.children.jobTitle.className = 'text-light-green';
-                                                        }
-                                                        if (e.target.children && e.target.children.className && e.target.children.className.className) {
-                                                            e.target.children.companyClass.className = 'text-light-green';
-                                                        }
-                                                        if (e.target.children && e.target.children.className && e.target.children.className.className) {
-                                                            e.target.children.reactJS.className = 'text-light-orange';
-                                                        }
-                                                    }
-                                                    }
-                                                        onMouseLeave={(e) => {
-                                                            if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
-                                                                e.target.children.jobTitle.className = 'text-white';
-                                                            }
-                                                            if (e.target.children && e.target.children.companyClass && e.target.children.companyClass.className) {
-                                                                e.target.children.companyClass.className = 'text-light-orange';
-                                                            }
-                                                            if (e.target.children && e.target.children.reactJS && e.target.children.reactJS.className) {
-                                                                e.target.children.reactJS.className = 'text-light-green';
-                                                            }
-                                                        }
-                                                        }
-                                                    >
-                                                        <b className='text-light-orange'>2020-2021</b> - <i id='jobTitle' className='text-white'><b>Software Engineer</b> at <b>Maven</b> ( Present ) </i> <br />
-                                                        Currently, I'm working as full-stack developer at <span id='companyClass' className='text-light-orange' >Maven Agency</span>
-                                                        Creating frontend and backend platform to develop and maintain a website that can help to enhance my client's business.
-                                                        Exploring technical skills in <span id='reactJS' className="text-light-green">ReactJS and NextJS</span> frontend frameworks.
-                                                    </div>
-                                                    <div className="timeline-event-date">20-21</div>
-                                                </li>
-
-                                                <li className="timeline-event">
-                                                    <span className="timeline-circle">
-                                                    </span>
-                                                    <div className="timeline-event-content text-justify"
-                                                        onMouseEnter={(e) => {
-                                                            if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
-                                                                e.target.children.jobTitle.className = 'text-light-green';
-                                                            }
-                                                            if (e.target.children && e.target.children.companyClass && e.target.children.companyClass.className) {
-                                                                e.target.children.companyClass.className = 'text-light-green';
-                                                            }
-                                                            if (e.target.children && e.target.children.vueJS && e.target.children.vueJS.className) {
-                                                                e.target.children.vueJS.className = 'text-light-green';
-                                                            }
-                                                        }}
-                                                        onMouseLeave={(e) => {
-                                                            if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
-                                                                e.target.children.jobTitle.className = 'text-white';
-                                                            }
-                                                            if (e.target.children && e.target.children.companyClass && e.target.children.companyClass.className) {
-                                                                e.target.children.companyClass.className = 'text-light-orange';
-                                                            }
-                                                            if (e.target.children && e.target.children.className && e.target.children.className.className) {
-                                                                e.target.children.vueJS.className = 'text-light-orange';
-                                                            }
-                                                        }
-                                                        }
-                                                    >
-                                                        <b className='text-light-orange'>2019 - 2020</b> - <i id='jobTitle' className='text-white'><b>Junior Web Developer</b></i> <br />
-                                                            Working as FrontEnd and Backend Development at < span id='companyClass' className='text-light-orange' > Dignizant Technology</span>.
-                                                        Exploring skills in <span id='vueJS' className='text-light-orange'>VueJS Framework</span> to build powerful and animated UI&UX.
-                                                    </div>
-                                                    <div className="timeline-event-date">19-20</div>
-                                                </li>
-                                                <li className="timeline-event text-justify">
-
-                                                    <span className="timeline-circle"> </span>
-                                                    <div className="timeline-event-content text-justify"
-                                                        onMouseEnter={(e) => {
-                                                            if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
-                                                                e.target.children.jobTitle.className = 'text-light-green';
-                                                            }
-                                                            if (e.target.children && e.target.children.companyClass && e.target.children.companyClass.className) {
-                                                                e.target.children.companyClass.className = 'text-light-green';
-                                                            }
-                                                            if (e.target.children && e.target.children.programAnalyst && e.target.children.programAnalyst.className) {
-                                                                e.target.children.programAnalyst.className = 'text-light-orange';
-                                                            }
-                                                            if (e.target.children && e.target.children.AngularJS && e.target.children.AngularJS.className) {
-                                                                e.target.children.AngularJS.className = 'text-light-orange';
-                                                            }
-                                                        }}
-                                                        onMouseLeave={(e) => {
-                                                            if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
-                                                                e.target.children.jobTitle.className = 'text-white';
-                                                            }
-                                                            if (e.target.children && e.target.children.companyClass && e.target.children.companyClass.className) {
-                                                                e.target.children.companyClass.className = 'text-light-orange';
-                                                            }
-                                                            if (e.target.children && e.target.children.programAnalyst && e.target.children.programAnalyst.className) {
-                                                                e.target.children.programAnalyst.className = 'text-white';
-                                                            }
-                                                            if (e.target.children && e.target.children.AngularJS && e.target.children.AngularJS.className) {
-                                                                e.target.children.AngularJS.className = 'text-white';
-                                                            }
-                                                        }
-                                                        }
-                                                    >
-                                                        <b className='text-light-orange'>2017 - 2019 </b>  - <i id='jobTitle' className='text-white'><b>Program Analyst</b></i> <br />
-                                                            After my graduation completed.
-                                                            I Started my journey as <span className="text-white" id='programAnalyst'>Program Analyst</span> at <span id='companyClass' className='text-light-orange' >Coruscate Solutions Pvt Ptd</span>, Where I learn first JAVASCRIPT framework which is <span id='AngularJS' className="text-white">AngularJS</span> to make a dynamic content and user interactive websites.
-                                                        Moreover, I learn Laravel backend framework to handle backend logic of website. </div>
-                                                    <div className="timeline-event-date">17-19</div>
-                                                </li>
+                                                <ExperienceContainers />
                                             </ul>
                                         </div>
                                     </div>
