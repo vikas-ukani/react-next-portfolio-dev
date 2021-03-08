@@ -6,7 +6,7 @@ const CoruscateExperience = () => {
         <li className="timeline-event transition duration-500 ease-in-out transform  hover:-translate-y-1 hover:scale-105">
             <span className="timeline-circle"> </span>
             <div className="timeline-event-content text-justify shadow-xl bg- rounded-lg h-18" >
-                <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0"
+                <figure className="md:flex bg-black rounded-xl p-8 md:p-0"
                     onMouseEnter={(e) => {
                         if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
                             e.target.children.jobTitle.className = 'text-light-green';
@@ -40,7 +40,7 @@ const CoruscateExperience = () => {
                     <img className="h-45 md:w-5/12 md:h-auto md:rounded-none rounded-full mx-auto"
                         width="40%"
                         style={{ minWidth: '40%' }}
-                        src={process.env.LINK + "images/company/coruscate-logo.jpg"} alt={companyName} width="384" height="512" />
+                        src={process.env.LINK + "/images/company/coruscate-logo.jpg"} alt={companyName} width="384" height="512" />
                     <div className="text-2xl bg-black pt-6 md:p-8 text-center md:text-left space-y-4">
                         <p className="pt-5 pb-5 pl-2 pr-2 text-justify leading-relaxed">
                             After my graduation completed.
@@ -119,7 +119,7 @@ const DignizantExperience = () => {
         <li className="timeline-event transition duration-500 ease-in-out transform  hover:-translate-y-1 hover:scale-105">
             <span className="timeline-circle"> </span>
             <div className="timeline-event-content text-justify shadow-xl bg- rounded-lg h-18" >
-                <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0"
+                <figure className="md:flex bg-black rounded-xl p-8 md:p-0"
                     onMouseEnter={(e) => {
                         if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
                             e.target.children.jobTitle.className = 'text-light-green';
@@ -146,7 +146,7 @@ const DignizantExperience = () => {
                     <img className="h-45 md:w-5/12 md:h-auto md:rounded-none rounded-full mx-auto"
                         width="40%"
                         style={{ minWidth: '40%' }}
-                        src={process.env.LINK + "images/company/dignizant-logo.jpg"} alt={companyName} width="384" height="512" />
+                        src={process.env.LINK + "/images/company/dignizant-logo.jpg"} alt={companyName} width="384" height="512" />
                     <div className="text-2xl bg-black pt-6 md:p-8 text-center md:text-left space-y-4">
                         <p className="pt-5 pb-5 pl-2 pr-2 text-justify leading-relaxed">
                             Working as FrontEnd and Backend Development at < span id='companyClass' className='text-light-orange' > {companyName}</span>.
@@ -184,7 +184,7 @@ const MavenExperience = () => {
     return (
         <li className="timeline-event transition duration-500 ease-in-out transform  hover:-translate-y-1 hover:scale-105">            <span className="timeline-circle"> </span>
             <div className="timeline-event-content text-justify shadow-xl bg- rounded-lg h-18" >
-                <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0"
+                <figure className="md:flex bg-black rounded-xl p-8 md:p-0"
                     onMouseEnter={(e) => {
                         if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
                             e.target.children.jobTitle.className = 'text-light-green';
@@ -213,7 +213,7 @@ const MavenExperience = () => {
                     <img className="h-45 md:w-5/12 md:h-auto md:rounded-none rounded-full mx-auto"
                         width="40%"
                         style={{ minWidth: '40%' }}
-                        src={process.env.LINK + "images/company/maven-agency-logo.jpg"} alt={companyName} width="384" height="512" />
+                        src={process.env.LINK + "/images/company/maven-agency-logo.jpg"} alt={companyName} width="384" height="512" />
                     <div className="text-2xl bg-black pt-6 md:p-8 text-center md:text-left space-y-4">
                         <p className="pt-5 pb-5 pl-2 pr-2 text-justify leading-relaxed">
                             Currently, I'm working as full-stack developer at <span id='companyClass' className='text-light-orange' >{companyName} </span>
