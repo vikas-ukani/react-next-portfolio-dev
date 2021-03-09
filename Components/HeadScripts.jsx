@@ -22,7 +22,7 @@ export default function HeadScripts() {
             <link rel='stylesheet' id='elementor-post-355-css' href={process.env.LINK + '/css/post-355.css'} type='text/css' media='all' />
             <link rel='stylesheet' id='elementor-post-9-css' href={process.env.LINK + '/css/post-9.css'} type='text/css' media='all' />
             <script type='text/javascript' src={process.env.LINK + '/js/jquery/jquery.min.js'} id='jquery-core-js'></script>
-            <link rel="alternate" type="application/json" href={process.env.LINK + "/9.json"} />
+            {/* <link rel="alternate" type="application/json" href={process.env.LINK + "/9.json"} /> */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90924782-1"></script>
 
         </div>
