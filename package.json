@@ -16,7 +16,9 @@
     "react-circular-progressbar": "^2.0.3",
     "react-dom": "17.0.1",
     "react-flip-move": "^3.0.4",
-    "react-move": "^6.4.0"
+    "react-move": "^6.4.0",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
