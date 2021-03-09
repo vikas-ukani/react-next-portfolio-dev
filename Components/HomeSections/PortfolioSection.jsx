@@ -2,6 +2,7 @@ import ProjectsHolder from "./ProjectsContainer/ProjectsHolder";
 import FlipMove from 'react-flip-move'
 import data from '../../data.json'
 import { useState } from "react";
+import ProjectsList from "./ProjectsContainer/ProjectsList";
 
 export default function PortfolioSection() {
     const projects = data.projects;
@@ -17,30 +18,30 @@ export default function PortfolioSection() {
             filteredData = filteredData.filter(pro => selectedCategory == pro.category)
         }
         filteredData = filteredData.slice(0, 6)
-        return (
-            filteredData
-                .map((project, key) => (
-                    //  id="p-item-65"
-                    <div key={key} id={key}
-                        className="grid-item element-item p_one_third">
-                        <a className="item-link ajax-portfolio"
-                            href="portfolio/item-1/index.html"
-                            data-id={key}>
-                            <img width="600" height="600" src='https://picsum.photos/600/600'
-                                className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-                                alt={project.name}
-                                sizes="(max-width: 600px) 100vw, 600px" />
+        return filteredData
+        // return (
+        //     filteredData
+        //         .map((project, key) => (
+        //             <div key={key} id={key}
+        //                 className="grid-item element-item p_one_third">
+        //                 <a className="item-link ajax-portfolio"
+        //                     href="portfolio/item-1/index.html"
+        //                     data-id={key}>
+        //                     <img width="600" height="600" src='https://picsum.photos/600/600'
+        //                         className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+        //                         alt={project.name}
+        //                         sizes="(max-width: 600px) 100vw, 600px" />
 
-                            <p className="portfolio-text text-center ">
-                                <small onMouseEnter={e => e.target.className = 'text-light-green'}
-                                    onMouseLeave={e => e.target.className = 'text-light-orange'}>{project.name}</small>
-                            </p>
+        //                     <p className="portfolio-text text-center ">
+        //                         <small onMouseEnter={e => e.target.className = 'text-light-green'}
+        //                             onMouseLeave={e => e.target.className = 'text-light-orange'}>{project.name}</small>
+        //                     </p>
 
-                        </a>
-                    </div>
+        //                 </a>
+        //             </div>
 
-                ))
-        )
+        //         ))
+        // )
     }
 
     return (
@@ -67,20 +68,23 @@ export default function PortfolioSection() {
                                                     {categories.map((category, key) => (
                                                         <div onClick={() => setSelectedCategory(category)} key={category}
                                                             className="button" data-filter="*">
-                                                            {category.toUpperCase()}
+                                                            <b>{category.toUpperCase()}</b>
                                                         </div>
                                                     ))}
                                                 </div>
 
-                                                <div className="grid" id="portfolio-grid">
-                                                    <div className="grid-sizer"> </div>
-                                                    <FlipMove staggerDurationBy="30"
+
+
+                                                <ProjectsList projects={filteredProjects()} />
+                                                {/* <div className="grid" id="portfolio-grid"> */}
+                                                {/* <div className="grid-sizer"> </div> */}
+                                                {/* <FlipMove staggerDurationBy="30"
                                                         duration={500}>
                                                         {filteredProjects()}
-                                                    </FlipMove>
-                                                </div>
+                                                    </FlipMove> */}
+                                                {/* </div> */}
                                                 {/* <ProjectsHolder /> */}
-                                                {/* <div className="clear"> </div> */}
+                                                <div className="clear"> </div>
                                             </div>
                                         </div>
                                     </div>
