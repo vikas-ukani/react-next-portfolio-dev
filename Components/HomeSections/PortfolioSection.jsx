@@ -72,18 +72,16 @@ export default function PortfolioSection() {
                                                         </div>
                                                     ))}
                                                 </div>
-
-
-
-                                                <ProjectsList projects={filteredProjects()} />
-                                                {/* <div className="grid" id="portfolio-grid"> */}
-                                                {/* <div className="grid-sizer"> </div> */}
-                                                {/* <FlipMove staggerDurationBy="30"
-                                                        duration={500}>
-                                                        {filteredProjects()}
-                                                    </FlipMove> */}
-                                                {/* </div> */}
-                                                {/* <ProjectsHolder /> */}
+                                                <div className="elementor-element elementor-element-8225bc2 elementor-widget elementor-widget-heading">
+                                                    <div className="elementor-widget-container">
+                                                        <h2 className="elementor-heading-title elementor-size-default">
+                                                            My Projects</h2>
+                                                    </div>
+                                                </div>
+                                                <div className="text-2xl font-bold ">{selectedCategory.toUpperCase()}</div>
+                                                <div className="pt-20">
+                                                    <ProjectsList projects={filteredProjects()} />
+                                                </div>
                                                 <div className="clear"> </div>
                                             </div>
                                         </div>
