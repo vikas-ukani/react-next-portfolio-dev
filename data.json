@@ -33,6 +33,11 @@
             "name": "machine 64",
             "category": "machine"
         },
+                {
+            "id": 11,
+            "name": "machine 11",
+            "category": "machine"
+        },
         {
             "id": 1,
             "name": "javascript 53",
