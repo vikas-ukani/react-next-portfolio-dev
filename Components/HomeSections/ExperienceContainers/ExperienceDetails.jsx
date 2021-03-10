@@ -37,7 +37,7 @@ const CoruscateExperience = () => {
                     }
                     }
                 >
-                    <img className="h-45 md:w-5/12 md:h-auto md:rounded-none rounded-full mx-auto"
+                    <img className="h-45 md:w-5/12 md:h-auto md:rounded-none  mx-auto"
                         width="40%"
                         style={{ minWidth: '40%' }}
                         src={process.env.LINK + "/images/company/coruscate-logo.jpg"} alt={companyName} width="384" height="512" />
@@ -143,7 +143,7 @@ const DignizantExperience = () => {
                         }
                     }
                     }>
-                    <img className="h-45 md:w-5/12 md:h-auto md:rounded-none rounded-full mx-auto"
+                    <img className="h-45 md:w-5/12 md:h-auto md:rounded-none  mx-auto"
                         width="40%"
                         style={{ minWidth: '40%' }}
                         src={process.env.LINK + "/images/company/dignizant-logo.jpg"} alt={companyName} width="384" height="512" />
@@ -210,7 +210,7 @@ const MavenExperience = () => {
                         }
                     }
                     }>
-                    <img className="h-45 md:w-5/12 md:h-auto md:rounded-none rounded-full mx-auto"
+                    <img className="h-45 md:w-5/12 md:h-auto md:rounded-none  mx-auto"
                         width="40%"
                         style={{ minWidth: '40%' }}
                         src={process.env.LINK + "/images/company/maven-agency-logo.jpg"} alt={companyName} width="384" height="512" />
