@@ -88,3 +88,11 @@ a {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
+
+.bg-light-dark{
+  background-color: #161414e8;
+}
+
+.rounded-full {
+  border-radius: 9999px !important; 
+}
