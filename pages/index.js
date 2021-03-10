@@ -1,3 +1,4 @@
+import AboutMe from '../Components/HomeSections/AboutMe'
 import ContactSection from '../Components/HomeSections/ContectSection'
 import ExperienceSection from '../Components/HomeSections/ExperienceSection'
 import FrontSection from '../Components/HomeSections/FrontSection'
@@ -20,6 +21,8 @@ function Home() {
                 <div className="elementor-section-wrap">
 
                   <FrontSection />
+
+                  <AboutMe />
 
                   <IntroSection />
 
