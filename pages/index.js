@@ -25,14 +25,12 @@ function Home() {
                   <AboutMe />
 
                   <IntroSection />
-
-                  <PortfolioSection />
-
                   <ExperienceSection />
-
                   <SkillSection />
-
+                  <PortfolioSection />
+                  <IntroSection />
                   <ContactSection />
+
                 </div>
               </div>
             </div>
