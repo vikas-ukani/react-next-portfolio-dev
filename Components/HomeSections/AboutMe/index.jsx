@@ -1,4 +1,13 @@
-export default function () {
+import { useState } from "react";
+
+
+export default function index() {
+    const [isShowMore, setIsShowMore] = useState(false)
+
+    const getMoreLessClass = () => {
+        return ' ' + (isShowMore == true ? 'fadeOut hidden' : 'fadeIn show');
+    }
+
     return (
         <section className="relative py-16 ">
             <div className="container mx-auto px-4">
@@ -68,21 +77,36 @@ export default function () {
                         </div>
                         <div className="mt-5 py-10 border-t text-white text-center">
                             <div className="flex flex-wrap justify-center">
-                                <div className="w-full lg:w-9/12 px-4">
-                                    <p className="mb-4 text-lg leading-relaxed">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, quos nobis nisi quas qui inventore cupiditate doloribus, fugiat earum ratione animi dolorem aperiam sapiente saepe? Consequuntur vitae hic voluptas ut!
-                                        Minus labore quo ipsa pariatur dolorem neque doloremque, autem quis deserunt quae velit, nostrum voluptates temporibus quia, eum iste repellat. Sint neque molestias repudiandae maxime voluptatem exercitationem quasi quas quisquam?
-                                        Ab rerum commodi nihil asperiores dolorem? Beatae a, alias suscipit vitae impedit sequi. Perspiciatis animi eos dolor vero, magnam quae sed voluptate. Ducimus, fuga recusandae? Ipsum porro beatae distinctio natus.
-                                        Fugit in quos, adipisci non alias eaque. Libero veniam aliquam facilis eius aut dicta. Illo eaque deleniti ab a dolorem doloremque at. Fuga saepe modi, in deleniti asperiores eaque dicta.
-                                        Quam amet, est quod odio fuga impedit porro sed expedita facere explicabo nostrum suscipit corrupti totam! Laudantium similique repellat possimus! Ratione quo ipsum delectus placeat, error voluptatum debitis dignissimos laborum?
+                                <div className="w-full lg:w-10/12 px-4 text-justify text-gray-400">
+                                    <p className="mb-4 text-2xl font-semibold leading-relaxed">
+                                        Hello, I`m Vikas Ukani, As a profession,
+                                        I`m a Full-Stack Web-App Developer who love to write well clean design, easy to understand and high quality code programs to design,
+                                        build and develop a software or bunch of webpages.
+                                        I have been completed my graduation for <span className="text-gray-100">Bachelor's of Computer Application from S.V. Patel of Computer Science Collage</span> from Surat, Gujarat, India and <b className="text-gray-100">Master of Computer Application</b> from Jaipur National University.
                                     </p>
-                                    <a
-                                        href="#pablo"
-                                        className="font-normal text-pink-600"
-                                        onClick={e => e.preventDefault()}
+
+                                    <p className="mb-4 text-2xl font-semibold leading-relaxed">
+                                        I'm very passionate about my work and curious to work with big ideas.
+                                        Also, I excited to work large scale applications and websites to <span className="text-gray-100">explore my skill-set and gain a high quality of product based knowledge.</span>
+                                    </p>
+
+                                    <div id="showMoreInfo" className={getMoreLessClass()}>
+                                        <p className="mb-4 text-2xl font-semibold leading-relaxed">
+                                            I have more than 3+ years of office experience working as a software development in local as well as multi-national companies.
+                                            I've solid and hands-on experience with Backend Frameworks like Laravel/Lumen, NodeJS, Django/Flask to build an REST APIs, and as an Frontend Framework I use VueJS, ReactJS and AngularJS,
+                                            I can handle my website information with several DB Tools, Such as MySQL, MongoDB, PostgreSQL, SQLite
+                                        </p>
+                                    </div>
+
+
+                                    <button
+                                        className="text font-normal text-pink-600"
+                                        onClick={e => {
+                                            setIsShowMore(!isShowMore)
+                                        }}
                                     >
-                                        Show more
-                      </a>
+                                        <span>{isShowMore == true ? 'More' : 'Less'}</span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
