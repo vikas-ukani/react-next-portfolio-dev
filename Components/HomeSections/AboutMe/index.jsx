@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 export default function index() {
-    const [isShowMore, setIsShowMore] = useState(false)
+    const [isShowMore, setIsShowMore] = useState(true)
 
     const getMoreLessClass = () => {
         return ' ' + (isShowMore == true ? 'fadeOut hidden' : 'fadeIn show');
@@ -18,7 +18,7 @@ export default function index() {
                                 <div className="relative">
                                     <img
                                         alt="Vikas Ukani"
-                                        src={process.env.LINK + "images/Vikas-Ukani.jpg"}
+                                        src={process.env.LINK + "/images/Vikas-Ukani.jpg"}
                                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -mt-40 -ml-20 lg:-ml-16"
                                         style={{ maxWidth: "300px" }}
                                     />
