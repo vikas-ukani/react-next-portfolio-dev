@@ -94,7 +94,7 @@ export default function index() {
                                         <p className="mb-4 text-2xl font-semibold leading-relaxed">
                                             I have more than 3+ years of office experience working as a software development in local as well as multi-national companies.
                                             I've solid and hands-on experience with Backend Frameworks like Laravel/Lumen, NodeJS, Django/Flask to build an REST APIs, and as an Frontend Framework I use VueJS, ReactJS and AngularJS,
-                                            I can handle my website information with several DB Tools, Such as MySQL, MongoDB, PostgreSQL, SQLite
+                                            I can handle my website information with several DB Tools, Such as MySQL, MongoDB, PostgreSQL, SQLite.
                                         </p>
                                     </div>
 
