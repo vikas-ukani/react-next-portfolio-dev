@@ -8,7 +8,7 @@ const ProjectsHolder = () => {
                     href="portfolio/item-1/index.html"
                     data-id="65">
                     <img width="600" height="600"
-                        src={process.env.LINK + "images/portfolio_item_01.jpg"}
+                        src={process.env.LINK + "/images/portfolio_item_01.jpg"}
                         className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                         alt="portfolio" loading="lazy"
                         srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_01.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_01-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_01-150x150.jpg 150w"
@@ -28,7 +28,7 @@ const ProjectsHolder = () => {
                     {/* data-rel="prettyPhoto[portfolio1]" */}
                     <img
                         width="600" height="600"
-                        src={process.env.LINK + "images/portfolio_item_02.jpg"}
+                        src={process.env.LINK + "/images/portfolio_item_02.jpg"}
                         className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                         alt="portfolio-design" loading="lazy"
                         srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_02.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_02-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_02-150x150.jpg 150w"
@@ -49,7 +49,7 @@ const ProjectsHolder = () => {
                     {/* data-rel="prettyPhoto[portfolio1]" */}
                     <img
                         width="600" height="600"
-                        src={process.env.LINK + "images/portfolio_item_03.jpg"}
+                        src={process.env.LINK + "/images/portfolio_item_03.jpg"}
                         className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                         alt="portfolio-item" loading="lazy"
                         srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_03.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_03-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_03-150x150.jpg 150w"
@@ -69,7 +69,7 @@ const ProjectsHolder = () => {
                     href="portfolio/item-4/index.html"
                     data-id="94">
                     <img width="600" height="600"
-                        src={process.env.LINK + "images/portfolio_item_04.jpg"}
+                        src={process.env.LINK + "/images/portfolio_item_04.jpg"}
                         className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                         alt="portfolio-content" loading="lazy"
                         srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_04.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_04-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_04-150x150.jpg 150w"
@@ -91,7 +91,7 @@ const ProjectsHolder = () => {
                     {/* data-rel="prettyPhoto[portfolio1]" */}
                     <img
                         width="600" height="600"
-                        src={process.env.LINK + "images/portfolio_item_05.jpg"}
+                        src={process.env.LINK + "/images/portfolio_item_05.jpg"}
                         className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                         alt="portfolio-items" loading="lazy"
                         srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_05.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_05-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_05-150x150.jpg 150w"
@@ -111,7 +111,7 @@ const ProjectsHolder = () => {
                     href="portfolio/item-6/index.html"
                     data-id="92">
                     <img width="600" height="600"
-                        src={process.env.LINK + "images/portfolio_item_06.jpg"}
+                        src={process.env.LINK + "/images/portfolio_item_06.jpg"}
                         className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                         alt="portfolio-data" loading="lazy"
                         srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_06.jpg 600w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_06-300x300.jpg 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/portfolio_item_06-150x150.jpg 150w"
