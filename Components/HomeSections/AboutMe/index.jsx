@@ -79,10 +79,9 @@ export default function index() {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-10/12 px-4 text-justify text-gray-400">
                                     <p className="mb-4 text-2xl font-semibold leading-relaxed">
-                                        Hello, I`m Vikas Ukani, As a profession,
-                                        I`m a Full-Stack Web-App Developer who love to write well clean design, easy to understand and high quality code programs to design,
-                                        build and develop a software or bunch of webpages.
-                                        I have been completed my graduation for <span className="text-gray-100">Bachelor's of Computer Application from S.V. Patel of Computer Science Collage</span> from Surat, Gujarat, India and <b className="text-gray-100">Master of Computer Application</b> from Jaipur National University.
+                                        Hello, I`m Vikas Ukani,
+                                        As a professional, I`m a Full-Stack Web-App Developer who loves to write well clean design, easy to understand, and high-quality code blocks to design, build and develop a software or bunch of webpages.
+                                        I have been completed my graduation for <span className="text-gray-100">Bachelors of Computer Application from S.V. Patel of Computer Science Collage</span> from Surat, Gujarat, India, and <b className="text-gray-100">Master of Computer Application</b> from Jaipur National University.
                                     </p>
 
                                     <p className="mb-4 text-2xl font-semibold leading-relaxed">
