@@ -158,7 +158,7 @@ export default function IntroSection() {
                                                                     <div className="elementor-image text-center">
                                                                         <img
                                                                             width="400" height="400"
-                                                                            src={process.env.LINK + "images/icon_design_x2_green-1.png"}
+                                                                            src={process.env.LINK + "/images/icon_design_x2_green-1.png"}
                                                                             className="attachment-full size-full"
                                                                             alt="icon-image" loading="lazy"
                                                                             srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_design_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_design_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_design_x2_green-1-150x150.png 150w"
@@ -202,7 +202,7 @@ export default function IntroSection() {
                                                                     <div className="elementor-image text-center">
                                                                         <img
                                                                             width="400" height="400"
-                                                                            src={process.env.LINK + "images/icon_develop_x2_green-1.png"}
+                                                                            src={process.env.LINK + "/images/icon_develop_x2_green-1.png"}
                                                                             className="attachment-full size-full"
                                                                             alt="developer" loading="lazy"
                                                                             srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_develop_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_develop_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_develop_x2_green-1-150x150.png 150w"
@@ -256,7 +256,7 @@ export default function IntroSection() {
                                                                     <div className="elementor-image text-center">
                                                                         <img
                                                                             width="400" height="400"
-                                                                            src={process.env.LINK + "images/icon_write_x2_green-1.png"}
+                                                                            src={process.env.LINK + "/images/icon_write_x2_green-1.png"}
                                                                             className="attachment-full size-full"
                                                                             alt="white-icon" loading="lazy"
                                                                             srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_write_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_write_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_write_x2_green-1-150x150.png 150w"
@@ -302,7 +302,7 @@ export default function IntroSection() {
                                                                     <div className="elementor-image text-center">
                                                                         <img
                                                                             width="400" height="400"
-                                                                            src={process.env.LINK + "images/icon_promote_x2_green-1.png"}
+                                                                            src={process.env.LINK + "/images/icon_promote_x2_green-1.png"}
                                                                             className="attachment-full size-full"
                                                                             alt="promote" loading="lazy"
                                                                             srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_promote_x2_green-1.png 400w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_promote_x2_green-1-300x300.png 300w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/icon_promote_x2_green-1-150x150.png 150w"
