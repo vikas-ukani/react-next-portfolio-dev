@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function FrontSection() {
     const imageURL = process.env.LINK + '/images/Vikas-Ukani.jpg';
     const imageURLStyle = {
+        paddingTop: '10px',
         backgroundImage: `url('${imageURL}')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
@@ -16,7 +17,7 @@ export default function FrontSection() {
     return (
         <div>
             <section
-                className="elementor-section elementor-top-section elementor-element elementor-element-4da9be6a elementor-section-full_width op-section elementor-section-height-default elementor-section-height-default"
+                className="elementor-section elementor-top-section elementor-element elementor-element-4da9be6a elementor-section-full_width op-section elementor-section-height-default elementor-section-height-default pt"
                 style={imageURLStyle}
                 data-element_type="section" id="home"
                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -156,6 +157,7 @@ export default function FrontSection() {
                                                                 <div className="elementor-widget-container">
                                                                     <div className="elementor-image">
                                                                         <img
+                                                                            style={{ height: '95vh' }}
                                                                             width="536" height="830"
                                                                             src={process.env.LINK + "/images/vikas-ukani-vertical-image.jpg"}
                                                                             className="attachment-full size-full"

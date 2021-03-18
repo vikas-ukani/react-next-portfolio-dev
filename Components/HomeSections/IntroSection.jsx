@@ -17,7 +17,7 @@ export default function IntroSection() {
                                         <div className="elementor-widget-container">
 
                                             <h2 className="elementor-heading-title elementor-size-default">
-                                                Introduction</h2>
+                                                Bio</h2>
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-0c2719b global-color elementor-widget elementor-widget-text-editor"
@@ -27,7 +27,7 @@ export default function IntroSection() {
                                             <div className="elementor-text-editor elementor-clearfix">
                                                 I'm a <span onMouseEnter={(e) => e.target.className = 'text-light-green'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white">Software Engineer (Full-Stack Web App Developer)</span>.
                                                 I have more than 3.5 Year of experience in IT field.
-                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div className="elementor-element elementor-element-f3c56d3 elementor-widget elementor-widget-text-editor"
@@ -52,7 +52,7 @@ export default function IntroSection() {
                                                         <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> creating helpful feature on my projects</span>, and developing reliable and
                                                         <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> user experiences websites</span> to
                                                         <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> enhance my Client's Business</span>.
-                                                     </li>
+                                                    </li>
                                                     <li className='mt-15'>
                                                         I'm also excited to work with
                                                         <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-"> Python Language</span> and
