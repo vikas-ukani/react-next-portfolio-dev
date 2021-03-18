@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #e06a72;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181616;
+  border-radius: 20px;
+}
+
+
 html,
 body {
   padding: 0;
@@ -95,4 +111,8 @@ a {
 
 .rounded-full {
   border-radius: 9999px !important; 
+}
+
+.custom-image-shadow{
+  box-shadow: 0px 0px 30px 10px #feaeb382 !important;
 }
