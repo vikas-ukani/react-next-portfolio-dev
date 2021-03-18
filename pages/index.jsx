@@ -28,7 +28,6 @@ function Home(props) {
                 <ExperienceSection />
                 <SkillSection />
                 <PortfolioSection />
-                <IntroSection />
                 <ContactSection />
               </div>
             </div>
