@@ -1,31 +1,17 @@
 import { useState } from "react";
 
-
 export default function index() {
     const [isShowMore, setIsShowMore] = useState(true)
-
     const getMoreLessClass = () => {
         return ' ' + (isShowMore == true ? 'fadeOut hidden' : 'fadeIn show');
     }
-
     return (
-        <section className="relative py-16 mt-16">
+        <section
+            className="elementor-section elementor-top-section elementor-element elementor-element-3c638111 op-section elementor-section-boxed elementor-section-height-default relative py-16 mt-16"
+            data-id="3c638111" data-element_type="section" id="about_me">
             <div className="container mx-auto px-4">
                 <div className="relative flex flex-col min-w-0 break-words bg-light-dark text-white w-full mb-6 shadow-xl rounded-lg mt-32">
                     <div className="px-6">
-                        {/* <div className="flex flex-wrap justify-center">
-                            <div className="w-full lg:w-3/12 lg:order-2 flex ">
-                                <div className="">
-                                    <img
-                                        alt="Vikas Ukani"
-                                        src={process.env.LINK + "/images/Vikas-Ukani.jpg"}
-                                        className="custom-image-shadow rounded-full h-auto align-middle border-none absolute -mt-40 "
-                                        style={{ maxWidth: "300px" }}
-                                    />
-                                </div>
-                            </div>
-                        </div> */}
-
                         <div className="text-center mt-48">
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-3/12 lg:order-2 flex" >
@@ -37,18 +23,13 @@ export default function index() {
                                     />
                                 </div>
                             </div>
-
-                            <h4 className="text-5xl font-bold ">
-                                Vikas Ukani
-                            </h4>
-                            <div className="text-sm leading-normal mt-0 mb-2 text-white font-bold uppercase">
-                                <i className="fas fa-map-marker-alt mr-2 text-lg text-white"></i> Gujarat, India
-                            </div>
-                            <div className="mb-2 text-white mt-10">
+                            <h2 className="text-5xl font-extrabold "> Vikas Ukani </h2>
+                            <div className="mb-2 text-white mt-3 text-2xl">
                                 <i className="fas fa-briefcase mr-2 text-lg "></i>
-                                Solution Engineer
-                                <br />
-                                - Maven
+                                Solution Engineer - Maven
+                            </div>
+                            <div className="text-sm leading-normal mt-0 mb-2 text-white font-bold uppercase text-1xl">
+                                <i className="fas fa-map-marker-alt mr-2 text-lg text-white"></i> Gujarat, India
                             </div>
                         </div>
                         <div className="mt-5 py-10 border-t text-white text-center pb-32">

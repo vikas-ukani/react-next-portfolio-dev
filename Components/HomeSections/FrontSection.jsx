@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-
+import Image from 'next/image'
 export default function FrontSection() {
     const imageURL = process.env.LINK + '/images/Vikas-Ukani.jpg';
     const imageURLStyle = {
@@ -13,7 +12,6 @@ export default function FrontSection() {
 
     const firstName = 'Vikas'.split('')
     const lastName = 'Ukani'.split('')
-    // console.log('nameList', nameList);
     return (
         <div>
             <section
@@ -58,8 +56,8 @@ export default function FrontSection() {
                                                                                     onMouseLeave={(e) => e.target.className = 'animated rubberBand'}
                                                                                     onMouseEnter={(e) => e.target.className = 'animated  text-white'}> {name} </div>
                                                                             ))}
-                                                                        &nbsp;
-                                                                         {lastName.map((name, idx) => (
+                                                                            &nbsp;
+                                                                            {lastName.map((name, idx) => (
                                                                                 <div key={idx}
                                                                                     onMouseLeave={(e) => e.target.className = 'animated rubberBand'}
                                                                                     onMouseEnter={(e) => e.target.className = ' text-b'}> {name} </div>
