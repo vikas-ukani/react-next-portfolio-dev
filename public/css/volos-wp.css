@@ -1599,7 +1599,7 @@ h4.widgettitle {
 
 }
 
-@media screen and (max-height: 880px) {
+@media screen and (max-height: 750px) {
 
     .big-num {
         display: none;
