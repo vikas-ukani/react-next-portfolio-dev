@@ -24,10 +24,10 @@ function Home(props) {
               <div className="elementor-section-wrap">
                 <FrontSection />
                 <AboutMe />
-                <IntroSection />
                 <ExperienceSection />
                 <SkillSection />
                 <PortfolioSection />
+                <IntroSection />
                 <ContactSection />
               </div>
             </div>
