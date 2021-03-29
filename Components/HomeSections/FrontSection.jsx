@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from 'next/image'
 export default function FrontSection() {
     const imageURL = process.env.LINK + '/images/Vikas-Ukani.jpg';
     const imageURLStyle = {
@@ -42,42 +41,37 @@ export default function FrontSection() {
                                                                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
                                                                 data-widget_type="heading.default">
                                                                 <div className="elementor-widget-container">
-
-                                                                    {/* onMouseLeave={(e) => e.target.className = ''} */}
-
                                                                     <h1 className={"elementor-heading-title elementor-size-default"} >
-
                                                                         Hey, I’m
                                                                         <br />
-
                                                                         <div className={'d-flex text-light-green cursor-none animated'}>
                                                                             {firstName.map((name, idx) => (
                                                                                 <div key={idx}
                                                                                     onMouseLeave={(e) => e.target.className = 'animated rubberBand'}
-                                                                                    onMouseEnter={(e) => e.target.className = 'animated  text-white'}> {name} </div>
+                                                                                    onMouseEnter={(e) => e.target.className = 'animated  text-white'}>
+                                                                                    {name}
+                                                                                </div>
                                                                             ))}
                                                                             &nbsp;
                                                                             {lastName.map((name, idx) => (
                                                                                 <div key={idx}
                                                                                     onMouseLeave={(e) => e.target.className = 'animated rubberBand'}
-                                                                                    onMouseEnter={(e) => e.target.className = ' text-b'}> {name} </div>
+                                                                                    onMouseEnter={(e) => e.target.className = ' text-b'}>
+                                                                                    {name}
+                                                                                </div>
                                                                             ))}
                                                                         </div>
                                                                     </h1>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-8cd91c8 elementor-widget__width-auto elementor-absolute elementor-hidden-phone elementor-widget elementor-widget-button"
-
-                                                                data-element_type="widget"
-                                                                data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
-                                                                data-widget_type="button.default">
+                                                                data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-button-wrapper">
+                                                                    <div className="elementor-button-wrapper">
                                                                         <Link href="#experience">
-                                                                            <a href="#experience"
+                                                                            <a href="#experience" role="button"
                                                                                 className="elementor-button-link elementor-button elementor-size-sm"
-                                                                                role="button">
+                                                                            >
                                                                                 <span className="elementor-button-content-wrapper">
                                                                                     <span className="elementor-button-text">My Experience </span>
                                                                                 </span>
@@ -87,16 +81,12 @@ export default function FrontSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-6e43dc7 elementor-widget__width-auto elementor-absolute elementor-hidden-phone elementor-widget elementor-widget-button"
-
-                                                                data-element_type="widget"
-                                                                data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
-                                                                data-widget_type="button.default">
+                                                                data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
                                                                 <div className="elementor-widget-container">
                                                                     <div className="elementor-button-wrapper">
                                                                         <Link href="#skills">
-                                                                            <a href="#skills"
-                                                                                className="elementor-button-link elementor-button elementor-size-sm"
-                                                                                role="button">
+                                                                            <a href="#skills" role="button"
+                                                                                className="elementor-button-link elementor-button elementor-size-sm" >
                                                                                 <span className="elementor-button-content-wrapper">
                                                                                     <span className="elementor-button-text">Skills </span>
                                                                                 </span>
@@ -115,17 +105,13 @@ export default function FrontSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-d1c470a elementor-widget__width-auto elementor-absolute elementor-hidden-phone elementor-widget elementor-widget-button"
-                                                                data-element_type="widget"
-                                                                data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
-                                                                data-widget_type="button.default">
+                                                                data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div
-                                                                        className="elementor-button-wrapper">
-                                                                        <a href="#contact"
-                                                                            className="elementor-button-link elementor-button elementor-size-sm"
-                                                                            role="button">
+                                                                    <div className="elementor-button-wrapper">
+                                                                        <a href="#contact" role="button"
+                                                                            className="elementor-button-link elementor-button elementor-size-sm" >
                                                                             <span className="elementor-button-content-wrapper">
-                                                                                <span className="elementor-button-text">  Contact Me </span>
+                                                                                <span className="elementor-button-text"> Contact Me </span>
                                                                             </span>
                                                                         </a>
                                                                     </div>
@@ -138,10 +124,9 @@ export default function FrontSection() {
                                                                 <div className="elementor-widget-container">
                                                                     <div
                                                                         className="elementor-button-wrapper">
-                                                                        <a href="#portfolio"
-                                                                            className="elementor-button-link elementor-button elementor-size-sm"
-                                                                            role="button"> <span
-                                                                                className="elementor-button-content-wrapper">
+                                                                        <a href="#portfolio" role="button"
+                                                                            className="elementor-button-link elementor-button elementor-size-sm">
+                                                                            <span className="elementor-button-content-wrapper">
                                                                                 <span className="elementor-button-text">Check My Projects</span>
                                                                             </span>
                                                                         </a>
