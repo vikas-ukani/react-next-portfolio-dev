@@ -5,6 +5,9 @@ const link = prod ? '/react-next-portfolio-dev/' : '';
 const assetPrefix = prod ? "https://vikas-ukani.github.io/react-next-portfolio-dev/" : '/'
 
 module.exports = {
+    images: {
+        loader: 'imgix',
+    },
     exportPathMap: function () {
         return {
             "/": { page: "/" }
