@@ -116,3 +116,7 @@ a {
 .custom-image-shadow{
   box-shadow: 0px 0px 30px 10px #feaeb382 !important;
 }
+
+.fontComic {
+  font-family: 'Comic Sans MS'
+}
