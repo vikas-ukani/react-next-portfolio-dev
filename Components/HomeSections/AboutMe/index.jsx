@@ -48,23 +48,23 @@ export default function index() {
                                     </div>
 
                                     <div className="mt-10 font-extrabold text-4xl text-light-green">What I do,</div>
-                                    <div id="showMoreInfo" className={getMoreLessClass() + ' mt-5'}>
-                                        <div className="mb-4 text-2xl font-semibold mt-5">
-                                            I currently work as a <span className="text-gray-100">FullStack Developer for Maven Company in Gujarat, India</span>.
-                                            I have more than 4+ years of office experience working in software development in local as well as multi-national companies.
-                                            I  have in-depth knowledge of backend frameworks like <span className="text-gray-100">Laravel/Lumen, NodeJS, Django/Flask to Build REST APIs</span>, and as a Frontend Framework I use <span className="text-gray-100">VueJS, ReactJS, and AngularJS</span>,
-                                            I can handle my website information with several databases, Such as <span className="text-gray-100">MySQL, MongoDB, PostgreSQL, SQLite</span>.
-                                        </div>
+                                    {/* <div id="showMoreInfo" className={getMoreLessClass()}> */}
+                                    <div className="mb-4 text-2xl font-semibold mt-5 ">
+                                        I currently work as a <span className="text-gray-100">FullStack Developer for Maven Company in Gujarat, India</span>.
+                                        I have more than <span className="text-gray-100">4+ years of office experience</span> working in software development in local as well as multi-national companies.
+                                        I  have in-depth knowledge of backend frameworks like <span className="text-gray-100">Laravel/Lumen, NodeJS, Django/Flask to Build REST APIs</span>, and as a Frontend Framework I use <span className="text-gray-100">VueJS, ReactJS, and AngularJS</span>,
+                                        I can handle my website information with several databases, Such as <span className="text-gray-100">MySQL, MongoDB, PostgreSQL, SQLite</span>.
                                     </div>
+                                    {/* </div> */}
 
-                                    <button
+                                    {/* <button
                                         className="text font-normal text-pink-600"
                                         onClick={e => {
                                             setIsShowMore(!isShowMore)
                                         }}
                                     >
                                         <span>{isShowMore == true ? 'More' : 'Less'}</span>
-                                    </button>
+                                    </button> */}
                                 </div>
                             </div>
                         </div>

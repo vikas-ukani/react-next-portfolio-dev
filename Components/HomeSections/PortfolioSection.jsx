@@ -7,10 +7,16 @@ import ProjectsList from "./ProjectsContainer/ProjectsList";
 
 export default function PortfolioSection() {
     const projects = data.projects;
+    let categories = []
+    projects.filter(pro => {
+        if (!categories.includes(pro.category)) {
+            categories.push(pro.category);
+        }
+    });
+    const defaultCategory = 'all';
     /** State for current active status wise projects listing. */
-    const [selectedCategory, setSelectedCategory] = useState('all')
-    /** creating list of filters for all projects */
-    const categories = ['all', 'php', 'javascript', 'machine', 'python']
+    const [selectedCategory, setSelectedCategory] = useState(defaultCategory)
+    categories.unshift(defaultCategory)
 
     /** creating filter for category wise projects listing... */
     const filteredProjects = () => {
@@ -18,33 +24,8 @@ export default function PortfolioSection() {
         if (selectedCategory !== categories[0]) {
             filteredData = filteredData.filter(pro => selectedCategory == pro.category)
         }
-        filteredData = filteredData.slice(0, 6)
-        return filteredData
-        // return (
-        //     filteredData
-        //         .map((project, key) => (
-        //             <div key={key} id={key}
-        //                 className="grid-item element-item p_one_third">
-        //                 <a className="item-link ajax-portfolio"
-        //                     href="portfolio/item-1/index.html"
-        //                     data-id={key}>
-        //                     <img width="600" height="600" src='https://picsum.photos/600/600'
-        //                         className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-        //                         alt={project.name}
-        //                         sizes="(max-width: 600px) 100vw, 600px" />
-
-        //                     <p className="portfolio-text text-center ">
-        //                         <small onMouseEnter={e => e.target.className = 'text-light-green'}
-        //                             onMouseLeave={e => e.target.className = 'text-light-orange'}>{project.name}</small>
-        //                     </p>
-
-        //                 </a>
-        //             </div>
-
-        //         ))
-        // )
+        return filteredData.slice(0, 6)
     }
-
     return (
         <div>
             <section id="portfolio" data-id="62519493" data-element_type="section"
