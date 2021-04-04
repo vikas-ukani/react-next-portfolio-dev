@@ -102,6 +102,7 @@ export default function IntroSection() {
                                         data-widget_type="button.default">
                                         <div className="elementor-widget-container">
                                             <div className="elementor-button-wrapper">
+                                                {/* https://drive.google.com/file/d/1WmfPSKGoWq7TyBJYWngpACDm5QZmqdrE/view */}
                                                 <a
                                                     href="https://demo.cocobasic.com/documentation/MANUAL-VolosWP.pdf"
                                                     target="_blank" rel="nofollow"
