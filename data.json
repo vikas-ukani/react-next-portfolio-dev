@@ -1,42 +1,54 @@
 {
-    "projects": [{
+    "projects": [
+        {
             "id": 1,
-            "name": "php 1",
-            "category": "php"
+            "name": "photo-point",
+            "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
+            "category": "php",
+            "url" : "https://github.com/vikas-ukani/photo-point",
+            "tags" : ["php", "rest-api", "mysql" ],
+            "short_description" : "The complete Laravel Rest-API Project which is consumed in iOS mobile application."
         },
         {
             "id": 1,
-            "name": "javascript 2",
-            "category": "javascript"
+            "name": "NextJS Portfolio",
+            "url" : "https://github.com/vikas-ukani/react-next-portfolio-dev",
+            "category": "javascript",
+            "tags" : ["nextjs", "reactjs", "portfolio" ]
         },
         {
             "id": 1,
             "name": "python 3",
+            "tags" : ["php", "rest-api", "mysql" ],
             "category": "python"
 
         },
         {
             "id": 1,
             "name": "php 4",
+            "tags" : ["php", "rest-api", "mysql" ],
             "category": "php"
         }, {
             "id": 1,
-            "name": "javascript 5",
+            "name": "javascript",
+            "tags" : ["javascript", "vuejs", "vuex" ],
             "category": "javascript"
         }, {
             "id": 1,
-            "name": "python 6",
+            "name": "python-project",
+            "tags" : ["php", "rest-api", "mysql" ],
             "category": "python"
         },
         {
             "id": 1,
-            "name": "machine 64",
-            "category": "machine"
+            "name": "machine-learning",
+            "tags" : ["python", "pandas", "machine-learning" ],
+            "category": "machine-learning"
         },
                 {
             "id": 11,
-            "name": "machine 11",
-            "category": "machine"
+            "name": "pandas",
+            "category": "pandas"
         },
         {
             "id": 1,
