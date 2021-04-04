@@ -35,10 +35,11 @@ export default function index() {
                         <div className="mt-5 py-10 border-t text-white text-center pb-32">
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-10/12 px-4 text-justify text-gray-400">
-                                    <div className="mb-4 text-2xl font-semibold">
+                                    <span className="font-extrabold text-4xl text-light-green">Who I am,</span>
+                                    <div className="mb-4 text-2xl font-semibold mt-5">
                                         Hello, I`m Vikas Ukani,
-                                        As a professional, I`m a Full-Stack Web-App Developer who loves to write well clean design, easy to understand, and high-quality code blocks to design, build and develop a software or bunch of webpages.
-                                        I have been completed my graduation for <span className="text-gray-100">Bachelors of Computer Application from S.V. Patel of Computer Science Collage</span> from Surat, Gujarat, India, and <b className="text-gray-100">Master of Computer Application</b> from Jaipur National University.
+                                        As a professional, I`m a Full-Stack Web-App Developer who loves to write well clean design, easy to readable, and high-quality code blocks to design, build and develop a software or bunch of webpages.
+                                        I also have a <b className="text-gray-100">Master of Computer Application degree from Jaipur National University and Bachelors of Computer Application degree from S. V. Patel of Computer Science Collage</b>.
                                     </div>
 
                                     <div className="mb-4 text-2xl font-semibold mt-10">
@@ -46,11 +47,13 @@ export default function index() {
                                         Also, I excited to work on large-scale applications and websites to <span className="text-gray-100">explore my skill-set and gain a high quality of product-based knowledge.</span>
                                     </div>
 
-                                    <div id="showMoreInfo" className={getMoreLessClass()}>
-                                        <div className="mb-4 text-2xl font-semibold mt-10">
-                                            I have more than 3+ years of office experience working in software development in local as well as multi-national companies.
-                                            I  have in-depth knowledge of backend frameworks like Laravel/Lumen, NodeJS, Django/Flask to Build REST APIs, and as a Frontend Framework I use VueJS, ReactJS, and AngularJS,
-                                            I can handle my website information with several DB Tools, Such as MySQL, MongoDB, PostgreSQL, SQLite
+                                    <div className="mt-10 font-extrabold text-4xl text-light-green">What I do,</div>
+                                    <div id="showMoreInfo" className={getMoreLessClass() + ' mt-5'}>
+                                        <div className="mb-4 text-2xl font-semibold mt-5">
+                                            I currently work as a <span className="text-gray-100">FullStack Developer for Maven Company in Gujarat, India</span>.
+                                            I have more than 4+ years of office experience working in software development in local as well as multi-national companies.
+                                            I  have in-depth knowledge of backend frameworks like <span className="text-gray-100">Laravel/Lumen, NodeJS, Django/Flask to Build REST APIs</span>, and as a Frontend Framework I use <span className="text-gray-100">VueJS, ReactJS, and AngularJS</span>,
+                                            I can handle my website information with several databases, Such as <span className="text-gray-100">MySQL, MongoDB, PostgreSQL, SQLite</span>.
                                         </div>
                                     </div>
 
