@@ -26,7 +26,7 @@ export default function IntroSection() {
                                         <div className="elementor-widget-container">
                                             <div className="elementor-text-editor elementor-clearfix">
                                                 I'm a <span onMouseEnter={(e) => e.target.className = 'text-light-green'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white">Software Engineer (Full-Stack Web App Developer)</span>.
-                                                I have more than 3.5 Year of experience in IT field.
+                                                I have more than 4+ Year of experience in IT field.
                                             </div>
                                         </div>
                                     </div>
