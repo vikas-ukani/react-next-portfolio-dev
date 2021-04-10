@@ -103,7 +103,7 @@ export default function IntroSection() {
                                         <div className="elementor-widget-container">
                                             <div className="elementor-button-wrapper">
                                                 {/* https://drive.google.com/file/d/1WmfPSKGoWq7TyBJYWngpACDm5QZmqdrE/view */}
-                                                <a
+                                                <a  
                                                     href="https://demo.cocobasic.com/documentation/MANUAL-VolosWP.pdf"
                                                     target="_blank" rel="nofollow"
                                                     className="elementor-button-link elementor-button elementor-size-sm"
