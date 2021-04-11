@@ -18,7 +18,7 @@
     "react-flip-move": "^3.0.4",
     "react-move": "^6.4.0",
     "react-slick": "^0.28.1",
-    "react-typist": "^2.0.5",
+    "react-typed": "1.2.0",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
