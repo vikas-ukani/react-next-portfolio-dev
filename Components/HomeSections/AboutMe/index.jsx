@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Typist from 'react-typist'
+import Typed from 'react-typed';
+
 export default function index() {
     const [isShowMore, setIsShowMore] = useState(true)
     const getMoreLessClass = () => {
@@ -36,20 +37,23 @@ export default function index() {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-10/12 px-4 text-justify text-gray-400">
                                     <span className="font-extrabold text-4xl text-light-green">Who I am,</span>
+                                    <br />
                                     <div className="mb-4 text-2xl font-semibold mt-5">
                                         Hello, I`m Vikas Ukani,
-                                        As a professional, I`m a
-                                        <span className="text-gray-100" style={{ display: 'inline' }}>
-                                            <Typist cursor={{
-                                                show: true, blink: true, element: ' ', hideWhenDone: false, hideWhenDoneDelay: 1000
-                                            }}>
-                                                Front-End
-                                                <Typist.Backspace count={9} delay={200} />
-                                                Back-End
-                                                <Typist.Backspace count={8} delay={200} />
-                                                Full-Stack Web Application
-                                            </Typist>
-                                        </span>
+                                        As a professional, I`m a {" "}
+                                        <Typed
+                                            className={"text-gray-100"}
+                                            strings={[
+                                                'Front-End',
+                                                'Back-End',
+                                                'Full-Stack Web Application'
+                                            ]}
+                                            typeSpeed={100}
+                                            backSpeed={80}
+                                            loop
+                                        >
+                                            <span> </span>
+                                        </Typed>
                                         Developer who loves to write well clean design, easy to readable, and high-quality code blocks to design, build and develop a software or bunch of webpages.
                                         I also have a <b className="text-gray-100">Master of Computer Application degree from Jaipur National University and Bachelors of Computer Application degree from S. V. Patel of Computer Science Collage</b>.
                                     </div>
