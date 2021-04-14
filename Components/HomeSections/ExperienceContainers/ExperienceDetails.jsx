@@ -41,26 +41,24 @@ const CoruscateExperience = () => {
                         width="40%"
                         style={{ minWidth: '40%' }}
                         src={process.env.LINK + "/images/company/coruscate-logo.jpg"} alt={companyName} width="384" height="512" />
-                    <div className="text-2xl bg-black pt-6 md:p-8 text-center md:text-left space-y-4">
-                        <p className="pt-5 pb-5 pl-2 pr-2 text-justify leading-relaxed">
+                    <div className="  bg-black pt-2 md:p-8 text-center md:text-left space-y-4">
+                        <p className=" pl-1 pr-1 text-justify leading-relaxed fontComic text-base font-18">
                             After my graduation completed.
                             I Started my journey as <span className="text-white" id='programAnalyst'>Program Analyst</span> at <span id='companyClass' className='text-light-orange' >Coruscate Solutions Pvt Ptd</span>,
                             Where I learn first JAVASCRIPT framework which is <span id='AngularJS' className="text-white">AngularJS</span> to make a dynamic content and user interactive websites.
                             Moreover, I learn Laravel backend framework to handle backend logic of website.
                         </p>
-                        <div className="font-medium bottom-10 inline-block md:align-text-bottom ">
+                        <div className="  ">
                             <div className="text-cyan-600 mt-10">
-                                <b className='text-light-orange'>{year}</b>
-                                <br />
-
-                                <i id='companyClass' className='text-white'>
+                                <p className='text-light-orange fontComic text-base font-bold'>{year}</p>
+                                <i id='companyClass' className='text-white fontComic text-base'>
                                     <b>{companyName}</b>
                                 </i>
                             </div>
-                            <div className="text-gray-500 mt-2" id='jobTitle' >
+                            <div className="text-gray-500 mt-1 fontComic text-base">
                                 <b>Program Analyst</b>
                             </div>
-                            <div className="text-gray-600 mt-2">
+                            <div className="text-gray-600 mt-1 fontComic text-base">
                                 <b>Gujarat, India</b>
                             </div>
                         </div>
@@ -147,25 +145,23 @@ const DignizantExperience = () => {
                         width="40%"
                         style={{ minWidth: '40%' }}
                         src={process.env.LINK + "/images/company/dignizant-logo.jpg"} alt={companyName} width="384" height="512" />
-                    <div className="text-2xl bg-black pt-6 md:p-8 text-center md:text-left space-y-4">
-                        <p className="pt-5 pb-5 pl-2 pr-2 text-justify leading-relaxed">
+                    <div className="  bg-black pt-2 md:p-8 text-center md:text-left space-y-4">
+                        <p className=" pl-1 pr-1 text-justify leading-relaxed fontComic text-base font-18">
                             Working as FrontEnd and Backend Development at < span id='companyClass' className='text-light-orange' > {companyName}</span>.
                             Exploring skills in <span id='vueJS' className='text-light-orange'>VueJS Framework</span> to build powerful and animated UI&UX.
-                            Also, Handling servers to manage and maintain project on productions. Such as AWS, Digital Ocean etc ...
-                            </p>
-                        <div className="font-medium bottom-10 inline-block md:align-text-bottom ">
+                            Also, Handling servers to manage and maintain project on productions. Such as AWS, DigitalOcean etc ...
+                        </p>
+                        <div className="  ">
                             <div className="text-cyan-600 mt-10">
-                                <b className='text-light-orange'>{year}</b>
-                                <br />
-
-                                <i id='companyClass' className='text-white'>
+                                <p className='text-light-orange fontComic text-base font-bold'>{year}</p>
+                                <i id='companyClass' className='text-white fontComic text-base'>
                                     <b>{companyName}</b>
                                 </i>
                             </div>
-                            <div className="text-gray-500 mt-2" id='jobTitle' >
+                            <div className="text-gray-500 mt-1 fontComic text-base">
                                 <b>Junior Web Developer</b>
                             </div>
-                            <div className="text-gray-600 mt-2">
+                            <div className="text-gray-600 mt-1 fontComic text-base">
                                 <b>Gujarat, India</b>
                             </div>
                         </div>
@@ -183,7 +179,7 @@ const MavenExperience = () => {
     let year = "2020-21"
     return (
         <li className="timeline-event transition duration-500 ease-in-out transform  hover:-translate-y-1 hover:scale-105">            <span className="timeline-circle"> </span>
-            <div className="timeline-event-content text-justify shadow-xl bg- rounded-lg h-18" >
+            <div className="timeline-event-content text-justify shadow-xl  rounded-lg h-18" >
                 <figure className="md:flex bg-black rounded-xl p-8 md:p-0"
                     onMouseEnter={(e) => {
                         if (e.target.children && e.target.children.jobTitle && e.target.children.jobTitle.className) {
@@ -211,27 +207,24 @@ const MavenExperience = () => {
                     }
                     }>
                     <img className="h-45 md:w-5/12 md:h-auto md:rounded-none  mx-auto"
-                        width="40%"
-                        style={{ minWidth: '40%' }}
+                        width="40%" style={{ minWidth: '40%' }}
                         src={process.env.LINK + "/images/company/maven-agency-logo.jpg"} alt={companyName} width="384" height="512" />
-                    <div className="text-2xl bg-black pt-6 md:p-8 text-center md:text-left space-y-4">
-                        <p className="pt-5 pb-5 pl-2 pr-2 text-justify leading-relaxed">
+                    <div className="  bg-black pt-2 md:p-8 text-center md:text-left space-y-4">
+                        <p className=" pl-1 pr-1 text-justify leading-relaxed fontComic text-base font-18">
                             Currently, I'm working as full-stack developer at <span id='companyClass' className='text-light-orange' >{companyName} </span>
-                                    Creating frontend and backend platform to develop and maintain a website that can help to enhance my client's business.
-                                    Exploring technical skills in <span id='reactJS' className="text-light-green">ReactJS with NextJS and VueJS</span> as frontend-development.
+                            Creating frontend and backend platform to develop and maintain a website that can help to enhance my client's business.
+                            Exploring technical skills in <span id='reactJS' className="text-light-green">ReactJS with NextJS and VueJS</span> as frontend-development.
                         </p>
-                        <div className="font-medium bottom-10 inline-block md:align-text-bottom ">
+                        <div className="  ">
                             <div className="text-cyan-600 mt-10">
-                                <b className='text-light-orange'>{year}</b>
-                                <br />
-
-                                <i id='jobTitle' className='text-white'>
+                                <p className='text-light-orange fontComic text-base font-bold'>{year}</p>
+                                <i id='jobTitle' className='text-white fontComic text-base'>
                                     <b>{companyName}</b> ( Present ) </i>
                             </div>
-                            <div className="text-gray-500 mt-2">
+                            <div className="text-gray-500 mt-1 fontComic text-base">
                                 <b>Software Engineer</b>
                             </div>
-                            <div className="text-gray-600 mt-2">
+                            <div className="text-gray-600 mt-1 fontComic text-base">
                                 <b>Gujarat, India</b>
                             </div>
                         </div>
