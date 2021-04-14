@@ -114,6 +114,8 @@ a {
 
 .custom-image-shadow{
   box-shadow: 0px 0px 30px 10px #feaeb382 !important;
+  border-radius: 100% !important;
+  z-index: 10;
 }
 
 .fontComic {
@@ -123,3 +125,33 @@ a {
 .font-18{
   font-size: 18px !important;
 }
+
+ div.circle {
+  height: 190px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #ce8b908c;
+  position: relative;
+  top: -115px;
+  left: 0px;
+  z-index: 1;
+  -webkit-transition:height .2s ease, width .2s ease;
+  transition:height .2s ease, width .2s ease;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 50%;
+  border-color: rgb(223, 182, 182);
+  animation-name: ripple;
+  -webkit-animation: ripple 2s linear 1s infinite;
+  animation: ripple 2s linear 1s infinite;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}  
+
+@keyframes ripple{
+  0% {transform:scale(1.4); opacity:0}
+  50% {transform:scale(1.65); opacity:0.6;}
+  100% {transform:scale(1.9); opacity:0;}
+} 
