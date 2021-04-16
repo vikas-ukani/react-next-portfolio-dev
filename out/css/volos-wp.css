@@ -139,11 +139,14 @@ p {
 
 .header-holder {
     position: fixed;
-    width: 380px;
-    background-color: #362B2E;
-    height: 100vh;
+    width: 330px;
+    background-color: #282022;
+    border-right: 2px solid #362b2e;
+    height: 99vh;
     z-index: 1;
-    top: 0;
+    top: 3px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0.1px 0px 15px 5px #000000bf;
 }
 
 .admin-bar .header-holder {
@@ -151,7 +154,7 @@ p {
 }
 
 .header-wrapper {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-left: 75px;
     padding-right: 40px;
     position: relative;
@@ -251,7 +254,7 @@ h1.site-title {
 .top-pagination {
     position: relative;
     z-index: 2;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .top-pagination>div {
@@ -295,10 +298,10 @@ h1.site-title {
 
 .big-num {
     position: fixed;
-    width: 380px;
+    width: 330px;
     left: 0;
     bottom: 30px;
-    padding-left: 75px;
+    padding-left: 50px;
     z-index: 1;
 }
 
@@ -425,6 +428,7 @@ h1.site-title {
 
 .open .menu-holder {
     transform: translateX(0);
+        z-index: 2;
 }
 
 .main-menu.sm-clean {
@@ -1456,33 +1460,33 @@ h4.widgettitle {
 @media screen and (max-width: 1599px) {
 
     .header-holder {
-        width: 320px;
+        width: 280px;
     }
 
     .header-wrapper {
-        padding-top: 110px;
+        padding-top: 90px;
         padding-left: 55px;
     }
 
     .menu-wrapper {
-        padding-top: 110px;
+        padding-top: 0px;
     }
 
     .site-content {
         padding-top: 110px;
         padding-bottom: 110px;
-        margin-left: 320px;
-        width: calc(100% - 320px);
+        margin-left: 280px;
+        width: calc(100% - 280px);
     }
 
     .menu-holder {
-        width: 320px;
-        transform: translateX(-320px);
+        width: 280px;
+        transform: translateX(-280px);
         padding-left: 55px;
     }
 
     .big-num {
-        width: 320px;
+        width: 280px;
     }
 
     .current-big-num {
@@ -1599,7 +1603,7 @@ h4.widgettitle {
 
 }
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 500px) {
 
     .big-num {
         display: none;
