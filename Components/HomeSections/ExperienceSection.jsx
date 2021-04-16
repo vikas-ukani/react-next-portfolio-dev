@@ -1,9 +1,6 @@
-import { EducationSection } from "./EducationSection";
 import ExperienceContainers from "./ExperienceContainers";
 
-
 export default function ExperienceSection() {
-
     return (
         <div>
             <section

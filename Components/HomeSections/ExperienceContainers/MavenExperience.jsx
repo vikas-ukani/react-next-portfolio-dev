@@ -3,7 +3,7 @@ const MavenExperience = () => {
     let companyName = "Maven Agency"
     let year = "2020-21"
     return (
-        <li className="timeline-event transition duration-500 ease-in-out transform  hover:-translate-y-1 hover:scale-105">            <span className="timeline-circle"> </span>
+        <li className="timeline-event transition duration-500 ease-in-out transform  hover:-translate-y-1 ">            <span className="timeline-circle"> </span>
             <div className="timeline-event-content text-justify shadow-xl  rounded-lg h-18" >
                 <figure className="md:flex bg-black rounded-xl p-8 md:p-0"
                     onMouseEnter={(e) => {
