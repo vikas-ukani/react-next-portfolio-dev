@@ -3,7 +3,7 @@ const CoruscateExperience = () => {
     var year = '2017-19'
     var companyName = 'Coruscate Solutions Pvt. Ptd.'
     return (
-        <li className="timeline-event transition duration-500 ease-in-out transform  hover:-translate-y-1 hover:scale-105">
+        <li className="timeline-event transition duration-500 ease-in-out transform  hover:-translate-y-1 ">
             <span className="timeline-circle"> </span>
             <div className="timeline-event-content text-justify shadow-xl bg- rounded-lg h-18" >
                 <figure className="md:flex bg-black rounded-xl p-8 md:p-0"
