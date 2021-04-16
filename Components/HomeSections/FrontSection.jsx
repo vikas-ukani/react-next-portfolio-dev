@@ -6,7 +6,8 @@ export default function FrontSection() {
         backgroundImage: `url('${imageURL}')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        marginLeft: '-40px',
     }
 
     const firstName = 'Vikas'.split('')

@@ -139,11 +139,14 @@ p {
 
 .header-holder {
     position: fixed;
-    width: 380px;
-    background-color: #362B2E;
-    height: 100vh;
+    width: 330px;
+    background-color: #282022;
+    border-right: 2px solid #362b2e;
+    height: 99vh;
     z-index: 1;
-    top: 0;
+    top: 3px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 2px 0px 20px;
 }
 
 .admin-bar .header-holder {
@@ -1456,7 +1459,7 @@ h4.widgettitle {
 @media screen and (max-width: 1599px) {
 
     .header-holder {
-        width: 320px;
+        width: 280px;
     }
 
     .header-wrapper {
@@ -1471,8 +1474,8 @@ h4.widgettitle {
     .site-content {
         padding-top: 110px;
         padding-bottom: 110px;
-        margin-left: 320px;
-        width: calc(100% - 320px);
+        margin-left: 280px;
+        width: calc(100% - 280px);
     }
 
     .menu-holder {
