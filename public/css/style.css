@@ -190,7 +190,7 @@ span.timeline-circle:before {
 .timeline-event-date {
     position: absolute;
     left: -115px;
-    top: 2px;
+    top: 10px;
     transition: .3s;
     color: #f37b83;
     font-weight: 700;

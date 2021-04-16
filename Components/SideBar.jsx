@@ -70,7 +70,10 @@ export default function SideBar() {
                                                                 <div className="elementor-widget-container">
                                                                     <div className="elementor-text-editor elementor-clearfix wp-block-latest-posts__post-date">
                                                                         {/* <Link href="mailto:vikasukani5@gmail.com"> */}
-                                                                        <a href="mailto:vikasukani5@gmail.com" className="__cf_email__" data-cfemail="7f0c0b10111a3f1a071e120f131a511c1012">vikasukani5@gmail.com</a>
+                                                                        <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&colon;&#x76;&#x69;&#x6b;&#x61;&#x73;&#x75;&#x6b;&#x61;&#x6e;&#x69;&#x35;&commat;&#x67;&#x6d;&#x61;&#x69;&#x6c;&period;&#x63;&#x6f;&#x6d;" className="__cf_email__" >
+                                                                            &#x76;&#x69;&#x6b;&#x61;&#x73;&#x75;&#x6b;&#x61;&#x6e;&#x69;&#x35;&lsqb;&#x41;&#x54;&rsqb;&#x67;&#x6d;&#x61;&#x69;&#x6c;&lsqb;&#x44;&#x4f;&#x54;&rsqb;&#x63;&#x6f;&#x6d;
+                                                                        </a>
+                                                                        {/* <a href="mailto:vikasukani5@gmail.com" className="__cf_email__" data-cfemail="7f0c0b10111a3f1a071e120f131a511c1012">vikasukani5@gmail.com</a> */}
                                                                         {/* </Link> */}
                                                                     </div>
                                                                 </div>
