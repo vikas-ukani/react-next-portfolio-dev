@@ -132,21 +132,22 @@ a {
   border-radius: 50%;
   background-color: #ce8b908c;
   position: relative;
-  top: -115px;
+  top: -118px;
   left: 0px;
   z-index: 1;
-  -webkit-transition:height .2s ease, width .2s ease;
-  transition:height .2s ease, width .2s ease;
-  -webkit-transform:translate(-50%,-50%);
-  transform:translate(-50%,-50%);
+  transition: height 1s ease, width 1s ease;
+  transform: translate(-50%,-50%);
   border-style: outset;
-  border-width: 1px;
+  border-width: 26px;
   border-radius: 50%;
   border-color: rgb(223, 182, 182);
+  -webkit-animation-name: ripple;
   animation-name: ripple;
   -webkit-animation: ripple 2s linear 1s infinite;
-  animation: ripple 2s linear 1s infinite;
-  animation-duration: 2s;
+  animation: ripple 1s linear 1s infinite;
+  -webkit-animation-duration: 2s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }  
 
