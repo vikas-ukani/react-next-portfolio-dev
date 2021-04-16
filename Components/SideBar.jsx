@@ -1,6 +1,6 @@
 // import Clock from 'react-digital-clock'
+import AudioBars from './UI/AudioBars'
 export default function SideBar() {
-
     return (
         <div className="header-holder">
             <div className="header-wrapper">
@@ -93,37 +93,7 @@ export default function SideBar() {
                                                                         (+91) 99096 59030</div>
                                                                 </div>
                                                             </div>
-                                                            <div className="elementor-element elementor-element-6961185 elementor-widget elementor-widget-coco-music-waves"
-                                                                data-id="6961185" data-element_type="widget"
-                                                                data-widget_type="coco-music-waves.default">
-                                                                <div className="elementor-widget-container">
-                                                                    <div className="music-waves">
-                                                                        {/* onClick={audioToggle(process.env.LINK + "/images/audio.mp3")} */}
-                                                                        <div className="relative" >
-                                                                            <audio id="musicWaves" src={process.env.LINK + "/images/audio.mp3"} loop >
-                                                                                {/* autoPlay */}
-                                                                                {/* <source src="/images/audio.mp3" /> */}
-                                                                            </audio>
-                                                                            <span
-                                                                                className="global-background-color"></span>
-                                                                            <span
-                                                                                className="global-background-color"></span>
-                                                                            <span
-                                                                                className="global-background-color"></span>
-                                                                            <span
-                                                                                className="global-background-color"></span>
-                                                                            <span
-                                                                                className="global-background-color"></span>
-                                                                        </div>
-                                                                        <p className="music-waves-text">SOUND ON
-                                                                        {/* {(soundToggle && soundToggle == true) ? ' ON' : ' OFF'} */}
-                                                                        </p>
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                            {/* Time: <Clock format='hh-mm-ss' /> */}
-                                                            {/* {showingCurrentTime()} */}
+                                                            {/* <AudioBars /> */}
                                                         </div>
                                                     </div>
                                                 </div>
