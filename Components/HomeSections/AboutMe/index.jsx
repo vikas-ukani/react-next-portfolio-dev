@@ -28,7 +28,7 @@ export default function index() {
                             {/* </div> */}
                             {/* </div> */}
                         </div>
-                        <div className="mt-2 border-t text-white text-center pb-32">
+                        <div className="mt-2 border-t text-white text-center bottom-50">
                             <h2 className="text-5xl font-extrabold fontComic"> Vikas Ukani </h2>
                             <div className="mb-2 text-white mt-3 text-2xl fontComic">
                                 <i className="fas fa-briefcase mr-2 text-lg "></i>
