@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
                 <Head>
                     <HeadScripts />
                 </Head>
-                <body className="blog safari osx elementor-default elementor-kit-355 home page-template-default page page-id-9 unknown elementor-default elementor-kit-355 elementor-page elementor-page-9">
+                <body className="fontComic  blog safari osx elementor-default elementor-kit-355 home page-template-default page page-id-9 unknown elementor-default elementor-kit-355 elementor-page elementor-page-9">
                     <Loader />
                     <AppLayout >
                         <Main />
