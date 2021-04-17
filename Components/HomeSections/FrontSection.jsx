@@ -37,7 +37,6 @@ export default function FrontSection() {
                                                         className="elementor-column-wrap elementor-element-populated">
                                                         <div className="elementor-widget-wrap">
                                                             <div className="elementor-element elementor-element-21f3bf1 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-heading"
-
                                                                 data-element_type="widget"
                                                                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
                                                                 data-widget_type="heading.default">
@@ -141,11 +140,13 @@ export default function FrontSection() {
                                                                 <div className="elementor-widget-container">
                                                                     <div className="elementor-image">
                                                                         <img
-                                                                            style={{ height: '95vh' }}
-                                                                            width="536" height="830"
-                                                                            src={process.env.LINK + "/images/vikas-ukani-vertical-image.jpg"}
-                                                                            className="attachment-full size-full"
-                                                                            alt="vikas-ukani" loading="lazy"
+                                                                            style={{
+                                                                                height: '95vh', width: '100vh',
+                                                                            }}
+                                                                        width="536" height="830"
+                                                                        src={process.env.LINK + "/images/vikas-ukani-vertical-image.jpg"}
+                                                                        className="attachment-full size-full"
+                                                                        alt="vikas-ukani" loading="lazy"
                                                                             sizes="(max-width: 536px) 100vw, 536px" />
                                                                     </div>
                                                                 </div>
