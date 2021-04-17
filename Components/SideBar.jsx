@@ -33,21 +33,21 @@ export default function SideBar() {
                                                                 data-id="646ac3f7" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-text-editor elementor-clearfix"> NAME</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix font-bold"> NAME</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-5ed3a12e elementor-widget elementor-widget-text-editor"
                                                                 data-id="5ed3a12e" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-text-editor elementor-clearfix">Vikas Ukani</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix ">Vikas Ukani</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-a4240e5 global-color elementor-widget elementor-widget-text-editor"
                                                                 data-id="a4240e5" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-text-editor elementor-clearfix"> ROLE</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix font-bold"> ROLE</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-6c435a6 elementor-widget elementor-widget-text-editor"
@@ -61,7 +61,7 @@ export default function SideBar() {
                                                                 data-id="36538e7f" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-text-editor elementor-clearfix"> EMAIL</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix font-bold"> EMAIL</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-7c10dbf4 elementor-widget elementor-widget-text-editor"
@@ -86,7 +86,7 @@ export default function SideBar() {
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
                                                                     <div
-                                                                        className="elementor-text-editor elementor-clearfix">
+                                                                        className="elementor-text-editor elementor-clearfix font-bold">
                                                                         PHONE</div>
                                                                 </div>
                                                             </div>
