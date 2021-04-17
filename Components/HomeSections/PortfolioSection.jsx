@@ -1,6 +1,4 @@
 import ProjectsHolder from "./ProjectsContainer/ProjectsHolder";
-import FlipMove from 'react-flip-move'
-// import data from '../../data.json'
 import data from '../../data.json'
 import { useState } from "react";
 import ProjectsList from "./ProjectsContainer/ProjectsList";
