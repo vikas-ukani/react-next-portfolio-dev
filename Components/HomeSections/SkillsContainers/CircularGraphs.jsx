@@ -13,7 +13,7 @@ const CircularGraphs = () => (
                     </b>
                 </p>
             </div>
-            <div className="custom-skill-circle" style={{ marginRight: '6% !important' }}>
+            <div className="custom-skill-circle" style={{ marginRight: '6%' }}>
                 <CircularProgress fillColor="#f37b83" outColor="#232329" textColor="#6db363" percentage={65} title="NodeJS" />
                 <p className="skill-circle-text">
                     <b className="text-light-orange"
