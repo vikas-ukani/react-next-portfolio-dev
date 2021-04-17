@@ -428,7 +428,10 @@ h1.site-title {
 
 .open .menu-holder {
     transform: translateX(0);
-        z-index: 2;
+    z-index: 2;
+    top: 3px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0.1px 0px 15px 5px #000000bf;
 }
 
 .main-menu.sm-clean {
