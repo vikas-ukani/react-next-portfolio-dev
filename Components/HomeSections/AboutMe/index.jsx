@@ -9,7 +9,7 @@ export default function index() {
     }
     return (
         <section
-            className="elementor-section elementor-top-section elementor-element elementor-element-3c638111 op-section elementor-section-boxed elementor-section-height-default relative py-16 mt-16"
+            className="elementor-section elementor-top-section elementor-element elementor-element-3c638111 op-section elementor-section-boxed elementor-section-height-default relative py-16 mt-16 outer-rounded-box"
             data-id="3c638111" data-element_type="section" id="about_me">
             <div className="container mx-auto px-4">
                 <div className="relative flex flex-col min-w-0 break-words bg-light-dark text-white w-full mb-6 shadow-xl rounded-lg mt-32">
@@ -20,7 +20,7 @@ export default function index() {
                             <img
                                 alt="Vikas Ukani"
                                 src={process.env.LINK + "/images/Vikas-Ukani.jpg"}
-                                className={"custom-image-shadow h-auto align-middle border-none absolute -top-40"}
+                                className={"custom-image-shadow h-auto align-middle border-none absolute --top140"}
                                 style={{ maxWidth: "300px" }}
                             />
                             <div className="circle">
@@ -63,6 +63,7 @@ export default function index() {
 
                                     <div className="mb-4  font-semibold mt-10 text-base font-18">
                                         I'm very passionate about my work and curious to work with big ideas.
+                                        I always keep my self motivated and improving myself to rich higher on my field.
                                         Also, I excited to work on large-scale applications and websites to <span className="text-gray-100">explore my skill-set and gain a high quality of product-based knowledge.</span>
                                     </div>
 
@@ -73,6 +74,10 @@ export default function index() {
                                         I have more than <span className="text-gray-100">4+ years of office experience</span> working in software development in local as well as multi-national companies.
                                         I  have in-depth knowledge of backend frameworks like <span className="text-gray-100">Laravel/Lumen, NodeJS, Django/Flask to Build REST APIs</span>, and as a Frontend Framework I use <span className="text-gray-100">VueJS, ReactJS, and AngularJS</span>,
                                         I can handle my website information with several databases, Such as <span className="text-gray-100">MySQL, MongoDB, PostgreSQL, SQLite</span>.
+                                    </div>
+                                    <div className="mb-4 font-semibold mt-5 text-base font-18   ">
+                                        Apart from my work, I love traveling, enjoying nature, and eating delicious foods.
+                                        {/* also I love  birds by playing around */}
                                     </div>
                                     {/* </div> */}
 
