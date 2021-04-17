@@ -129,17 +129,16 @@ a {
  div.circle {
   height: 190px;
   width: 200px;
-  border-radius: 50%;
   background-color: #ce8b908c;
+  border-style: double;
+  border-width: 37px;
+  border-radius: 100%;
   position: relative;
-  top: -118px;
+  top: -92px;
   left: 0px;
   z-index: 1;
   transition: height 1s ease, width 1s ease;
   transform: translate(-50%,-50%);
-  border-style: outset;
-  border-width: 26px;
-  border-radius: 50%;
   border-color: rgb(223, 182, 182);
   -webkit-animation-name: ripple;
   animation-name: ripple;
@@ -156,3 +155,28 @@ a {
   50% {transform:scale(1.65); opacity:0.6;}
   100% {transform:scale(1.9); opacity:0;}
 } 
+
+
+/** ABOUT */
+.outer-rounded-box{
+  border-bottom-left-radius: 3000% 500%;
+  border-bottom-right-radius: 3000% 500%;
+  border-top-left-radius: 2000% 500%;
+  border-top-right-radius: 2000% 500%;
+  background-color: #483435b8;
+  box-shadow: 0px -7px 20px 5px #0e0d0dad;
+}
+
+.--top140{
+  top: -140px;
+}
+
+.social-link-icon-holder{
+    position: relative;
+    padding:0px 20px 20px 20px;
+    justify-content: space-between;
+}
+
+.social-link-icon{
+  width: 40px;
+}
