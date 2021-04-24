@@ -15,7 +15,8 @@
             "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
             "url": "https://github.com/vikas-ukani/load-backend-api",
             "category" : "php",
-            "tags": ["php", "laravel" , "mysql"] 
+            "tags": ["php", "laravel" , "mysql"] ,
+            "short_description" : "Create and develop a PHP laravel backend RestFull APIs using MYSql Database for Fitness App for iOS."
         },
         {
             "id": 3,
@@ -24,7 +25,7 @@
             "url": "https://github.com/vikas-ukani/edge_detection",
             "category" : "php",
             "tags": ["python", "pandas" , "openCV"],
-            "short_description" :  "Object Detection | Python."
+            "short_description" :  "Created an Object Detection Application Using OpenCV in Python."
         },
         {
             "id": 4,
@@ -37,12 +38,12 @@
         },
         {
             "id": 5,
-            "name": "Vue Admin Portal.",
+            "name": "VueJS and Laravel Admin Portal Website.",
             "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
             "url": "https://github.com/vikas-ukani/load-vue-admin",
             "category" : "javascript",
             "tags": ["vuejs", "vuex" , "axios"],
-            "short_description" :  "ML Project"
+            "short_description" :  "Complete Interactive Portal Build in VueJs Framework and consume RestAPIs for Data Handling and Managing User's Information."
         },
         {
             "id": 6,
