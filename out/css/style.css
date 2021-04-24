@@ -315,7 +315,7 @@ p.skill-circle-text {
 .category-filter {
     position: absolute;
     right: 0;
-    top: -20px;
+    top: 20px;
     z-index: 1;
     width: 25px;
     height: 15px;
