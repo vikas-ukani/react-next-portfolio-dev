@@ -67,7 +67,6 @@ export const EducationSection = () => (
                         <div className="elementor-image">
                             <img width="339" height="84" src={process.env.LINK + "/images/signature.png"} className="attachment-full size-full" alt=""
                                 loading="lazy" alt='sign'
-                                srcSet="https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/signature.png 339w, https://demo.cocobasic.com/volos-wp/demo-3/wp-content/uploads/2019/12/signature-300x74.png 300w"
                                 sizes="(max-width: 339px) 100vw, 339px" />
                         </div>
                     </div>
