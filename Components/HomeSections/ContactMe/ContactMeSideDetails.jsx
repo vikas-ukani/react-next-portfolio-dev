@@ -18,7 +18,7 @@ const ContactMeSideDetails = () => {
                         data-widget_type="text-editor.default">
                         <div className="elementor-widget-container">
                             <div className="elementor-text-editor elementor-clearfix">
-                                I am always available on my social media.
+                                I am always available on my social media profiles.
                                 If you are interested to work with together or your upcoming project, discussion or any other proposal then feel free to contact me anytime.
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const ContactMeSideDetails = () => {
                         </div>
                     </div>
                     <div className="mb-3" style={{ width: "100%" }}>
-                        <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Yogichowk+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                        <iframe width="100%" height="300" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Yogichowk+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                         </iframe>
                     </div>
                     <div className="elementor-element elementor-element-1c456744 elementor-widget elementor-widget-text-editor"
