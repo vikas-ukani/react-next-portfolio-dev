@@ -180,3 +180,11 @@ a {
 .social-link-icon{
   width: 40px;
 }
+
+.download-button-custom{
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #da5d65;
+  border-radius: 50px 50px 50px 50px;
+  padding: 22px 40px 22px 40px;
+}
