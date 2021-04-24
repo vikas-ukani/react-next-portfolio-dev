@@ -23,7 +23,7 @@ const ContactMeSideDetails = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="elementor-element elementor-element-940165e elementor-widget elementor-widget-text-editor"
+                    {/* <div className="elementor-element elementor-element-940165e elementor-widget elementor-widget-text-editor"
                         data-id="940165e" data-element_type="widget"
                         data-widget_type="text-editor.default">
                         <div className="elementor-widget-container">
@@ -32,7 +32,7 @@ const ContactMeSideDetails = () => {
                                 a sunbeam billions upon ratione voluptatem sequi
                                 nesciunt permano lorem ipsum.</div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="mb-3" style={{ width: "100%" }}>
                         <iframe width="100%" height="300" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Yogichowk+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                         </iframe>
