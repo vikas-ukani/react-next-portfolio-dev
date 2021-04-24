@@ -24,12 +24,12 @@ const ContactMeForm = () => {
                             <img src={process.env.LINK + "/social-icons/twitter.png"} alt="Twitter" />
                         </a>
                     </div>
-                    <p className="justify-center center-text w-full pb-5 text-white text-base">OR</p>
+                    <p className="justify-center center-text w-full pb-5 text-white text-base"><b>OR</b></p>
                     <hr />
                     <div className="elementor-element elementor-element-330f316b global-background-color elementor-widget elementor-widget-shortcode"
                         data-id="330f316b" data-element_type="widget"
                         data-widget_type="shortcode.default">
-                        <div className="elementor-widget-container">
+                        <div className="elementor-widget-container hover:bg-red-500 ">
                             <div className="elementor-shortcode">
                                 <div role="form" className="wpcf7" id="wpcf7-f207-p9-o1"
                                     lang="en-US" dir="ltr">
