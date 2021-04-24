@@ -67,15 +67,15 @@ export default function PortfolioSection() {
                                                     </div>
                                                 </div>
 
-                                                <div className="text-center ">
-                                                    {categories.map(category => (
-                                                        <span onClick={() => setSelectedCategory(category)} key={category}
-                                                            className={classCategoryNames(category)}>
-                                                            {category.toUpperCase()}
-                                                        </span>
-                                                    ))}
-                                                </div>
-                                                <div className="pt-16">
+                                                <div className="pt-10">
+                                                    <div className="text-center pb-5">
+                                                        {categories.map(category => (
+                                                            <span onClick={() => setSelectedCategory(category)} key={category}
+                                                                className={classCategoryNames(category)}>
+                                                                {category.toUpperCase()}
+                                                            </span>
+                                                        ))}
+                                                    </div>
                                                     <ProjectsList projects={filteredProjects()} />
                                                 </div>
 
