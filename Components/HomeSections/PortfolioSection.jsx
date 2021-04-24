@@ -1,4 +1,3 @@
-import ProjectsHolder from "./ProjectsContainer/ProjectsHolder";
 import data from '../../data.json'
 import { useState } from "react";
 import ProjectsList from "./ProjectsContainer/ProjectsList";
@@ -22,8 +21,18 @@ export default function PortfolioSection() {
         if (selectedCategory !== categories[0]) {
             filteredData = filteredData.filter(pro => selectedCategory == pro.category)
         }
+        filteredData = filteredData.sort((a, b) => a.id - b.id);
+        console.log('as', selectedCategory, filteredData);
         return filteredData.slice(0, 6)
     }
+
+    const classCategoryNames = category => {
+        let classNames = " button categories_button mx-5 text-1xl bg-light-dark font-bold py-2 px-5 rounded-xl "
+        classNames = classNames + (category == selectedCategory ? " text-light-green " : " text-light-orange ")
+        console.log('classNames', selectedCategory, category, classNames);
+        return classNames
+    }
+
     return (
         <div>
             <section id="portfolio" data-id="62519493" data-element_type="section"
@@ -43,7 +52,6 @@ export default function PortfolioSection() {
                                                 <div className="category-filter">
                                                     <div className="category-filter-icon"> </div>
                                                 </div>
-
                                                 <div className="category-filter-list button-group filters-button-group">
                                                     {categories.map((category, key) => (
                                                         <div onClick={() => setSelectedCategory(category)} key={category}
@@ -58,14 +66,44 @@ export default function PortfolioSection() {
                                                             My Projects</h2>
                                                     </div>
                                                 </div>
-                                                <div className="text-2xl font-bold ">{selectedCategory.toUpperCase()}</div>
-                                                <div className="pt-20">
+
+                                                <div className="text-center ">
+                                                    {categories.map(category => (
+                                                        <span onClick={() => setSelectedCategory(category)} key={category}
+                                                            className={classCategoryNames(category)}>
+                                                            {category.toUpperCase()}
+                                                        </span>
+                                                    ))}
+                                                </div>
+                                                <div className="pt-16">
                                                     <ProjectsList projects={filteredProjects()} />
                                                 </div>
+
                                                 <div className="clear"> </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <button class=" text-white font-bold py-4 px-6 rounded-full wp-block-button__link  mx-auto  hover:bg-red-400">
+                                        View More
+                                    </button>
+                                    {/* <div className="elementor-element elementor-element-4b0da0b elementor-widget__width-auto elementor-widget elementor-widget-button"
+                                        data-element_type="widget"
+                                        data-widget_type="button.default">
+                                        <div className="elementor-widget-container">
+                                            <div className="elementor-button-wrapper ">
+                                                <a href="https://drive.google.com/file/d/1WmfPSKGoWq7TyBJYWngpACDm5QZmqdrE/view"
+                                                    target="_blank" 
+                                                    className="elementor-button-link elementor-button1 wp-block-button elementor-size-sm " >
+                                                    <span className="elementor-button-content-wrapper download-button-custom hover:bg-white hover:text-black ">
+                                                        <span className="elementor-button-text">
+                                                            View More
+                                                        </span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
