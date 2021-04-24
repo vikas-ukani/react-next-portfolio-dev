@@ -32,7 +32,7 @@
             "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
             "url": "https://github.com/vikas-ukani/Melbourne-House-Price-Prediction-Using-Advanced-Machine-Learning-Models",
             "category" : "machine-learning",
-            "tags": ["machine-learning", "dataset" , "sk-learn"],
+            "tags": ["machine-learning", "dataset" , "sklearn"],
             "short_description" :  "A machine learning project for Kaggle."
         },
         {
@@ -68,54 +68,8 @@
             "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
             "url" : "https://github.com/vikas-ukani/react-next-portfolio-dev",
             "category": "javascript",
-            "tags" : ["nextjs", "reactjs", "portfolio" ]
-        },
-        {
-            "id": 100,
-            "name": "python 3",
-            "category": "python",
-            "tags" : ["php", "rest-api", "mysql" ]
-        },
-        {
-            "id": 100,
-            "name": "php 4",
-            "category": "php",
-            "tags" : ["php", "rest-api", "mysql" ]
-        }, {
-            "id": 100,
-            "name": "javascript",
-            "category": "javascript",
-            "tags" : ["javascript", "vuejs", "vuex" ]
-        }, {
-            "id": 100,
-            "name": "python-project",
-            "tags" : ["php", "rest-api", "mysql" ],
-            "category": "python"
-        },
-        {
-            "id": 100,
-            "name": "machine-learning",
-            "tags" : ["python", "pandas", "machine-learning" ],
-            "category": "machine-learning"
-        },
-                {
-            "id": 100,
-            "name": "pandas",
-            "category": "machine-learning"
-        },
-        {
-            "id": 100,
-            "name": "javascript 53",
-            "category": "javascript"
-        }, {
-            "id": 100,
-            "name": "python 54asd",
-            "category": "python"
-        },
-        {
-            "id": 100,
-            "name": "javascript asd",
-            "category": "javascript"
+            "tags" : ["nextjs", "reactjs", "portfolio" ],
+            "short_description" :  "A personal portfolio website build with ReactJS and NextJS."
         }
     ]
 }

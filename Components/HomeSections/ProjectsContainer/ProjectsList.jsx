@@ -1,16 +1,20 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react';
 const ProjectsList = ({ projects }) => {
+ 
     return (
         <div>
             <div className="flex flex-col lg:grid lg:gap-4 2xl:gap-6 lg:grid-cols-3 2xl:row-span-2 2xl:pb-8 ml-2 pt-4 px-6">
                 {projects.map((project, key) => (
                     <div key={key} id={key} className="max-w-sm rounded overflow-hidden shadow-lg my-2">
                         {project.image_url && (
+                            // <Image className="w-full " loader={myLoader} src={"https://raw.githubusercontent.com/vikas-ukani/photo-point/master/public/images/photo-point-image.jpg"} height="400" width="500" alt={project.name} />
                             <img className="w-full " src={"https://raw.githubusercontent.com/vikas-ukani/photo-point/master/public/images/photo-point-image.jpg?token=ANXLAGUOKZYBVMGMD5QGJLTANBT3I"} height="400" width="500" alt={project.name} />
                         )}
                         {!project.image_url && (
-                            <img className="w-full min-h-full" src="https://picsum.photos/400/400" width="400" height="400" alt="Mountain" />
+                            // <Image className="w-full min-h-full"  src="https://picsum.photos/400/400" height="400" width="500" alt={project.name}/>
+                            <img className="w-full min-h-full" src="https://picsum.photos/400/400" height="400" width="400" alt="Mountain" />
                         )}
                         <div className="bg-light-dark">
                             <div className="px-6 py-4">
@@ -20,17 +24,17 @@ const ProjectsList = ({ projects }) => {
                                     </svg>
                                     Private
                                 </div>
-                                {project.url && (
-                                    <Link href="">
-                                        <a >
-                                            <div className="font-bold text-xl mb-2  text-light-orange">{project.name}</div>
-                                        </a>
-                                    </Link>
-
-                                )}
-                                {!project.url && (
-                                    <div className="font-bold text-xl mb-2 text-center text-light-orange">{project.name}</div>
-                                )}
+                                {project.url
+                                    ? (
+                                        <Link href="">
+                                            <a >
+                                                <div className="font-bold text-xl mb-2  text-light-orange">{project.name}</div>
+                                            </a>
+                                        </Link>
+                                    )
+                                    : (
+                                        <div className="font-bold text-xl mb-2 text-center text-light-orange">{project.name}</div>
+                                    )}
                                 {project.short_description &&
                                     (
                                         <p className="text-grey-darker text-base">
