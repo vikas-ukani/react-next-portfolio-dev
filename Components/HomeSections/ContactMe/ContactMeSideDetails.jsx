@@ -19,7 +19,7 @@ const ContactMeSideDetails = () => {
                         <div className="elementor-widget-container">
                             <div className="elementor-text-editor elementor-clearfix">
                                 I am always available on my social media profiles.
-                                If you are interested to work with together or your upcoming project, discussion or any other proposal then feel free to contact me anytime.
+                                If you are interested to work together or hire me on your upcoming project, discussion or any other proposal then feel free to contact me anytime.
                             </div>
                         </div>
                     </div>
@@ -47,9 +47,15 @@ const ContactMeSideDetails = () => {
                                     <span className="text-light-green"> Surat, Gujarat, India</span>
                                     <br />
                                     <strong>EMAIL:</strong>
-                                    <a href="" className="__cf_email__ text-light-green" > [ email&#160;protected ] </a>
+                                    <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;:&#x76;&#x69;&#x6b;&#x61;&#x73;&#x75;&#x6b;&#x61;&#x6e;&#x69;&#x35;@&#x67;&#x6d;&#x61;&#x69;&#x6c;.&#x63;&#x6f;&#x6d;" className="__cf_email__" >
+                                        {/* vikasukani5@gmail.com */}
+                                        &#x76;&#x69;&#x6b;&#x61;&#x73;&#x75;&#x6b;&#x61;&#x6e;&#x69;&#x35;[at]&#x67;&#x6d;&#x61;&#x69;&#x6c;[dot]&#x63;&#x6f;&#x6d;
+                                    </a>
+                                    {/* <a href="vikasukani5@gmail.com" className="__cf_email__ text-light-green" > [ email&#160;protected ] </a> */}
                                     <br />
-                                    <strong>WEBSITE:</strong> www.yourwebsite.com
+                                    <strong>WEBSITE:</strong> 
+                                    <a href="https://www.linkedin.com/in/vikas-ukani-a02499167/" className="__cf_email__" >
+                                    LinkedIn</a>
                                 </p>
                             </div>
                         </div>
