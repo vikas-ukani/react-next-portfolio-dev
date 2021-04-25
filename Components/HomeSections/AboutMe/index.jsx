@@ -63,8 +63,8 @@ export default function index() {
 
                                     <div className="mb-4  font-semibold mt-10 text-base font-18">
                                         I'm very passionate about my work and curious to work with big ideas.
-                                        I always keep my self motivated and improving myself to rich higher on my field.
-                                        Also, I excited to work on large-scale applications and websites to <span className="text-gray-100">explore my skill-set and gain a high quality of product-based knowledge.</span>
+                                        I always keep myself motivated and improving myself to reach higher in my field.
+                                        Also, I enthusiastic to work on large-scale applications and websites to <span className="text-gray-100">explore my skill-set and gain a high quality of product-based knowledge.</span>
                                     </div>
 
                                     <div className="mt-10 font-extrabold text-4xl text-light-green fontComic">What I do,</div>
