@@ -42,8 +42,8 @@ export default function index() {
                                     <span className="font-extrabold text-4xl text-light-green fontComic ">Who I am,</span>
                                     <br />
                                     <div className="mb-4 font-semibold mt-5 fontComic text-base font-18">
-                                        Hello, I`m Vikas Ukani,
-                                        As a professional, I`m a {" "}
+                                    
+                                    I`m a {" "}
                                         <Typed
                                             className={"text-gray-100"}
                                             strings={[
@@ -57,8 +57,8 @@ export default function index() {
                                         >
                                             <span> </span>
                                         </Typed>
-                                        Developer who loves to write well clean design, easy to readable, and high-quality code blocks to design, build and develop a software or bunch of webpages.
-                                        I also have a <b className="text-gray-100">Master of Computer Application degree from Jaipur National University and Bachelors of Computer Application degree from S. V. Patel of Computer Science Collage</b>.
+                                        Developer who loves to write well clean design, easy to readable, and high-quality code blocks to design, build and develop a software or bunch of web pages.
+                                        I also have a <b className="text-gray-100">Master of Computer Application degree from Jaipur National University and a Bachelor of Computer Application degree from S. V. Patel of Computer Science Collage.</b>
                                     </div>
 
                                     <div className="mb-4  font-semibold mt-10 text-base font-18">
