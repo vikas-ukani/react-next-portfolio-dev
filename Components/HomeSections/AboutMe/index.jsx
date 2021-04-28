@@ -1,12 +1,12 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Typed from 'react-typed';
 // import './../../../styles/AboutMe.module.css'
 
 export default function index() {
-    const [isShowMore, setIsShowMore] = useState(true)
-    const getMoreLessClass = () => {
-        return ' ' + (isShowMore == true ? 'fadeOut hidden' : 'fadeIn show');
-    }
+    // const [isShowMore, setIsShowMore] = useState(true)
+    // const getMoreLessClass = () => {
+    //     return ' ' + (isShowMore == true ? 'fadeOut hidden' : 'fadeIn show');
+    // }
     return (
         <section
             className="elementor-section elementor-top-section elementor-element elementor-element-3c638111 op-section elementor-section-boxed elementor-section-height-default relative py-16 mt-16 outer-rounded-box"
@@ -23,8 +23,7 @@ export default function index() {
                                 className={"custom-image-shadow h-auto align-middle border-none absolute --top140"}
                                 style={{ maxWidth: "300px" }}
                             />
-                            <div className="circle">
-                            </div>
+                            <div className="circle"></div>
                             {/* </div> */}
                             {/* </div> */}
                         </div>
@@ -42,7 +41,6 @@ export default function index() {
                                     <span className="font-extrabold text-4xl text-light-green fontComic ">Who I am,</span>
                                     <br />
                                     <div className="mb-4 font-semibold mt-5 fontComic text-base font-18">
-                                    
                                     I`m a {" "}
                                         <Typed
                                             className={"text-gray-100"}
