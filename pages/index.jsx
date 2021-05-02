@@ -1,4 +1,5 @@
 import AboutMe from '../Components/HomeSections/AboutMe'
+import CertificateSection from '../Components/HomeSections/CertificateSection'
 import ContactSection from '../Components/HomeSections/ContectSection'
 import ExperienceSection from '../Components/HomeSections/ExperienceSection'
 import FrontSection from '../Components/HomeSections/FrontSection'
@@ -27,6 +28,7 @@ function Home(props) {
                 <ExperienceSection />
                 <SkillSection />
                 <PortfolioSection />
+                {/* <CertificateSection /> */}
                 <IntroSection />
                 <ContactSection />
               </div>
