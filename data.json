@@ -3,9 +3,9 @@
         {
             "id": 1,
             "name": "photo-point",
-            "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
+            "image_url": "/images/portfolio-images/photo-point-image.jpg",
             "category": "php",
-            "url" : "h/blog/blogttps://github.com/vikas-ukani/photo-point",
+            "url" : "https://github.com/vikas-ukani/photo-point",
             "tags" : ["php", "rest-api", "mysql" ],
             "short_description" : "The complete Laravel Rest-API Project which is consumed in iOS mobile application."
         },
