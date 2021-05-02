@@ -11,7 +11,6 @@ const MavenExperience = () => {
                             e.target.children.jobTitle.className = 'text-light-green';
                         }
                         if (e.target.children && e.target.children.className && e.target.children.className.className) {
-                            console.log('e.target.children', e.target.children);
                             e.target.children.companyClass.className = 'text-light-green';
                         }
                         if (e.target.children && e.target.children.className && e.target.children.className.className) {

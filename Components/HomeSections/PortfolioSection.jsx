@@ -22,14 +22,12 @@ export default function PortfolioSection() {
             filteredData = filteredData.filter(pro => selectedCategory == pro.category)
         }
         filteredData = filteredData.sort((a, b) => a.id - b.id);
-        console.log('as', selectedCategory, filteredData);
         return filteredData.slice(0, 6)
     }
 
     const classCategoryNames = category => {
         let classNames = " button categories_button mx-5 text-1xl bg-light-dark font-bold py-2 px-5 rounded-xl "
         classNames = classNames + (category == selectedCategory ? " text-light-green " : " text-light-orange ")
-        console.log('classNames', selectedCategory, category, classNames);
         return classNames
     }
 
@@ -84,7 +82,7 @@ export default function PortfolioSection() {
                                         </div>
                                     </div>
 
-                                    <button class=" text-white font-bold py-4 px-6 rounded-full wp-block-button__link  mx-auto  hover:bg-red-400">
+                                    <button className=" text-white font-bold py-4 px-6 rounded-full wp-block-button__link  mx-auto  hover:bg-red-400">
                                         View More
                                     </button>
                                     {/* <div className="elementor-element elementor-element-4b0da0b elementor-widget__width-auto elementor-widget elementor-widget-button"

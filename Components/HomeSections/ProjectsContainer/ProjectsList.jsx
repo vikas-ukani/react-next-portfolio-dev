@@ -9,12 +9,10 @@ const ProjectsList = ({ projects }) => {
                 {projects.map((project, key) => (
                     <div key={key} id={key} className="max-w-sm rounded overflow-hidden shadow-lg my-2">
                         {project.image_url && (
-                            // <Image className="w-full " loader={myLoader} src={"https://raw.githubusercontent.com/vikas-ukani/photo-point/master/public/images/photo-point-image.jpg"} height="400" width="500" alt={project.name} />
-                            <img className="w-full " src={"https://raw.githubusercontent.com/vikas-ukani/photo-point/master/public/images/photo-point-image.jpg?token=ANXLAGUOKZYBVMGMD5QGJLTANBT3I"} height="400" width="500" alt={project.name} />
+                            <img className="w-full " src={process.env.LINK + project.image_url} height="400" width="500" alt={project.name} />
                         )}
                         {!project.image_url && (
-                            // <Image className="w-full min-h-full"  src="https://picsum.photos/400/400" height="400" width="500" alt={project.name}/>
-                            <img className="w-full min-h-full" src="https://picsum.photos/400/400" height="400" width="400" alt="Mountain" />
+                            <img className="w-full " src="https://picsum.photos/400/400" height="400" width="400" alt="Mountain" />
                         )}
                         <div className="bg-light-dark">
                             <div className="px-6 py-4">
@@ -26,7 +24,7 @@ const ProjectsList = ({ projects }) => {
                                 </div>
                                 {project.url
                                     ? (
-                                        <Link href="">
+                                        <Link href="/">
                                             <a >
                                                 <div className="font-bold text-xl mb-2  text-light-orange">{project.name}</div>
                                             </a>

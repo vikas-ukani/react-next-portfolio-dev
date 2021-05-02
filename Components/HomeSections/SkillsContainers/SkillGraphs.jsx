@@ -1,8 +1,7 @@
 export const LeftSkillHolder = () => (
     <div className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5d765e1c"
         data-element_type="column">
-        <div
-            className="elementor-column-wrap elementor-element-populated">
+        <div className="elementor-column-wrap elementor-element-populated">
             <div className="elementor-widget-wrap">
                 <div className="elementor-element elementor-element-473d749 elementor-widget elementor-widget-coco-skills-lines"
                     data-element_type="widget"
@@ -47,11 +46,14 @@ const SkillBar = ({ title, percentage }) => (
     <div className="skill-holder">
         <div className="skill-text">
             <div className="skill">
-                <div className="skill-fill" data-fill={percentage + '%'}>
-                </div>
+                <div className="skill-fill" data-fill={percentage + '%'}> </div>
             </div>
-            <span><b className={percentage >= 80 ? 'text-light-orange' : ''}>{title}</b></span>
+            <span>
+                <b className={percentage >= 80 ? 'text-light-orange' : ''}>{title}</b>
+            </span>
         </div>
-        <div className="skill-percent text-light-orange"> <b className={percentage >= 80 ? 'text-light-orange' : ''}> {percentage}</b>% </div>
+        <div className="skill-percent text-light-orange"> 
+            <b className={percentage >= 80 ? 'text-light-orange' : ''}> {percentage}</b>% 
+        </div>
     </div >
 )
