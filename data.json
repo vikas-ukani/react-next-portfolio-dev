@@ -12,7 +12,7 @@
         {
             "id": 2,
             "name": "Load Fitness RestAPI",
-            "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
+            "image_url": "/images/portfolio-images/load-fitness.jpg",
             "url": "https://github.com/vikas-ukani/load-backend-api",
             "category" : "php",
             "tags": ["php", "laravel" , "mysql"] ,

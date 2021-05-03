@@ -12,7 +12,7 @@ const ProjectsList = ({ projects }) => {
                             <img className="w-full " src={process.env.LINK + project.image_url} height="400" width="500" alt={project.name} />
                         )}
                         {!project.image_url && (
-                            <img className="w-full " src="https://picsum.photos/400/400" height="400" width="400" alt="Mountain" />
+                            <img className="w-full " src="https://picsum.photos/200/300" height="400" width="400" alt="Mountain" />
                         )}
                         <div className="bg-light-dark">
                             <div className="px-6 py-4">
