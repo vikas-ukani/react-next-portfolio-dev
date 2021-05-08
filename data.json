@@ -21,7 +21,7 @@
         {
             "id": 3,
             "name": "Edge Detect From Any Object",
-            "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
+            "image_url": "/images/portfolio-images/edge-detection.png",
             "url": "https://github.com/vikas-ukani/edge_detection",
             "category" : "php",
             "tags": ["python", "pandas" , "openCV"],
@@ -30,7 +30,7 @@
         {
             "id": 4,
             "name": "House Price Prediction Using Advanced Machine Learning Models.",
-            "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
+            "image_url": "/images/portfolio-images/house-price-predicion.jpeg",
             "url": "https://github.com/vikas-ukani/Melbourne-House-Price-Prediction-Using-Advanced-Machine-Learning-Models",
             "category" : "machine-learning",
             "tags": ["machine-learning", "dataset" , "sklearn"],
@@ -39,7 +39,7 @@
         {
             "id": 5,
             "name": "VueJS and Laravel Admin Portal Website.",
-            "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
+            "image_url": "/images/portfolio-images/vuejs-admin.png",
             "url": "https://github.com/vikas-ukani/load-vue-admin",
             "category" : "javascript",
             "tags": ["vuejs", "vuex" , "axios"],
@@ -48,7 +48,7 @@
         {
             "id": 6,
             "name": "AI | Jarvis Assistant",
-            "image_url": "https://github.com/vikas-ukani/photo-point/blob/master/public/images/photo-point-image.jpg",
+            "image_url": "/images/portfolio-images/AI-Jarvis-Udemy-Course.png",
             "url": "https://github.com/vikas-ukani/ai-assistant-jarvis",
             "category" : "python",
             "tags": ["python", "SpeechRecognition" , "ai"],
