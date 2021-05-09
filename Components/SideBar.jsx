@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 // import Clock from 'react-digital-clock'
 import AudioBars from './UI/AudioBars'
+import LeftDroverNavBar from './UI/LeftDroverNavBar'
 export default function SideBar() {
     return (
         <div className="header-holder">
@@ -112,37 +113,7 @@ export default function SideBar() {
                             </div>
                         </div>
                     </div>
-                    <div className="menu-holder">
-                        <div className="menu-wrapper relative">
-                            <nav id="header-main-menu" className="big-menu">
-                                <ul id="menu-menu-1" className="main-menu sm sm-clean">
-                                    <li id="menu-item-196"
-                                        className="one-page-section menu-item menu-item-type-custom menu-item-object-custom menu-item-196">
-                                        <a href="#home">Home</a></li>
-                                    <li id="menu-item-197"
-                                        className="one-page-section menu-item menu-item-type-custom menu-item-object-custom menu-item-197">
-                                        <a href="#introduce">Introduce</a></li>
-                                    <li id="menu-item-198"
-                                        className="one-page-section menu-item menu-item-type-custom menu-item-object-custom menu-item-198">
-                                        <a href="#portfolio">Portfolio</a></li>
-                                    <li id="menu-item-199"
-                                        className="one-page-section menu-item menu-item-type-custom menu-item-object-custom menu-item-199">
-                                        <a href="#experience">Experience</a></li>
-                                    <li id="menu-item-200"
-                                        className="one-page-section menu-item menu-item-type-custom menu-item-object-custom menu-item-200">
-                                        <a href="#skills">Skills</a></li>
-                                    <li id="menu-item-201"
-                                        className="one-page-section menu-item menu-item-type-custom menu-item-object-custom menu-item-201">
-                                        <a href="#contact">Contact</a></li>
-                                    <li id="menu-item-202"
-                                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-202">
-                                        <Link href="/blogs"> 
-                                         <a>Blog</a>
-                                        </Link></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
+                    <LeftDroverNavBar />
                     <div className="big-num">
                         <div className="current-big-num">01</div>
                         <div className="icon-scroll"></div>
