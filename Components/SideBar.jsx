@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 // import Clock from 'react-digital-clock'
 import AudioBars from './UI/AudioBars'
 export default function SideBar() {
@@ -134,7 +136,9 @@ export default function SideBar() {
                                         <a href="#contact">Contact</a></li>
                                     <li id="menu-item-202"
                                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-202">
-                                        <a href="blog/index.html">Blog</a></li>
+                                        <Link href="/blogs"> 
+                                         <a>Blog</a>
+                                        </Link></li>
                                 </ul>
                             </nav>
                         </div>
