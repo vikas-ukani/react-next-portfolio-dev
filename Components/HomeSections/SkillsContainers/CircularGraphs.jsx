@@ -36,12 +36,12 @@ const CircularGraphs = () => (
                 </p>
             </div>
             <div className="custom-skill-circle">
-                <CircularProgress fillColor="#f37b83" outColor="#232329" textColor="#6db363" percentage={60} title="DJango" />
+                <CircularProgress fillColor="#f37b83" outColor="#232329" textColor="#6db363" percentage={60} title="Django" />
                 <p className="skill-circle-text">
                     <b className="text-light-orange"
                         onMouseEnter={(e) => { e.target.className = 'text-light-orange'; }}
                         onMouseLeave={(e) => { e.target.className = 'text-light-green'; }}>
-                        DJango
+                        Django
                     </b>
                 </p>
             </div>
