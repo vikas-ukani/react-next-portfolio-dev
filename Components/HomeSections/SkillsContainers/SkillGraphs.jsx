@@ -30,7 +30,7 @@ export const RightSkillHolder = () => (
                     <div className="elementor-widget-container">
                         <div className="skills-holder">
                             <div className="skills-holder">
-                                <SkillBar title="JavaScript" percentage={85} />
+                                <SkillBar title="JavaScript" percentage={60} />
                                 <SkillBar title="ReactJS" percentage={65} />
                                 <SkillBar title="Database Management" percentage={80} />
                                 <SkillBar title="Machine Learning" percentage={65} />
