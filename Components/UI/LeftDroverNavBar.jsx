@@ -10,7 +10,7 @@ const LeftDroverNavBar = () => {
                         <a href={process.env.LINK + "/#home"} >Home</a></li>
                     <li id="menu-item-197"
                         className="one-page-section menu-item menu-item-type-custom menu-item-object-custom menu-item-197">
-                        <a href={process.env.LINK + "/#introduce"}>Introduce</a></li>
+                        <a href={process.env.LINK + "/#about_me"}>About Me</a></li>
                     <li id="menu-item-198"
                         className="one-page-section menu-item menu-item-type-custom menu-item-object-custom menu-item-198">
                         <a href={process.env.LINK + "/#portfolio"}>Portfolio</a></li>
