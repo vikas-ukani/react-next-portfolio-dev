@@ -72,6 +72,7 @@ export default function Blogs() {
 					<article className=" w-full text-white px-40 mt-10 text-2xl line-height content-center px-4 flex ">
 						<div className="post-wrapper center-relative">
 							<div className="single-content-wrapper content-1170 center-relative">
+
 								<div className="single-content-wrapper content-960 center-relative">
 									<div className="entry-content">
 										<p>Bearable only through love hydrogen atoms bits of moving fluff culture shores of the cosmic ocean paroxysm of global death rich in heavy atoms with pretty stories for which there’s little good evidence something incredible is waiting to be known not a sunrise but a galaxyrise shores of the cosmic ocean inconspicuous motes of rock.</p>
