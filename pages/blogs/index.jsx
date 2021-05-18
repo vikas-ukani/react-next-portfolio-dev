@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import RecentArticles from '../../Components/Blogs/RecentArticals'
 
 export default function Blogs() {
 	return (
@@ -68,7 +69,7 @@ export default function Blogs() {
 							</li>
 						</ul>
 					</div>
-					<article className=" w-full  px-40 mt-10 text-2xl line-height content-center px-4 flex ">
+					<article className=" w-full text-white px-40 mt-10 text-2xl line-height content-center px-4 flex ">
 						<div className="post-wrapper center-relative">
 							<div className="single-content-wrapper content-1170 center-relative">
 								<div className="single-content-wrapper content-960 center-relative">
@@ -88,31 +89,8 @@ export default function Blogs() {
 							</div>
 						</div>
 					</article>
-					<div className=" mt-10 content-holder center-relative content-1300 post-186 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
 
-						<div className="nav-links content-750 center-relative">
-							<div className="nav-previous">
-								<p>PREVIOUS STORY</p>
-								<a href="https://demo.cocobasic.com/volos-wp/demo-3/2019/11/26/great-turbulent-clouds-hearts-of-the-stars-stirred-by-starlight-sky-culture/" rel="prev">Great turbulent clouds hearts of the stars stirred by starlight sky culture</a>
-								<div className="clear">
-								</div>
-							</div>
-							<div className="nav-next">
-								<p>NEXT STORY</p>
-								<a href="https://demo.cocobasic.com/volos-wp/demo-3/2019/11/28/hundreds-of-thousands-a-still-more-glorious-nights-around-art-table/" rel="next">Hundreds of thousands a still more glorious nights around art table</a>
-								<div className="clear">
-								</div>
-							</div>
-							<div className="clear">
-							</div>
-						</div>
-						<div id="comments" className="comments-holder">
-							<div className="clear">
-							</div>
-						</div>
-						<div className="clear">
-						</div>
-					</div>
+					<RecentArticles />
 				</section>
 			</div>
 		</div>
