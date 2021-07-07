@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react';
 const ProjectsList = ({ projects }) => {
- 
+
     return (
         <div>
             <div className="flex flex-col lg:grid lg:gap-4 2xl:gap-6 lg:grid-cols-3 2xl:row-span-2 2xl:pb-8 ml-2 pt-4 px-6">
@@ -47,8 +47,7 @@ const ProjectsList = ({ projects }) => {
                                         <span key={key} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                                             #{tag}
                                         </span>
-                                    )
-                                    )}
+                                    ))}
                                 </div>
                             )}
                         </div>

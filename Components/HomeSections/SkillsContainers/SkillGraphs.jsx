@@ -9,8 +9,8 @@ const SkillBar = ({ title, percentage }) => (
                 <b className={percentage >= 70 ? 'text-light-orange' : ''}>{title}</b>
             </span>
         </div>
-        <div className="skill-percent text-light-orange"> 
-            <b className={percentage >= 70 ? 'text-light-orange' : ''}> {percentage}</b>% 
+        <div className="skill-percent text-light-orange">
+            <b className={percentage >= 70 ? 'text-light-orange' : ''}> {percentage}</b>%
         </div>
     </div >
 )

@@ -43,19 +43,20 @@ const ContactMeSideDetails = () => {
                         <div className="elementor-widget-container">
                             <div className="elementor-text-editor elementor-clearfix">
                                 <p>
-                                    <strong>ADDRESS: </strong>
-                                    <span className="text-light-green"> Surat, Gujarat, India</span>
+                                    <strong className="global-color"></strong>
+                                    <strong className="global-color">ADDRESS: </strong>
+                                    <span className="text-white"> Gujarat, India</span>
                                     <br />
-                                    <strong>EMAIL:</strong>
-                                    <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;:&#x76;&#x69;&#x6b;&#x61;&#x73;&#x75;&#x6b;&#x61;&#x6e;&#x69;&#x35;@&#x67;&#x6d;&#x61;&#x69;&#x6c;.&#x63;&#x6f;&#x6d;" className="__cf_email__" >
+                                    <strong className="global-color">EMAIL:</strong>
+                                    <a className="__cf_email__ text-light-green" href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;:&#x76;&#x69;&#x6b;&#x61;&#x73;&#x75;&#x6b;&#x61;&#x6e;&#x69;&#x35;@&#x67;&#x6d;&#x61;&#x69;&#x6c;.&#x63;&#x6f;&#x6d;"  >
                                         {/* vikasukani5@gmail.com */}
                                         &#x76;&#x69;&#x6b;&#x61;&#x73;&#x75;&#x6b;&#x61;&#x6e;&#x69;&#x35;[at]&#x67;&#x6d;&#x61;&#x69;&#x6c;[dot]&#x63;&#x6f;&#x6d;
                                     </a>
                                     {/* <a href="vikasukani5@gmail.com" className="__cf_email__ text-light-green" > [ email&#160;protected ] </a> */}
                                     <br />
-                                    <strong>WEBSITE:</strong> 
-                                    <a href="https://www.linkedin.com/in/vikas-ukani-a02499167/" className="__cf_email__" >
-                                    LinkedIn</a>
+                                    <strong className="global-color">WEBSITE:</strong>
+                                    <a className="__cf_email__ text-white" href="https://www.linkedin.com/in/vikas-ukani-a02499167/"   >
+                                        LinkedIn</a>
                                 </p>
                             </div>
                         </div>

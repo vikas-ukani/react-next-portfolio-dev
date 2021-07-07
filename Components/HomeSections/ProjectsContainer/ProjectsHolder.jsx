@@ -56,8 +56,7 @@ const ProjectsHolder = () => {
                         sizes="(max-width: 600px) 100vw, 600px" />
                     <div className="portfolio-text-holder">
                         <div className="portfolio-text-wrapper">
-                            <p className="portfolio-text">Handmade
-                                                                                    </p>
+                            <p className="portfolio-text">Handmade</p>
                             <p className="portfolio-cat">Video</p>
                         </div>
                     </div>
