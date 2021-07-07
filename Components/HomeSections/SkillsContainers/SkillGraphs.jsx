@@ -6,11 +6,11 @@ const SkillBar = ({ title, percentage }) => (
                 <div className="skill-fill" data-fill={percentage + '%'}> </div>
             </div>
             <span>
-                <b className={percentage >= 80 ? 'text-light-orange' : ''}>{title}</b>
+                <b className={percentage >= 70 ? 'text-light-orange' : ''}>{title}</b>
             </span>
         </div>
         <div className="skill-percent text-light-orange"> 
-            <b className={percentage >= 80 ? 'text-light-orange' : ''}> {percentage}</b>% 
+            <b className={percentage >= 70 ? 'text-light-orange' : ''}> {percentage}</b>% 
         </div>
     </div >
 )
@@ -26,9 +26,9 @@ export const LeftSkillHolder = () => (
                     <div className="elementor-widget-container">
                         <div className="skills-holder">
                             <SkillBar title="HTML / CSS" percentage={75} />
-                            <SkillBar title="PHP" percentage={90} />
-                            <SkillBar title="Server Management" percentage={70} />
-                            <SkillBar title="Python" percentage={80} />
+                            <SkillBar title="PHP" percentage={85} />
+                            <SkillBar title="Server Management" percentage={65} />
+                            <SkillBar title="Python" percentage={60} />
                         </div>
                     </div>
                 </div>
@@ -47,10 +47,10 @@ export const RightSkillHolder = () => (
                     <div className="elementor-widget-container">
                         <div className="skills-holder">
                             <div className="skills-holder">
-                                <SkillBar title="JavaScript" percentage={60} />
-                                <SkillBar title="ReactJS" percentage={65} />
+                                <SkillBar title="JavaScript" percentage={65} />
+                                <SkillBar title="ReactJS" percentage={60} />
                                 <SkillBar title="Database Management" percentage={80} />
-                                <SkillBar title="Machine Learning" percentage={65} />
+                                <SkillBar title="Machine Learning" percentage={45} />
                             </div>
                         </div>
                     </div>
