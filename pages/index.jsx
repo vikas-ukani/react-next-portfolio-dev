@@ -6,6 +6,7 @@ import FrontSection from '../Components/HomeSections/FrontSection'
 import IntroSection from '../Components/HomeSections/IntroSection'
 import PortfolioSection from '../Components/HomeSections/PortfolioSection'
 import SkillSection from '../Components/HomeSections/SkillSection'
+import GitHubCalanderSection from '../Components/HomeSections/GitHubCalanderSection'
 
 export async function getStaticProps(context) {
   return {
@@ -28,6 +29,7 @@ function Home(props) {
                 <ExperienceSection />
                 <SkillSection />
                 <PortfolioSection />
+                {/* <GitHubCalanderSection /> */}
                 {/* <CertificateSection /> */}
                 <IntroSection />
                 <ContactSection />
