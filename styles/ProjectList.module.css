@@ -13,13 +13,13 @@
 .projectCard {
 	max-width: 350px;
 	transition: ease-in-out 200ms;
+	box-shadow: -7px 9px 10px rgb(0 0 0 / 50%);
 }
 
 .projectCard:hover {
 	cursor: pointer;
-	margin-top: -5px;
-	/* box-shadow: -7px 4px 5px rgba(0, 0, 0, 0.5); */
-	box-shadow: -7px -8px 13px rgb(0 0 0 / 50%);
+	margin-top: -3px;
+	box-shadow: none;
 }
 
 .projectCardInformation {
