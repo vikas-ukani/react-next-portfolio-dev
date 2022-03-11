@@ -4,7 +4,7 @@ import React from "react";
 import styles from "../../../styles/ProjectList.module.css";
 const ProjectsList = ({ projects }) => {
 	return (
-		<div>
+		<div >
 			<div className={styles.projectCardList}>
 				{projects.map((project, key) => (
 					<div key={key} id={key} className={styles.projectCard}>
@@ -37,7 +37,7 @@ const ProjectsList = ({ projects }) => {
 								{project.url ? (
 									<Link href="/">
 										<a>
-											<div className="font-bold text-xl mb-2  text-light-orange">
+											<div className="font-bold font-18 mb-2  text-light-orange">
 												{project.name}
 											</div>
 										</a>

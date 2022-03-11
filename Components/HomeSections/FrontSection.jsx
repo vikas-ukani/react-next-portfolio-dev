@@ -134,19 +134,18 @@ export default function FrontSection() {
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-62c46cf elementor-widget elementor-widget-image"
-
                                                                 data-element_type="widget"
                                                                 data-widget_type="image.default">
                                                                 <div className="elementor-widget-container">
                                                                     <div className="elementor-image">
                                                                         <img
                                                                             style={{
-                                                                                height: '95vh', width: '100vh',
+                                                                                height: '95vh', width: '100vh', borderRadius: '10px',
                                                                             }}
-                                                                        width="536" height="830"
-                                                                        src={process.env.LINK + "/images/vikas-ukani-vertical-image.jpg"}
-                                                                        className="attachment-full size-full"
-                                                                        alt="vikas-ukani" loading="lazy"
+                                                                            width="536" height="830"
+                                                                            src={process.env.LINK + "/images/vikas-ukani-vertical-image.jpg"}
+                                                                            className="attachment-full size-full rounded"
+                                                                            alt="vikas-ukani" loading="lazy"
                                                                             sizes="(max-width: 536px) 100vw, 536px" />
                                                                     </div>
                                                                 </div>

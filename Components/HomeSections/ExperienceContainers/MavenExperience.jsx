@@ -30,26 +30,28 @@ const MavenExperience = () => {
                         }
                     }
                     }>
-                    <img className="h-45 md:w-5/12 md:h-auto md:rounded-none  mx-auto"
-                        width="40%" style={{ minWidth: '40%' }}
-                        src={process.env.LINK + "/images/company/maven-agency-logo.jpg"} alt={companyName} width="384" height="512" />
-                    <div className="  bg-black pt-2 md:p-8 text-center md:text-left space-y-4">
-                        <p className=" pl-1 pr-1 text-justify leading-relaxed fontComic text-base font-18">
-                            Currently, I'm working as full-stack developer at <span id='companyClass' className='text-light-orange' >{companyName} </span>
-                            Creating frontend and backend platform to develop and maintain a website that can help to enhance my client's business.
-                            Exploring technical skills in <span id='reactJS' className="text-light-green">ReactJS with NextJS and VueJS</span> as frontend-development.
-                        </p>
-                        <div className="  ">
-                            <div className="text-cyan-600 mt-10">
-                                <p className='text-light-orange fontComic text-base font-bold'>{year}</p>
-                                <i id='jobTitle' className='text-white fontComic text-base'>
-                                    <b>{companyName}</b> ( Present ) </i>
-                            </div>
-                            <div className="text-gray-500 mt-1 fontComic text-base">
-                                <b>Software Engineer</b>
-                            </div>
-                            <div className="text-gray-600 mt-1 fontComic text-base">
-                                <b>Gujarat, India</b>
+                    <div className="d-flex rounded">
+                        <img className="h-45 md:w-5/12 md:h-auto mx-auto"
+                            width="40%" style={{ minWidth: '40%' }}
+                            src={process.env.LINK + "/images/company/maven-agency-logo.jpg"} alt={companyName} width="384" height="512" />
+                        <div className="  bg-black pt-2 md:p-8 text-center md:text-left space-y-4">
+                            <p className=" pl-1 pr-1 text-justify leading-relaxed fontComic text-base font-18">
+                                Currently, I'm working as full-stack developer at <span id='companyClass' className='text-light-orange' >{companyName} </span>
+                                Creating frontend and backend platform to develop and maintain a website that can help to enhance my client's business.
+                                Exploring technical skills in <span id='reactJS' className="text-light-green">ReactJS with NextJS and VueJS</span> as frontend-development.
+                            </p>
+                            <div className="  ">
+                                <div className="text-cyan-600 mt-10">
+                                    <p className='text-light-orange fontComic text-base font-bold'>{year}</p>
+                                    <i id='jobTitle' className='text-white fontComic text-base'>
+                                        <b>{companyName}</b> ( Present ) </i>
+                                </div>
+                                <div className="text-gray-500 mt-1 fontComic text-base">
+                                    <b>Software Engineer</b>
+                                </div>
+                                <div className="text-gray-600 mt-1 fontComic text-base">
+                                    <b>Gujarat, India</b>
+                                </div>
                             </div>
                         </div>
                     </div>

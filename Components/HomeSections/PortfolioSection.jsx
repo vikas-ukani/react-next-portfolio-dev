@@ -34,7 +34,7 @@ export default function PortfolioSection() {
     return (
         <div>
             <section id="portfolio" data-id="62519493" data-element_type="section"
-                className="elementor-section elementor-top-section elementor-element elementor-element-62519493 op-section elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                className="elementor-section elementor-top-section elementor-element elementor-element-62519493 op-section elementor-section-boxed elementor-section-height-default elementor-section-height-default "
             >
                 <div className="elementor-container elementor-column-gap-default">
                     <div className="elementor-row">
