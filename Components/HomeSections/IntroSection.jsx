@@ -24,7 +24,7 @@ export default function IntroSection() {
                                         data-element_type="widget"
                                         data-widget_type="text-editor.default">
                                         <div className="elementor-widget-container">
-                                            <div className="elementor-text-editor elementor-clearfix">
+                                            <div className="elementor-text-editor elementor-clearfix ">
                                                 I'm a <span onMouseEnter={(e) => e.target.className = 'text-light-green'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white">Software Engineer (Full-Stack Web App Developer)</span>.
                                                 I have more than 4+ Year of experience in IT field.
                                             </div>
@@ -36,7 +36,7 @@ export default function IntroSection() {
                                         <div className="elementor-widget-container">
                                             <div className="elementor-text-editor elementor-clearfix">
                                                 <ul className='text-justify'>
-                                                    <li className='mt-15'>
+                                                    <li className='mt-15 '>
                                                         I also have <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> good knowledge</span> of
                                                         <span onMouseEnter={(e) => e.target.className = 'text-light-orange'} onMouseLeave={(e) => e.target.className = 'text-white'} className="text-white"> Laravel, JavaScript, NodeJS, and Python Programming language</span>.
                                                     </li>
@@ -88,7 +88,7 @@ export default function IntroSection() {
                                                     <b className="global-color uppercase">INTEREST:</b> <span className="text-white">Music, Traveling, Reading.</span>
                                                 </div>
                                                 <div >
-                                                    <b className="global-color uppercase">Mail me At:</b> <span className="text-white"><a target="_blank" href="mailto:vikasukani5@gmail.com" className="text-light-green">[ vikasukani5@gmail.com ]</a></span>
+                                                    <b className="global-color uppercase">Mail-ID:</b> <span className="text-white"><a target="_blank" href="mailto:vikasukani5@gmail.com" className="text-light-green">[ vikasukani5@gmail.com ]</a></span>
                                                 </div>
                                                 <div >
                                                     <b className="global-color uppercase">linkedIn:</b> <a className="text-white" target="_blank" href="https://www.linkedin.com/in/vikas-ukani-a02499167/">Visit my linkedIn Page</a>

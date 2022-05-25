@@ -10,6 +10,7 @@
     "deploy": "next build && next export && touch out/.Jekyll && touch out/.nojekyll && git add -f out/ && git commit -m \"Deployment In-Progress...\" && git push origin `git subtree split --prefix out main`:page --force"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.4.0",
     "d3-ease": "^2.0.0",
     "next": "10.1.3",
     "postcss-flexbugs-fixes": "^5.0.2",

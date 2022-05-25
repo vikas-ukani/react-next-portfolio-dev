@@ -18,7 +18,7 @@ export default function SideBar() {
                         <div className="pagination-div"></div>
                         <div className="total-pages-num"></div>
                     </div>
-                    <div className="my-info-wrapper">
+                    <div className="my-info-wrapper ">
                         <div data-elementor-type="page" data-elementor-id="20" className="elementor elementor-20"
                             data-elementor-settings="[]">
                             <div className="elementor-inner">
@@ -43,7 +43,7 @@ export default function SideBar() {
                                                                 data-id="5ed3a12e" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
                                                                 <div className="elementor-widget-container">
-                                                                    <div className="elementor-text-editor elementor-clearfix ">Vikas Ukani</div>
+                                                                    <div className="elementor-text-editor elementor-clearfix fontComic">Vikas Ukani</div>
                                                                 </div>
                                                             </div>
                                                             <div className="elementor-element elementor-element-a4240e5 global-color elementor-widget elementor-widget-text-editor"

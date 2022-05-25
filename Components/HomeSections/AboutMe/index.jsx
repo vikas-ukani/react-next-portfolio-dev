@@ -40,8 +40,8 @@ export default function index() {
                                 <div className="w-full lg:w-10/12 px-4 text-justify text-gray-400">
                                     <span className="font-extrabold text-4xl text-light-green fontComic ">Who I am,</span>
                                     <br />
-                                    <div className="mb-4 font-semibold mt-5 fontComic text-base font-18">
-                                    I`m a {" "}
+                                    <div className="mb-4  mt-5 fontComic   font-18">
+                                        I`m a {" "}
                                         <Typed
                                             className={"text-gray-100"}
                                             strings={[
@@ -55,11 +55,11 @@ export default function index() {
                                         >
                                             <span> </span>
                                         </Typed>
-                                        Developer who loves to write well clean design, easy to readable, and high-quality code blocks to design, build and develop a software or bunch of web pages.
+                                        {" "} Developer who loves to write well clean design, easy to readable, and high-quality code blocks to design, build and develop a software or bunch of web pages.
                                         I also have a <b className="text-gray-100">Master of Computer Application degree from Jaipur National University and a Bachelor of Computer Application degree from S. V. Patel of Computer Science Collage.</b>
                                     </div>
 
-                                    <div className="mb-4  font-semibold mt-10 text-base font-18">
+                                    <div className="mb-4   mt-10   font-18">
                                         I'm very passionate about my work and curious to work with big ideas.
                                         I always keep myself motivated and improving myself to reach higher in my field.
                                         Also, I enthusiastic to work on large-scale applications and websites to <span className="text-gray-100">explore my skill-set and gain a high quality of product-based knowledge.</span>
@@ -67,7 +67,7 @@ export default function index() {
 
                                     <div className="mt-10 font-extrabold text-4xl text-light-green fontComic">What I do,</div>
                                     {/* <div id="showMoreInfo" className={getMoreLessClass()}> */}
-                                    <div className="mb-4 font-semibold mt-5 text-base font-18   ">
+                                    <div className="mb-4   mt-5 font-18   ">
                                         I currently work as a <span className="text-gray-100">FullStack Developer for Maven Company in Gujarat, India</span>.
                                         I have more than <span className="text-gray-100">4+ years of office experience</span> working in software development in local as well as multi-national companies.
                                         I  have in-depth knowledge of backend frameworks like <span className="text-gray-100">Laravel/Lumen, NodeJS, Django/Flask to Build REST APIs</span>, and as a Frontend Framework I use <span className="text-gray-100">VueJS, ReactJS, and AngularJS</span>,

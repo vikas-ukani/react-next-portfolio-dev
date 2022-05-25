@@ -7,7 +7,7 @@ const ProjectsList = ({ projects }) => {
 		<div >
 			<div className={styles.projectCardList}>
 				{projects.map((project, key) => (
-					<div key={key} id={key} className={styles.projectCard}>
+					<div key={key} id={key} className={`${styles.projectCard}  fadeInUp`} >
 						{project.image_url && (
 							<img
 								className="w-full"

@@ -1,4 +1,40 @@
+import { init } from '@emailjs/browser';
+init("YH-EO2DfjHOouhQ3X");
+import emailjs from '@emailjs/browser';
+import { useState, useRef } from 'react';
+
+
+
 const ContactMeForm = () => {
+    const form = useRef();
+    const [contactForm, setContactForm] = useState({
+        emailTo: '',
+        name: '',
+        subject: '',
+        body: '',
+    });
+
+    const onSubmit = (e) => {
+        e.preventDefault();
+        console.log('contactForm::', contactForm);
+
+        // {
+        //     from_name: contactForm.subject || '',
+        //     to_name: "Vikas Ukani",
+        //     message: contactForm.body || '',
+        //     reply_to: contactForm.emailTo || '',
+        // }
+        /** sending EMAIL */
+        // emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPlATE_ID, form.current, process.env.USER_ID
+        emailjs.sendForm('service_91bziyi', 'template_471854m', form.current, process.env.USER_ID
+        )
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
+
     return (
         <div className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-14aa74ce"
             data-id="14aa74ce" data-element_type="column"
@@ -26,51 +62,41 @@ const ContactMeForm = () => {
                     </div>
                     <p className="justify-center center-text w-full pb-5 text-white text-base"><b>OR</b></p>
                     <hr />
-                    <div className="elementor-element elementor-element-330f316b global-background-color elementor-widget elementor-widget-shortcode"
+                    <div className="rounded-3xl hover:bg-red-500 elementor-element elementor-element-330f316b global-background-color elementor-widget elementor-widget-shortcode"
                         data-id="330f316b" data-element_type="widget"
                         data-widget_type="shortcode.default">
-                        <div className="elementor-widget-container hover:bg-red-500 ">
+                        <div className="elementor-widget-container  ">
                             <div className="elementor-shortcode">
-                                <div role="form" className="wpcf7" id="wpcf7-f207-p9-o1"
+                                <div role="form" className="wpcf7"
                                     lang="en-US" dir="ltr">
-                                    <form action="https://demo.cocobasic.com/volos-wp/demo-3/#wpcf7-f207-p9-o1"
+                                    <form ref={form} 
+                                        onSubmit={onSubmit}
                                         method="post" className="wpcf7-form init demo"
                                         noValidate="novalidate" data-status="init">
-                                        <div style={{ display: 'none' }}>
-                                            <input
-                                                type="hidden" name="_wpcf7"
-                                                defaultValue="207" />
-                                            <input type="hidden"
-                                                name="_wpcf7_version" defaultValue="5.3.2" />
-                                            <input type="hidden" name="_wpcf7_locale"
-                                                defaultValue="en_US" />
-                                            <input type="hidden" name="_wpcf7_unit_tag" defaultValue="wpcf7-f207-p9-o1" />
-                                            <input
-                                                type="hidden"
-                                                name="_wpcf7_container_post"
-                                                defaultValue="9" />
-                                            <input type="hidden" name="_wpcf7_posted_data_hash" defaultValue="" />
-                                        </div>
                                         <p>
                                             <span
                                                 className="wpcf7-form-control-wrap your-name">
-                                                <input type="text" name="your-name"
+                                                <input type="text"
                                                     size="40"
                                                     className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                     aria-required="true"
                                                     aria-invalid="false"
-                                                    placeholder="Name" />
+                                                    placeholder="Name"
+                                                    name="name"
+                                                    onChange={(e) => setContactForm({ ...contactForm, name: e.target.value })}
+                                                />
                                             </span>
                                         </p>
                                         <p>
                                             <span
                                                 className="wpcf7-form-control-wrap your-email">
                                                 <input
-                                                    type="email" name="your-email"
+                                                    type="email" name="emailTo"
                                                     size="40"
                                                     className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                     aria-required="true"
                                                     aria-invalid="false"
+                                                    onChange={(e) => setContactForm({ ...contactForm, emailTo: e.target.value })}
                                                     placeholder="Email" />
                                             </span>
                                         </p>
@@ -78,10 +104,11 @@ const ContactMeForm = () => {
                                             <span
                                                 className="wpcf7-form-control-wrap your-subject">
                                                 <input
-                                                    type="text" name="your-subject"
+                                                    type="text" name="subject"
                                                     defaultValue="" size="40"
                                                     className="wpcf7-form-control wpcf7-text"
                                                     aria-invalid="false"
+                                                    onChange={(e) => setContactForm({ ...contactForm, subject: e.target.value })}
                                                     placeholder="Subject" />
                                             </span>
                                         </p>
@@ -89,10 +116,11 @@ const ContactMeForm = () => {
                                             <span
                                                 className="wpcf7-form-control-wrap your-message">
                                                 <textarea
-                                                    name="your-message" cols="40"
+                                                    name="body" cols="40"
                                                     rows="10"
                                                     className="wpcf7-form-control wpcf7-textarea"
                                                     aria-invalid="false"
+                                                    onChange={(e) => setContactForm({ ...contactForm, body: e.target.value })}
                                                     placeholder="Message...">
                                                 </textarea>
                                             </span>
