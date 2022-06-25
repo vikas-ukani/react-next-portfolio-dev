@@ -7,19 +7,12 @@ const ProjectsList = ({ projects }) => {
 		<div >
 			<div className={styles.projectCardList}>
 				{projects.map((project, key) => (
-					<div key={key} id={key} className={`${styles.projectCard}  fadeInUp`} >
+					<a href={project.url} target="_blank" key={key} id={key} className={`${styles.projectCard}  fadeInUp transition  delay-150  hover:-translate-y-1 duration-300 hover:bg-pink-400`} >
 						{project.image_url && (
 							<img
 								className="w-full"
 								src={process.env.LINK + project.image_url}
 								alt={project.name}
-							/>
-						)}
-						{!project.image_url && (
-							<img
-								className="w-full"
-								src="https://picsum.photos/200/300"
-								alt="Mountain"
 							/>
 						)}
 						<div className={styles.projectCardInformation}>
@@ -34,19 +27,12 @@ const ProjectsList = ({ projects }) => {
 									</svg>
 									Private
 								</div>
-								{project.url ? (
-									<Link href="/">
-										<a>
-											<div className="font-bold font-18 mb-2  text-light-orange">
-												{project.name}
-											</div>
-										</a>
-									</Link>
-								) : (
-									<div className="font-bold text-xl mb-2 text-center text-light-orange">
+								<a>
+									<div className="font-bold font-18 mb-2  text-light-orange">
 										{project.name}
 									</div>
-								)}
+								</a>
+
 								{project.short_description && (
 									<p className="text-grey-darker text-base">
 										{project.short_description}
@@ -66,7 +52,7 @@ const ProjectsList = ({ projects }) => {
 								</div>
 							)}
 						</div>
-					</div>
+					</a>
 				))}
 			</div>
 		</div>

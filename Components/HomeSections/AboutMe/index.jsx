@@ -68,7 +68,7 @@ export default function index() {
                                     <div className="mt-10 font-extrabold text-4xl text-light-green fontComic">What I do,</div>
                                     {/* <div id="showMoreInfo" className={getMoreLessClass()}> */}
                                     <div className="mb-4   mt-5 font-18   ">
-                                        I currently work as a <span className="text-gray-100">FullStack Developer for Maven Company in Gujarat, India</span>.
+                                        I currently work as a <span className="text-gray-100">Full-Stack Developer for Maven Company in Gujarat, India</span>.
                                         I have more than <span className="text-gray-100">4+ years of office experience</span> working in software development in local as well as multi-national companies.
                                         I  have in-depth knowledge of backend frameworks like <span className="text-gray-100">Laravel/Lumen, NodeJS, Django/Flask to Build REST APIs</span>, and as a Frontend Framework I use <span className="text-gray-100">VueJS, ReactJS, and AngularJS</span>,
                                         I can handle my website information with several databases, Such as <span className="text-gray-100">MySQL, MongoDB, PostgreSQL, SQLite</span>.

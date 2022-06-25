@@ -13,7 +13,7 @@ export default function PortfolioSection() {
     const defaultCategory = 'all';
     /** State for current active status wise projects listing. */
     const [selectedCategory, setSelectedCategory] = useState(defaultCategory)
-    categories.unshift(defaultCategory)
+    categories.unshift(defaultCategory);
 
     /** creating filter for category wise projects listing... */
     const filteredProjects = () => {
@@ -51,7 +51,7 @@ export default function PortfolioSection() {
                                                     <div className="category-filter-icon"> </div>
                                                 </div>
                                                 <div className="category-filter-list button-group filters-button-group">
-                                                    {categories.map((category, key) => (
+                                                    {categories.sort().map((category, key) => (
                                                         <div onClick={() => setSelectedCategory(category)} key={category}
                                                             className="button" data-filter="*">
                                                             <b>{category.toUpperCase()}</b>
