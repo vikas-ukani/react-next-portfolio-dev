@@ -143,6 +143,15 @@
       "category": "react js",
       "tags": ["nextjs", "redux-store", "tailwind-css"],
       "short_description": "Providing Gym Management solutions buld with NextJS framework and laravel api."
+    },
+    {
+      "id": 17,
+      "name": "Restro Food Ordering service",
+      "image_url": "/images/portfolio-images/restro-home-page.png",
+      "url": "https://github.com/vikas-ukani/restra-management",
+      "category": "react js",
+      "tags": ["reactjs", "nextjs", "tailwind-css", "store"],
+      "short_description": "A restorant booking project build in NextJS and Laravel."
     }
   ]
 }
